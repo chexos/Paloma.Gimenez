@@ -1,0 +1,238 @@
+@font-face {
+    font-family:"Hurme Semi Bold";
+    src:url("../fuentes/HurmeGeometricSans1-SemiBold.otf");
+}
+@font-face {
+    font-family:"Hurme Bold";
+    src:url("../fuentes/HurmeGeometricSans1-Bold.otf");
+}
+@font-face {
+    font-family:"Hurme Black";
+    src:url("../fuentes/HurmeGeometricSans1-Black.otf");
+}
+@font-face {
+    font-family:"Hurme";
+    src:url("../fuentes/HurmeGeometricSans1.otf");
+}
+@font-face {
+    font-family:"Hurme Light";
+    src:url("../fuentes/HurmeGeometricSans1 Light.otf");
+}
+* {
+	box-sizing:border-box;
+}
+body {
+	margin:0;
+	display:flex;
+	flex-flow:column;
+}
+nav {
+	height:30px;
+	display:flex;
+	flex-flow:row;
+	flex-wrap:wrap;
+	background-color:rgba(0,0,0,0.9);
+	position:fixed;
+	width:100%;
+}
+figure {
+	margin:0;
+}
+nav>aside {
+	display:flex;
+	flex-flow:row;
+	flex-wrap:wrap;
+	align-items:center;
+	flex:1;
+}
+nav>aside#nav-redes {
+	margin-left:29px;
+}
+nav>main {
+	display:flex;
+	flex:1;
+	justify-content:center;
+	align-items:center;
+}
+nav>aside>a {
+	margin-right:20px;
+}
+nav>aside>a>figure {
+	height:22px;
+	width:22px;
+	border:1px solid red;
+}
+nav>aside#nav-movil {
+	display:flex;
+	justify-content:flex-end;
+	margin-right:29px;
+}
+nav>aside>button {
+	background:none;
+	border:none;
+	display:flex;
+	flex-flow:column;
+	width:35px;
+}
+nav>aside>button>span {
+	width:100%;
+	margin:2.5px 0;
+	border:1px solid white;
+}
+main#marca-tu-estilo {
+	display:flex;
+	flex-flow:column;
+	flex-wrap:wrap;
+	align-content:center;
+	padding:52px 16%;
+	background-color:rgb(60,60,60);
+}
+main#marca-tu-estilo>header {
+	margin:0 0 36px 0;
+	width:100%;
+	color:white;
+}
+main#marca-tu-estilo>header>h1 {
+	margin:0;
+	display:flex;
+	flex-flow:column;
+	flex-wrap:wrap;
+	font-family:"Hurme Light";
+}
+main#marca-tu-estilo>header>h1>span {
+	display:flex;
+	justify-content:center;
+	font-size:18pt;
+}
+main#marca-tu-estilo>header>h1>span>span#un {
+	transform:rotate(-90deg);
+	font-size:7pt;
+	margin:8px 0 0 5px;
+}
+main#marca-tu-estilo>header>h1>span#estilo {
+	display:flex;
+	justify-content:center;
+	font-family:"Hurme Black";
+	font-size:10.5pt;
+	margin:0 0 0 51px;
+}
+main#marca-tu-estilo>form {
+	display:flex;
+	flex-flow:column;
+	flex-wrap:wrap;
+	font-family:"Hurme Semi Bold";
+	color:rgb(114,114,114);
+}
+main#marca-tu-estilo>form>div {
+	display:flex;
+	flex-flow:column;
+	flex-wrap:wrap;
+	margin:0 0 18px 0;
+}
+main#marca-tu-estilo>form>div>label {
+	margin:0 0 13.5px 0;
+}
+main#marca-tu-estilo>form>div>input{
+	background:none;
+	border:none;
+	border-bottom:1px solid white;
+}
+main#marca-tu-estilo>form>div>textarea {
+	background:none;
+	border:none;
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+	resize:none;
+}
+main#marca-tu-estilo>form>aside {
+	display:flex;
+	justify-content:center;
+}
+main#marca-tu-estilo>form>aside>button {
+	font-family:"Hurme Bold";
+	padding:2px 20px;
+	color:rgb(114,114,114);
+}
+footer {
+	display:flex;
+	flex-flow:column;
+	flex-wrap:wrap;
+	background-color:white;
+	padding:34px 9.8% 0;
+}
+footer>header {
+	display:flex;
+	flex-flow:row;
+	flex-wrap:wrap;
+	margin:0 0 34px;
+}
+footer>section {
+	display:flex;
+	flex-flow:column;
+	flex-wrap:wrap;
+}
+footer>header>aside#enlace-index {
+	display:flex;
+	flex:1;
+}
+footer>header>aside#Paloma-Gimenez {
+	display:flex;
+	justify-content:flex-end;
+	flex:1;
+}
+footer>aside>section {
+	display:flex;
+	flex-flow:column;
+	flex-wrap:wrap;
+}
+footer>aside>section#contacto {
+	margin:0 9%;
+}
+footer>aside>section#contacto a {
+	font-size:5pt;
+}
+footer>aside {
+	display:flex;
+	flex-flow:row;
+	margin:0 0 34px;
+	justify-content:space-around;
+}
+footer>aside>section>aside {
+	display:flex;
+	flex-flow:row;
+	flex-wrap:wrap;
+}
+footer a {
+	text-decoration:none;
+	color:rgb(60,60,60);
+}
+footer p {
+	color:rgb(60,60,60);
+	margin:0;
+	display:flex;
+	align-items:center;
+}
+footer p, footer a, footer, 
+footer>aside>section>a#contactojsp {
+	font-family:"Hurme Semi Bold";
+	font-size:7.4pt;
+}
+footer>aside>section>a#contactojsp {
+	width:fit-content;
+}
+.footer-header {
+	margin:0 0 10px;
+}
+footer#pie {
+	height:20px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:rgb(60,60,60);
+	color:white;
+	padding:0;
+}
+footer#pie>p {
+	font-size:5pt;
+	color:white;
+}
