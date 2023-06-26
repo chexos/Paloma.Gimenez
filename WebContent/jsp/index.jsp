@@ -3,9 +3,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<link rel="stylesheet" href="../css/index.css" type="text/css">
-<title>Paloma Giménez</title>
+	<meta charset="ISO-8859-1">
+	<link rel="stylesheet" href="../css/index.css" type="text/css">
+	<title>Paloma Giménez</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<jsp:include page="./rsc/jsp/header.tag"></jsp:include>

@@ -14,18 +14,20 @@
 	</header>
 	<aside>
 		<section>
-			<a href="porta.html" class="footer-header">PORTAFOLIO</a> <a href="">BLOG</a>
+			<a href="porta.html" class="footer-header">PORTAFOLIO</a>
+			<a href="">BLOG</a>
 		</section>
 		<section id="contacto">
 			<a href="contacto.jsp" id="contactojsp" class="footer-header">CONTACTO</a>
 			<a href="">
 				<figure>
 					<img src="">
-				</figure> (+34) 605 351 033
-			</a> <a href="">
+				</figure>(+34) 605 351 033
+			</a>
+			<a href="">
 				<figure>
 					<img src="">
-				</figure> paloma.gimenez.gl@gmail.com
+				</figure>paloma.gimenez.gl@gmail.com
 			</a>
 		</section>
 		<section>

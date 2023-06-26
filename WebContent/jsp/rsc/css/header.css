@@ -20,7 +20,6 @@
 }
 * {
 	box-sizing:border-box;
-	overflow:hidden;
 }
 nav#nav {
 	height:30px;
