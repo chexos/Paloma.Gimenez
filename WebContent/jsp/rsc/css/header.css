@@ -18,9 +18,6 @@
     font-family:"Hurme Light";
     src:url("../../../fuentes/HurmeGeometricSans1 Light.otf");
 }
-* {
-	box-sizing:border-box;
-}
 nav#nav {
 	height:30px;
 	display:flex;
@@ -30,7 +27,9 @@ nav#nav {
 	position:fixed;
 	width:100%;
 	z-index:3;
-	
+}
+nav#nav>aside#nav-redes>a>figure {
+	display:flex;
 }
 figure {
 	margin:0;
@@ -38,7 +37,6 @@ figure {
 nav>aside {
 	display:flex;
 	flex-flow:row;
-	flex-wrap:wrap;
 	align-items:center;
 	flex:1;
 	height:100%;
@@ -58,15 +56,14 @@ nav>main>a>figure {
 	justify-content:center;
 }
 nav>main>a>figure>img {
-	width:50%;
+	width:55px;
 }
 nav>aside>a {
 	margin-right:20px;
 }
-nav>aside>a>figure {
+nav>aside>a>figure>img {
 	height:22px;
 	width:22px;
-	border:1px solid red;
 }
 nav>aside#nav-movil {
 	display:flex;

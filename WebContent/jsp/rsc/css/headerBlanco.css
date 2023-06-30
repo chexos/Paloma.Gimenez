@@ -1,0 +1,12 @@
+nav#nav {
+	background-color:white;
+}
+img#img-instagram {
+	content:url("../../../iconos/icono-instagram-gris-movil.png");
+}
+img#img-linkedin {
+	content:url("../../../iconos/icono-linkedin-gris-movil.png");
+}/*
+img#img-index {
+	content:url("../../../iconos/icono-linkedin-gris-movil.png");
+}*/

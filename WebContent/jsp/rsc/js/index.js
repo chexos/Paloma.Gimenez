@@ -1,11 +1,11 @@
 let marcaTuEstilo = document.getElementById("marcaTuEstilo");
 let artIz = document.getElementById("art-iz");
-function alturaMarca() {
+function pxmarca() {
 	marcaTuEstilo.style.height = artIz.clientHeight + "px";
 }
-window.addEventListener("resize", function() {
-	alturaMarca();
+document.addEventListener("resize", function() {
+	pxmarca();
 });
-window.addEventListener("DOMContentLoaded", function() {
-	alturaMarca();
+document.addEventListener("DOMContentLoaded", function() {
+	pxmarca();
 });

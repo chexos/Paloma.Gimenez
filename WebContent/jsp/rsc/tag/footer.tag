@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="./rsc/css/footer.css" type="text/css">
 <footer>
 	<header>
 		<aside id="enlace-index">
@@ -12,42 +11,42 @@
 			<p>Paloma Giménez GL</p>
 		</aside>
 	</header>
-	<aside>
-		<section>
-			<a href="porta.html" class="footer-header">PORTAFOLIO</a>
+	<section id="footer">
+		<aside>
+			<a href="porta.jsp" class="footer-header">PORTAFOLIO</a>
 			<a href="">BLOG</a>
-		</section>
-		<section id="contacto">
+		</aside>
+		<aside id="contacto">
 			<a href="contacto.jsp" id="contactojsp" class="footer-header">CONTACTO</a>
 			<a href="">
 				<figure>
-					<img src="">
+					<img src="../iconos/icono-whatsapp-rosado-opaco.png">
 				</figure>(+34) 605 351 033
 			</a>
 			<a href="">
 				<figure>
-					<img src="">
+					<img src="../iconos/icono-email-rosado-opaco.png">
 				</figure>paloma.gimenez.gl@gmail.com
 			</a>
-		</section>
-		<section>
+		</aside>
+		<aside>
 			<p class="footer-header">ENCUENTRAME EN</p>
 			<aside>
 				<figure>
-					<img src="">
+					<img src="../iconos/icono-instagram-rosado-opaco.png">
 				</figure>
 				<figure>
-					<img src="">
+					<img src="../iconos/icono-linkedin-rosado-opaco.png">
 				</figure>
 				<figure>
-					<img src="">
+					<img src="../iconos/icono-bereal-rosado-opaco-movil.png">
 				</figure>
 				<figure>
-					<img src="">
+					<img src="../iconos/icono-.png">
 				</figure>
 			</aside>
-		</section>
-	</aside>
+		</aside>
+	</section>
 </footer>
 <footer id="pie">
 	<p>Paloma Gimenez © 2023</p>

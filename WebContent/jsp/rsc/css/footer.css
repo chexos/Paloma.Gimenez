@@ -18,15 +18,12 @@
     font-family:"Hurme Light";
     src:url("../../../fuentes/HurmeGeometricSans1 Light.otf");
 }
-* {
-	box-sizing:border-box;
-}
 footer {
 	display:flex;
 	flex-flow:column;
 	flex-wrap:wrap;
 	background-color:rgb(60,60,60);
-	padding:34px 9.8% 0;
+	padding:34px 9% 0;
 }
 figure {
 	margin:0;
@@ -58,27 +55,56 @@ footer>header>aside#Paloma-Gimenez {
 	justify-content:flex-end;
 	flex:1;
 }
-footer>aside {
+footer>header>aside#Paloma-Gimenez>p {
+	font-family:"Hurme Bold";
+	font-size:10pt;
+	color:rgb(242,177,162);
+}
+footer>section {
 	display:flex;
 	flex-flow:row;
-	margin:0 4.7% 34px;
+	flex-wrap:wrap;
+	margin:0 3.3% 34px;
 	justify-content:space-around;
 }
-footer>aside>section {
+footer>section>aside {
 	display:flex;
 	flex-flow:column;
 	flex-wrap:wrap;
 }
-footer>aside>section#contacto {
+footer>section>aside#contacto {
 	margin:0 9%;
 }
-footer>aside>section#contacto a {
-	font-size:5pt;
-}
-footer>aside>section>aside {
+footer>section>aside#contacto>a {
 	display:flex;
 	flex-flow:row;
-	flex-wrap:wrap;
+	align-items:center;
+	font-family:"Hurme Semi Bold";
+	font-size:5.4pt;
+	width:fit-content;
+}
+footer>section>aside>a,
+footer>section>aside>p {
+	color:rgb(245,222,222);
+}
+footer>section>aside#contacto>a>figure {
+	display:flex;
+}
+footer>section>aside#contacto>a>figure>img {
+	height:12px;
+	width:12px;
+	margin-right:5px;
+}
+footer>section>aside>aside {
+	display:flex;
+	flex-flow:row;
+}
+footer>section>aside>aside>figure {
+	display:flex;
+}
+footer>section>aside>aside>figure>img {
+	height:15px;
+	width:15px;
 }
 footer a {
 	text-decoration:none;
@@ -92,8 +118,8 @@ footer p {
 }
 footer p, footer a, footer, 
 footer>aside>section>a#contactojsp {
-	font-family:"Hurme Semi Bold";
-	font-size:6.4pt;
+	font-family:"Hurme";
+	font-size:5.7pt;
 }
 footer>aside>section>a#contactojsp {
 	width:fit-content;
@@ -111,5 +137,5 @@ footer#pie {
 	padding:0;
 }
 footer#pie>p {
-	font-size:5pt;
+	font-size:6pt;
 }

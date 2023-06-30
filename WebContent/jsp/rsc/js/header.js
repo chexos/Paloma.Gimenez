@@ -1,4 +1,4 @@
-let navMovil = document.getElementById("nav-movil");
+let navMovil = document.getElementById("nav-btn");
 let navLateral = document.getElementById("nav-lateral");
 let span = document.getElementsByTagName("span");
 navMovil.addEventListener("click", menu);
