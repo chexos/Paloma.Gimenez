@@ -47,8 +47,8 @@ footer>header>aside#enlace-index>a>figure {
 	display:flex;
 }
 footer>header>aside#enlace-index>a>figure>img {
-	height:50%;
-	width:50%;
+	height:auto;
+	width:100px;
 }
 footer>header>aside#Paloma-Gimenez {
 	display:flex;

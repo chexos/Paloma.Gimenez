@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="./rsc/css/header.css" type="text/css">
 	<link rel="stylesheet" href="./rsc/css/index.css" type="text/css">
 	<link rel="stylesheet" href="./rsc/css/footer.css" type="text/css">
-	<title>Paloma Giménez</title>
+	<title>Paloma GimÃ©nez</title>
 </head>
 <body>
 	<jsp:include page="./rsc/tag/header.tag"></jsp:include>

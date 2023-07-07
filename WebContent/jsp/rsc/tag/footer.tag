@@ -1,7 +1,7 @@
 <footer>
 	<header>
 		<aside id="enlace-index">
-			<a href="#index">
+			<a href="index.jsp#index">
 				<figure>
 					<img src="../iconos/icono-Paloma-Gimenez-rosado.png">
 				</figure>

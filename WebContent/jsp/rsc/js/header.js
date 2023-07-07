@@ -1,3 +1,13 @@
+let loc = location.pathname.slice(19,location.pathname.length);
+let imgInstagram = document.getElementById("img-instagram");
+imgInstagram.addEventListener("onload", instagram);
+function instagram() {
+	if (loc == "index.jsp") {
+		imgInstagram.style.src = "";
+	} else if (loc == "porta.jsp") {
+		
+	}
+}
 let navMovil = document.getElementById("nav-btn");
 let navLateral = document.getElementById("nav-lateral");
 let span = document.getElementsByTagName("span");
