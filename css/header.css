@@ -9,5 +9,66 @@ body {
 }
 header {
     height:30px;
+    width:100%;
+    display:flex;
+    flex-flow:row;
+    flex-wrap:wrap;
     background-color:rgb(44,44,44);
+}
+figure {
+    margin:0;
+}
+header article {
+    flex:1;
+}
+header article.redes-sociales {
+    display:flex;
+    flex-flow:row;
+    flex-wrap:wrap;
+    margin:0 0 0 30px;
+}
+header article.redes-sociales a {
+    display:flex;
+    align-items:center;
+}
+header article.redes-sociales a:nth-child(2) {
+    margin:0 0 0 15px;
+}
+header article.redes-sociales a figure {
+    display:flex;
+}
+header article.redes-sociales a figure img {
+    height:25px;
+    width:25px;
+}
+header article.logo {
+    display:flex;
+    justify-content:center;
+}
+header article.logo a {
+    display:flex;
+    align-items:center;
+}
+header article.logo a figure {
+    display:flex;
+}
+header article.logo a figure img {
+    height:25px;
+    width:auto;
+}
+header article.menu {
+    display:flex;
+    justify-content:flex-end;
+    margin:0 30px 0 0;
+}
+header article.menu a {
+    display:flex;
+    align-items:center;
+}
+header article.menu a figure {
+    display:flex;
+}
+header article.menu a figure img {
+    height:25px;
+    width:auto;
 }
