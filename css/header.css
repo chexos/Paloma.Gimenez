@@ -1,0 +1,13 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin:0;
+    display:flex;
+    flex-flow:column;
+    flex-wrap:wrap;
+}
+header {
+    height:30px;
+    background-color:rgb(44,44,44);
+}
