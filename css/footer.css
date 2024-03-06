@@ -1,0 +1,81 @@
+footer {
+    width:100%;
+    display:flex;
+    flex-flow:column;
+    flex-wrap:wrap;
+    padding:32.5px 0 0 0;
+}
+footer>header {
+    display:flex;
+    flex-flow:row;
+    flex-wrap:wrap;
+    padding:0 0 32.5px 0;
+}
+footer>header>article {
+    flex:1;
+}
+footer>header>article:last-child {
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+footer>header>article>a>figure>img {
+    height:35px;
+}
+footer>header>article>p {
+    margin:0;
+    font-size:10pt;
+    font-family:"Hurme Bold";
+    color:rgb(242,177,162);
+}
+footer>main {
+    padding:0 0 32.5px 0;
+    display:flex;
+    flex-flow:row;
+    flex-wrap:wrap;
+}
+footer>main>section {
+    display:flex;
+    flex-flow:column;
+    flex-wrap:wrap;
+}
+footer>main>section>a {
+    text-decoration:none;
+    color:rgb(87,87,86);
+    font-family:"Hurme Semi Bold";
+}
+footer>main>section>article>a {
+    display:flex;
+    flex-flow:row;
+    flex-wrap:wrap;
+    text-decoration:none;
+    color:rgb(87,87,86);
+    font-family:"Hurme";
+}
+footer>main>section article a figure img {
+    height:25px;
+    width:25px;
+}
+footer>main>section:last-child>section {
+    display:flex;
+    flex-flow:row;
+    flex-wrap:wrap;
+}
+footer>header,
+footer>main {
+    padding-right:32.5px;
+    padding-left:32.5px;
+}
+footer>footer {
+    padding:0;
+    height:20px;
+    background-color:rgb(44,44,44);
+}
+footer>footer>p {
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#FFF;
+    font-family:"Hurme Light";
+}

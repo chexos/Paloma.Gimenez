@@ -1,0 +1,20 @@
+@font-face {
+    font-family:"Hurme Semi Bold";
+    src:url("../fuentes/HurmeGeometricSans1-SemiBold.otf");
+}
+@font-face {
+    font-family:"Hurme Bold";
+    src:url("../fuentes/HurmeGeometricSans1-Bold.otf");
+}
+@font-face {
+    font-family:"Hurme Black";
+    src:url("../fuentes/HurmeGeometricSans1-Black.otf");
+}
+@font-face {
+    font-family:"Hurme";
+    src:url("../fuentes/HurmeGeometricSans1.otf");
+}
+@font-face {
+    font-family:"Hurme Light";
+    src:url("../fuentes/HurmeGeometricSans1 Light.otf");
+}
