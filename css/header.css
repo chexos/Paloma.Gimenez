@@ -7,7 +7,7 @@ body {
     flex-flow:column;
     flex-wrap:wrap;
 }
-header {
+header#header {
     height:30px;
     width:100%;
     display:flex;
@@ -18,57 +18,57 @@ header {
 figure {
     margin:0;
 }
-header article {
+header#header article {
     flex:1;
 }
-header article.redes-sociales {
+header#header article.redes-sociales {
     display:flex;
     flex-flow:row;
     flex-wrap:wrap;
     margin:0 0 0 30px;
 }
-header article.redes-sociales a {
+header#header article.redes-sociales a {
     display:flex;
     align-items:center;
 }
-header article.redes-sociales a:nth-child(2) {
+header#header article.redes-sociales a:nth-child(2) {
     margin:0 0 0 15px;
 }
-header article.redes-sociales a figure {
+header#header article.redes-sociales a figure {
     display:flex;
 }
-header article.redes-sociales a figure img {
+header#header article.redes-sociales a figure img {
     height:25px;
     width:25px;
 }
-header article.logo {
+header#header article.logo {
     display:flex;
     justify-content:center;
 }
-header article.logo a {
+header#header article.logo a {
     display:flex;
     align-items:center;
 }
-header article.logo a figure {
+header#header article.logo a figure {
     display:flex;
 }
-header article.logo a figure img {
+header#header article.logo a figure img {
     height:25px;
     width:auto;
 }
-header article.menu {
+header#header article.menu {
     display:flex;
     justify-content:flex-end;
     margin:0 30px 0 0;
 }
-header article.menu a {
+header#header article.menu a {
     display:flex;
     align-items:center;
 }
-header article.menu a figure {
+header#header article.menu a figure {
     display:flex;
 }
-header article.menu a figure img {
+header#header article.menu a figure img {
     height:25px;
     width:auto;
 }

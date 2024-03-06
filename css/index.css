@@ -1,0 +1,81 @@
+@font-face {
+    font-family:"Hurme Semi Bold";
+    src:url("../../fuentes/HurmeGeometricSans1-SemiBold.otf");
+}
+@font-face {
+    font-family:"Hurme Bold";
+    src:url("../fuentes/HurmeGeometricSans1-Bold.otf");
+}
+@font-face {
+    font-family:"Hurme Black";
+    src:url("../fuentes/HurmeGeometricSans1-Black.otf");
+}
+@font-face {
+    font-family:"Hurme";
+    src:url("../../fuentes/HurmeGeometricSans1.otf");
+}
+@font-face {
+    font-family:"Hurme Light";
+    src:url("../fuentes/HurmeGeometricSans1 Light.otf");
+}
+section#marca-tu-estilo {
+	display:flex;
+	flex-flow:row;
+	flex-wrap:wrap;
+	align-content:center;
+	margin:50px 55.6px;
+}
+section#marca-tu-estilo>header {
+	margin:0 0 36px 0;
+	width:100%;
+}
+section#marca-tu-estilo>header>h1 {
+	margin:0;
+	display:flex;
+	flex-flow:column;
+	flex-wrap:wrap;
+	font-family:"Hurme Light";
+}
+section#marca-tu-estilo>header>h1>span {
+	display:flex;
+	justify-content:center;
+	font-size:18pt;
+}
+section#marca-tu-estilo>header>h1>span>span#un {
+	transform:rotate(-90deg);
+	font-size:7pt;
+	margin:9.4px 0 0 5px;
+}
+section#marca-tu-estilo>header>h1>span#estilo {
+	display:flex;
+	justify-content:center;
+	font-family:"Hurme Black";
+	font-size:10.5pt;
+	margin:0 0 0 51px;
+}
+section#marca-tu-estilo>section {
+    width:100%;
+	display:flex;
+	flex-flow:row;
+	flex-wrap:wrap;
+	gap:5.3%;
+	justify-content:space-between;
+}
+section#marca-tu-estilo>section>article {
+	height:fit-content;
+}
+section#marca-tu-estilo>section>article>p {
+	margin:0;
+	font-family:"Hurme";
+	font-size:6.5pt;
+}
+section#marca-tu-estilo>section>article#art-iz {
+	text-align:right;
+}
+section#marca-tu-estilo>section>article#art-iz>p {
+	font-family:"Hurme Semi Bold";
+	font-size:10pt;
+}
+section#marca-tu-estilo>section>article#art-de {
+	text-align:left;
+}
