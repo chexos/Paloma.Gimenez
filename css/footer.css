@@ -42,7 +42,14 @@ footer>main>section {
 footer>main>section>a {
     text-decoration:none;
     color:rgb(87,87,86);
+    font-size:7pt;
     font-family:"Hurme Semi Bold";
+}
+footer>main>section>a:first-child {
+    margin:0 0 16.25px 0;
+}
+footer>main>section:nth-child(2)>a {
+    margin:0 0 8.125px 0;
 }
 footer>main>section>article>a {
     display:flex;
@@ -50,6 +57,7 @@ footer>main>section>article>a {
     flex-wrap:wrap;
     text-decoration:none;
     color:rgb(87,87,86);
+    font-size:6.5pt;
     font-family:"Hurme";
 }
 footer>main>section article a figure img {
