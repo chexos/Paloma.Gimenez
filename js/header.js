@@ -1,3 +1,4 @@
+let header = document.getElementById("header");
 let menu = document.getElementById("menu");
 let menuMovil = document.getElementById("menuMovil");
 let menumovil = document.getElementsByClassName("menu-movil");

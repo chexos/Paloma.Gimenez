@@ -1,11 +1,17 @@
 * {
     box-sizing:border-box;
 }
+html {
+    position:relative;
+    overflow:hidden;
+}
 body {
     margin:0;
     display:flex;
     flex-flow:column;
     flex-wrap:wrap;
+    position:relative;
+    overflow:hidden;
 }
 header#header {
     height:30px;
