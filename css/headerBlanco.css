@@ -1,0 +1,15 @@
+header#header {
+    background-color:#FFF;
+}
+header#header article.redes-sociales a:nth-child(1) figure img {
+    content:url("../iconos/instagram-gris.png");
+}
+header#header article.redes-sociales a:nth-child(2) figure img {
+    content:url("../iconos/linkedin-gris.png");
+}
+header#header article.logo a figure img {
+    content:url("../iconos/logo-blanco.png");
+}
+header#header article.menu a figure img {
+    content:url("../iconos/menu-blanco.png");
+}
