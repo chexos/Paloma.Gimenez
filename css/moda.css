@@ -1,0 +1,37 @@
+header#header article.menu section#menuMovil a:nth-child(3) {
+    color:rgb(242,177,162);
+}
+main#principal {
+    display:flex;
+    flex-flow:row;
+    flex-wrap:wrap;
+    margin:55.6px;
+    column-gap:5.25px;
+}
+main#principal>article {
+    display:flex;
+    flex-flow:row;
+    flex-wrap:wrap;
+    flex:1;
+    margin:0 0 17px 0;
+}
+main#principal>article>section {
+    display:flex;
+    flex-flow:row;
+    flex-wrap:wrap;
+}
+main#principal>article>section>p {
+    flex:1;
+    margin:0;
+    font-size:8pt;
+    font-family:"Hurme Light";
+}
+main#principal>article>header>h1 {
+    margin:0;
+    font-family:"Hurme";
+}
+main#principal>article>p {
+    margin:0;
+    font-size:9pt;
+    font-family:"Hurme Light";
+}
