@@ -33,6 +33,7 @@ footer>main {
     display:flex;
     flex-flow:row;
     flex-wrap:wrap;
+    margin:-1px 0 0 0;
 }
 footer>main>section {
     display:flex;
@@ -78,6 +79,7 @@ footer>footer {
     padding:0;
     height:20px;
     background-color:rgb(0, 0, 0);
+    margin:-1px 0 0 0;
 }
 footer>footer>p {
     margin:0;
