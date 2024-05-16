@@ -60,3 +60,20 @@ section#marca-tu-estilo>section>article#art-iz>p {
 section#marca-tu-estilo>section>article#art-de {
 	text-align:left;
 }
+@media screen and (min-width: 1920px) {
+	header#header {
+		height:138px;
+	}
+	header#header article.logo a figure {
+		justify-content:center;
+	}
+	header#header article.redes-sociales a figure img,
+	header#header article.menu a figure img {
+		height:100%;
+		width:100%;
+	}
+	header#header article.logo a figure img {
+		height:80%;
+		width:80%;
+	}
+}
