@@ -93,9 +93,11 @@ header#header article.menu section#menuMovil {
     flex-wrap:wrap;
     align-items:center;
     justify-content:center;
+}
+header#header article.menu section#menuMovil.transicion {
     transition:0.4s all;
 }
-header#header article.menu section#menuMovil.visibility {
+header#header article.menu section#menuMovil.visibilidad {
     transform:translateX(101%);
 }
 header#header article.menu section#menuMovil a {

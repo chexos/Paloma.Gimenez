@@ -72,8 +72,36 @@ section#marca-tu-estilo>section>article#art-de {
 		height:100%;
 		width:100%;
 	}
+	header#header article.logo {
+		order:1;
+	}
+	header#header article.menu {
+		order:2;
+	}
+	header#header article.redes-sociales {
+		order:3;
+	}
 	header#header article.logo a figure img {
 		height:80%;
 		width:80%;
+	}
+	header#header article.menu a {
+		display:none;
+	}
+	header#header article.menu section#menuMovil.visibility {
+		transform:translateX(0%);
+	}
+	header#header article.menu section#menuMovil {
+		position:relative;
+		top:0%;
+		right:0%;
+		flex-flow:row;
+	}
+	header#header article.menu section#menuMovil a:first-child,
+	header#header article.menu section#menuMovil a {
+		margin:0;
+	}
+	header#header article.menu section#menuMovil a {
+		display:flex;
 	}
 }
