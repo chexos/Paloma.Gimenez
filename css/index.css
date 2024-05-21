@@ -63,6 +63,23 @@ section#marca-tu-estilo>section>article#art-iz>p {
 section#marca-tu-estilo>section>article#art-de {
 	text-align:left;
 }
+section#formulario {
+	background-color:rgb(44,44,44);
+}
+section#formulario label {
+	color:rgb(87,87,86);
+}
+section#formulario label,
+section#formulario input,
+section#formulario textarea {
+	font-family:"Hurme Semi Bold";
+}
+section#formulario input,
+section#formulario textarea {
+	background-color:rgb(44,44,44);
+	border:none;
+	border-bottom:solid 1px white;
+}
 @media screen and (min-width:1920px) {
 	section#marca-tu-estilo {
 		padding:214px 344px;
@@ -95,5 +112,19 @@ section#marca-tu-estilo>section>article#art-de {
 	}
 	section#marca-tu-estilo>section>article>p {
 		font-size:25pt;
+	}
+	section#formulario {
+		padding:150px 225.5px;
+	}
+	section#formulario>form>section {
+		display:flex;
+		flex-flow:row;
+		flex-wrap:wrap;
+	}
+	section#formulario>form>section>article {
+		flex:1;
+		display:flex;
+		flex-flow:column;
+		flex-wrap:wrap;
 	}
 }

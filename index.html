@@ -113,6 +113,41 @@
                     </article>
                 </section>
             </section>
+            <section id="formulario">
+                <form action="mailto:paloma.gimenez.gl@gmail.com">
+                    <section>
+                        <article>
+                            <label for="nombre">
+                                Nombre
+                            </label>
+                            <input pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]" type="text" id="nombre" 
+                                    name="txtNombre" minlength="3" maxlength="50" required>
+                        </article>
+                        <article>
+                            <label for="correo">
+                                E-Mail
+                            </label>
+                            <input pattern="[a-zA-Z0-9]{3,15}[@][a-zA-Z0-9]{3,15}[.][a-zA-Z0-9]{3,15}"
+                                    type="email" id="correo" name="txtCorreo" minlength="11"
+                                    maxlength="47" required>
+                        </article>
+                    </section>
+                    <article>
+                        <label for="mensaje">
+                            Mensaje
+                        </label>
+                        <textarea pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ0-9\s]{10,1500}" id="mensaje"
+                                    name="txtMensaje" minlength="10" maxlength="1500" required>
+
+                        </textarea>
+                    </article>
+                    <article>
+                        <button>
+                            Enviar
+                        </button>
+                    </article>
+                </form>
+            </section>
         </main>
         <footer>
             <header>
