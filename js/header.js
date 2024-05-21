@@ -2,6 +2,7 @@ let header = document.getElementById("header");
 let menu = document.getElementById("menu");
 let menuMovil = document.getElementById("menuMovil");
 let menumovil = document.getElementsByClassName("menu-movil");
+let anchoVentana = window.innerWidth;
 function moverMenu(e) {
     if (!menuMovil.classList.contains("visibilidad"))
         menuMovil.classList.add("visibilidad");
@@ -13,6 +14,18 @@ menumovil[1].addEventListener("click", moverMenu);
 menumovil[2].addEventListener("click", moverMenu);
 menumovil[3].addEventListener("click", moverMenu);
 menu.addEventListener("click", moverMenu);
-function removerTransicion() {
-
+function anchoDocumento() {
+    anchoVentana = window.innerWidth;
 }
+function removerTransicion() {
+    if (anchoVentana >= 1920) {
+        menuMovil.classList.remove("transicion");
+    } else {
+        menuMovil.classList.add("transicion");
+    }
+}
+function funcionesRedimension() {
+    anchoDocumento();
+    removerTransicion();
+}
+window.addEventListener("resize", funcionesRedimension);
