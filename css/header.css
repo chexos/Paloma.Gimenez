@@ -52,14 +52,18 @@ header#header article.redes-sociales a figure img {
 header#header article.logo {
     display:flex;
     justify-content:center;
+    align-items:center;
 }
 header#header article.logo a {
     height:100%;
     display:flex;
     align-items:center;
+    height:fit-content;
+    width:fit-content;
 }
 header#header article.logo a figure {
     display:flex;
+    width:fit-content;
 }
 header#header article.logo a figure img {
     height:25px;
@@ -118,10 +122,10 @@ main#principal {
 }
 @media screen and (min-width: 1920px) {
 	header#header {
-		height:138px;
+		height:149px;
 	}
 	header#header article.logo a figure {
-		justify-content:center;
+        justify-content:flex-start;
 	}
 	header#header article.redes-sociales a figure img,
 	header#header article.menu a figure img {
@@ -130,7 +134,6 @@ main#principal {
 	}
 	header#header article.logo {
 		order:1;
-        display:block;
         margin:0 0 0 103px;
 	}
 	header#header article.menu {
@@ -153,12 +156,9 @@ main#principal {
         color:rgb(245,222,222);
         font-size:20pt;
     }
-	header#header article.logo a figure {
-        justify-content:flex-start;
-    }
 	header#header article.logo a figure img {
-		height:80%;
-		width:80%;
+		height:100%;
+		width:100%;
 	}
 	header#header article.menu a {
 		display:none;
