@@ -124,6 +124,7 @@ section#formulario textarea {
 		flex-flow:row;
 		flex-wrap:wrap;
 		margin:0px 0px 54px 0px;
+		gap:52.5px;
 	}
 	section#formulario>form>section>article {
 		flex:1;
