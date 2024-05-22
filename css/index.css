@@ -135,4 +135,9 @@ section#formulario textarea {
 	section#formulario textarea {
 		font-size:26pt;
 	}
+	section#formulario>form>article :first-child {
+		display:flex;
+		flex-flow:column;
+		flex-wrap:wrap;
+	}
 }
