@@ -130,4 +130,9 @@ section#formulario textarea {
 		flex-flow:column;
 		flex-wrap:wrap;
 	}
+	section#formulario label,
+	section#formulario input,
+	section#formulario textarea {
+		font-size:26pt;
+	}
 }
