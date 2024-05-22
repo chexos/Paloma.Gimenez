@@ -80,6 +80,9 @@ section#formulario textarea {
 	border:none;
 	border-bottom:solid 1px white;
 }
+@media screen and (min-width:1280px) {
+
+}
 @media screen and (min-width:1920px) {
 	section#marca-tu-estilo {
 		padding:214px 344px;
