@@ -7,8 +7,14 @@ function ajustarValor() {
 mensaje.addEventListener("loaded", ajustarValor());
 var filasTexto = mensaje.rows;
 let f = mensaje.value.split("\n").length;
+let filas;
+let spans = document.getElementsByClassName("fila");
 function ajustarFilas() {
-    let filas = mensaje.value.split("\n").length;
+    filas = mensaje.value.split("\n").length;
+    if (f[filas] == "") {
+        filas--;
+        mensaje.style.height *= filas / (filas + 1) + "px";
+    }
     if (filas > 2) {
         mensaje.rows = filas;
     } else {
@@ -23,6 +29,9 @@ function ajustarFilas() {
                 texto.appendChild(span);
             }
         }
+    } else if (mensaje.rows < filasTexto) {
+        filasTexto--;
+        spans[spans.length - 1].parentNode.removeChild(spans[spans.length - 1]);
     }
 }
 function cambiarPosicionFila() {
@@ -48,26 +57,27 @@ function removerDobleEspacioBlanco() {
     var textoReemplazado = textoDoble.replace(/ {2,}/g, " ");
     mensaje.value = textoReemplazado;
 }
+let altoDesplazamiento = mensaje.scrollHeight;
+let altoMensaje = mensaje.offsetHeight;
+let anchoDesplazamiento = mensaje.scrollWidth;
+let anchoMensaje = mensaje.clientWidth;
+var m2;
+var m;
 function generarSalto() {
     f = mensaje.value.split("\n").length;
-    let altoDesplazamiento = mensaje.scrollHeight;
-    let altoMensaje = mensaje.clientHeight;
-    let anchoDesplazamiento = mensaje.scrollWidth;
-    let anchoMensaje = mensaje.clientWidth;
     span.innerText = mensaje.value;
     console.log(span.offsetWidth);
     console.log(anchoMensaje);
     if (span.offsetWidth >= anchoMensaje) {
-        var m2 = mensaje.value.slice(ultimoCaracter());
-        var m = mensaje.value.slice(mensaje.length, ultimoCaracter());
+        m2 = mensaje.value.slice(ultimoCaracter());
+        m = mensaje.value.slice(mensaje.length, ultimoCaracter());
         console.log(mensaje.value);
         mensaje.value = m + "\n" + m2;
-        //mensaje.value = mensaje.value.replace(/\n/g, "\n");
         console.log(mensaje.value);
     }
     if (altoDesplazamiento > altoMensaje) {
-        //mensaje.value += "\n";
-        mensaje.style.height = altoDesplazamiento + 1 + "px";
+        altoMensaje = mensaje.offsetHeight;
+        mensaje.style.height = altoMensaje;
     }
 }
 function entradaFilas() {
