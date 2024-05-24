@@ -45,7 +45,7 @@ span.style.visibility = "visible";
 span.style.position = "absolute";
 span.style.maxWidth = "100%";
 span.style.fontFamily = "Hurme Semi Bold";
-span.style.fontSize = window.getComputedStyle(document.getElementById("mensaje"), null).getPropertyValue('font-size');
+span.style.color = "Gray";
 //span.style.display = "none";
 articuloTexto.appendChild(span);
 function ultimoCaracter() {
@@ -64,6 +64,7 @@ let anchoMensaje = mensaje.clientWidth;
 var m2;
 var m;
 function generarSalto() {
+    span.style.fontSize = window.getComputedStyle(document.getElementById("mensaje"), null).getPropertyValue('font-size');
     f = mensaje.value.split("\n").length;
     span.innerText = mensaje.value;
     console.log(span.offsetWidth);
@@ -89,3 +90,4 @@ function entradaFilas() {
 texto.addEventListener("loaded", generarSalto);
 mensaje.addEventListener("input", entradaFilas);
 mensaje.addEventListener("loaded", entradaFilas());
+window.addEventListener("resize", entradaFilas);
