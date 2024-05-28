@@ -17,8 +17,9 @@ menu.addEventListener("click", moverMenu);
 function anchoDocumento() {
     anchoVentana = window.innerWidth;
 }
+let tiempoEspera;
 function removerTransicion() {
-    if (anchoVentana >= 1920) {
+    if (anchoVentana >= 1280) {
         menuMovil.classList.remove("transicion");
     } else {
         menuMovil.classList.add("transicion");

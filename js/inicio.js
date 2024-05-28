@@ -4,7 +4,6 @@ let fila = document.getElementsByClassName("fila");
 function ajustarValor() {
     mensaje.value = "";
 }
-mensaje.addEventListener("loaded", ajustarValor());
 var filasTexto = mensaje.rows;
 let f = mensaje.value.split("\n").length;
 let filas;
@@ -86,30 +85,34 @@ function revisarAnchoAlto() {
 }
 let dividirMensaje;
 function cambiarResolucion() {
+    console.log(dividirMensaje);
     dividirMensaje = mensaje.value.split(" ");
-    mensaje.value = "";
+    ajustarValor();
     for (var i = 0; i < dividirMensaje.length; i++) {
-        mensaje.value += dividirMensaje[i];
-        revisarAnchoAlto();
+        if (!dividirMensaje[i].startsWith("\\")) {
+            mensaje.value += dividirMensaje[i];
+            revisarAnchoAlto();
+        } else {
+            console.log(dividirMensaje[i]);
+        }
     }
 }
 function entradaFilas() {
-    ajustarValor();
-    if (mensaje.value != undefined) {
-        cambiarResolucion();
-        removerDobleEspacioBlanco();
-        generarSalto();
-        ajustarFilas();
-    }
+    removerDobleEspacioBlanco();
+    generarSalto();
+    ajustarFilas();
     cambiarPosicionFila();
 }
+mensaje.addEventListener("loaded", ajustarValor());
 texto.addEventListener("loaded", generarSalto);
 mensaje.addEventListener("input", entradaFilas);
 mensaje.addEventListener("loaded", entradaFilas());
-window.addEventListener("resize", entradaFilas);
+mensaje.addEventListener("resize", cambiarResolucion);
+//window.addEventListener("resize", entradaFilas);
+/*
 let formulario = document.getElementById("formulario");
 formulario.addEventListener("loaded", function() {
     ajustarValor();
     cambiarPosicionFila();
     cambiarResolucion();
-});
+});*/

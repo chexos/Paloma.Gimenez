@@ -34,8 +34,10 @@ header#header article.redes-sociales {
     flex-flow:row;
     flex-wrap:wrap;
     margin:0 0 0 30px;
+    align-items:center;
 }
 header#header article.redes-sociales a {
+    height:fit-content;
     display:flex;
     align-items:center;
 }
@@ -98,12 +100,13 @@ header#header article.menu section#menuMovil {
     flex-wrap:wrap;
     align-items:center;
     justify-content:center;
+    transform:translateX(100%);
 }
 header#header article.menu section#menuMovil.transicion {
     transition:0.4s all;
 }
 header#header article.menu section#menuMovil.visibilidad {
-    transform:translateX(101%);
+    transform:translateX(0%);
 }
 header#header article.menu section#menuMovil a {
     text-decoration:none;
@@ -120,21 +123,27 @@ main#principal {
     position:relative;
     z-index:1;
 }
-@media screen and (min-width: 1920px) {
-	header#header {
-		height:149px;
-	}
+@media screen and (min-width: 1280px) {
+    header#header {
+        height:66.6px;
+    }
+    header#header article.logo {
+        justify-content:flex-start;
+    }
+	header#header article.logo a {
+        height:50px;
+        width:auto;
+    }
+    header#header article.logo a figure img {
+        height:50px;
+        width:auto;
+    }
 	header#header article.logo a figure {
         justify-content:flex-start;
 	}
-	header#header article.redes-sociales a figure img,
-	header#header article.menu a figure img {
-		height:100%;
-		width:100%;
-	}
 	header#header article.logo {
 		order:1;
-        margin:0 0 0 103px;
+        margin:0 0 0 68.6px;
 	}
 	header#header article.menu {
 		order:2;
@@ -142,35 +151,34 @@ main#principal {
 	}
 	header#header article.redes-sociales {
 		order:3;
-        margin:0 103px 0 0;
+        margin:0 68.6px 0 0;
         justify-content:flex-end;
 	}
+    header#header article.redes-sociales a figure img {
+        height:30px;
+        width:auto;
+    }
 	header#header article.redes-sociales,
 	header#header article.logo {
         flex:0.3;
     }
     header#header article.menu section#menuMovil {
+        transform:translateX(0%);
         justify-content:space-evenly;
-    }
-    header#header article.menu section#menuMovil a {
-        color:rgb(245,222,222);
-        font-size:20pt;
-    }
-	header#header article.logo a figure img {
-		height:100%;
-		width:100%;
-	}
-	header#header article.menu a {
-		display:none;
-	}
-	header#header article.menu section#menuMovil.visibilidad {
-		transform:translateX(0%);
-	}
-	header#header article.menu section#menuMovil {
 		position:relative;
 		top:0%;
 		right:0%;
 		flex-flow:row;
+    }
+	header#header article.menu section#menuMovil.visibilidad {
+		transform:translateX(0%);
+	}
+    header#header article.menu section#menuMovil a {
+        color:rgb(245,222,222);
+        font-size:10pt;
+    }
+	header#header article.menu a {
+		display:none;
 	}
 	header#header article.menu section#menuMovil a:first-child,
 	header#header article.menu section#menuMovil a {
@@ -179,4 +187,32 @@ main#principal {
 	header#header article.menu section#menuMovil a {
 		display:flex;
 	}
+}
+@media screen and (min-width: 1920px) {
+	header#header {
+		height:149px;
+	}
+	header#header article.logo {
+		order:1;
+        margin:0 0 0 103px;
+	}
+	header#header article.logo a {
+        height:120px;
+        width:auto;
+    }
+    header#header article.logo a figure img {
+        height:120px;
+        width:auto;
+    }
+	header#header article.redes-sociales {
+        margin:0 103px 0 0;
+        justify-content:flex-end;
+	}
+    header#header article.redes-sociales a figure img {
+        height:50px;
+        width:auto;
+    }
+    header#header article.menu section#menuMovil a {
+        font-size:20pt;
+    }
 }
