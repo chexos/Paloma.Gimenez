@@ -98,6 +98,57 @@ footer>footer>p {
     color:#FFF;
     font-family:"Hurme Light";
 }
+@media screen and (min-width:1280px) {
+    footer {
+        padding:58.6px 0px 0px 0px;
+    }
+    footer>header {
+        padding:0px 83.6px 45.3px;
+    }
+    footer>header>article>a>figure>img {
+        height:106.6px;
+        width:auto;
+    }
+    footer>header>article>p {
+        font-size:22pt;
+    }
+    footer>main {
+        padding:0px 83.6px 69.3px;
+        justify-content:space-evenly;
+    }
+    footer>main>section {
+        justify-content:space-between;
+    }
+    footer>main>section:nth-child(2)>a {
+        margin:0px 0px 24px 0px;
+    }
+    footer>main>section>a {
+        font-size:10pt;
+    }
+    footer>main>section>article:nth-child(2) {
+        margin:0px 0px 24px 0px;
+    }
+    footer>main>section article a {
+        font-size:12pt;
+    }
+    footer>main>section article a figure img {
+        height:25px;
+        width:25px;
+    }
+    footer>main>section>a:first-child {
+        margin:0px 0px 35.6px 0px;
+    }
+    footer>main>section:last-child>section {
+        justify-content:space-between;
+    }
+    footer>footer {
+        height:53.3px;
+        justify-content:center;
+    }
+    footer>footer>p {
+        font-size:11pt;
+    }
+}
 @media screen and (min-width:1920px) {
     footer {
         padding:88px 0px 0px 0px;
@@ -114,7 +165,7 @@ footer>footer>p {
     }
     footer>main {
         padding:0px 125.5px 104px;
-        justify-content:space-around;
+        /*justify-content:space-around;*/
     }
     footer>main>section {
         justify-content:space-between;
