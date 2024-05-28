@@ -63,7 +63,6 @@ let anchoMensaje = mensaje.clientWidth;
 var m2;
 var m;
 function generarSalto() {
-    spanAncho.style.fontSize = window.getComputedStyle(document.getElementById("mensaje"), null).getPropertyValue('font-size');
     f = mensaje.value.split("\n").length;
     spanAncho.innerText = mensaje.value;
     console.log(spanAncho.offsetWidth);
@@ -72,6 +71,8 @@ function generarSalto() {
 }
 function revisarAnchoAlto() {
     if (spanAncho.offsetWidth >= anchoMensaje) {
+        console.log(spanAncho.offsetWidth);
+        console.log(anchoMensaje);
         m2 = mensaje.value.slice(ultimoCaracter());
         m = mensaje.value.slice(mensaje.length, ultimoCaracter());
         console.log(mensaje.value);
@@ -83,21 +84,42 @@ function revisarAnchoAlto() {
         mensaje.style.height = altoMensaje;
     }
 }
+function tamanioLetra() {
+    spanAncho.style.fontSize = window.getComputedStyle(document.getElementById("mensaje"), null).getPropertyValue('font-size');
+}
 let dividirMensaje;
-function cambiarResolucion() {
+function cambiarResolucion(e) {
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    tamanioLetra();
+    anchoMensaje = mensaje.clientWidth;
     console.log(dividirMensaje);
+    console.log(mensaje.value.split(" "));
     dividirMensaje = mensaje.value.split(" ");
+    console.log(mensaje.value);
+    console.log(mensaje.value.split(" "));
     ajustarValor();
+    console.log(dividirMensaje.length);
     for (var i = 0; i < dividirMensaje.length; i++) {
-        if (!dividirMensaje[i].startsWith("\\")) {
+        console.log(i);
+        console.log(dividirMensaje[i]);
+        if (!dividirMensaje[i].startsWith("\n") && i != dividirMensaje.length - 1) {
+            console.log("sin salto");
+            mensaje.value += dividirMensaje[i] + " ";
+        } else if (i == dividirMensaje.length - 1) {
+            console.log("última cadena");
             mensaje.value += dividirMensaje[i];
-            revisarAnchoAlto();
-        } else {
-            console.log(dividirMensaje[i]);
+        } else if (dividirMensaje[i].startsWith("\n")) {
+            console.log("con salto");
+            mensaje.value += dividirMensaje[i].slice(1) + " ";
         }
+        spanAncho.innerText = mensaje.value;
+        revisarAnchoAlto();
+        removerDobleEspacioBlanco();
     }
 }
 function entradaFilas() {
+    tamanioLetra();
     removerDobleEspacioBlanco();
     generarSalto();
     ajustarFilas();
@@ -107,7 +129,7 @@ mensaje.addEventListener("loaded", ajustarValor());
 texto.addEventListener("loaded", generarSalto);
 mensaje.addEventListener("input", entradaFilas);
 mensaje.addEventListener("loaded", entradaFilas());
-mensaje.addEventListener("resize", cambiarResolucion);
+window.addEventListener("resize", cambiarResolucion);
 //window.addEventListener("resize", entradaFilas);
 /*
 let formulario = document.getElementById("formulario");
