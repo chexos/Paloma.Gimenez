@@ -95,6 +95,54 @@ textarea#mensaje {
 	text-size-adjust:none;
 }
 @media screen and (min-width:1280px) {
+	section#marca-tu-estilo {
+		padding:142.6px 229.3px;
+	}
+	section#marca-tu-estilo>header {
+		margin:0 0 100px 0;
+	}
+	section#marca-tu-estilo>header>h1>span {
+		font-size:86pt;
+	}
+	section#marca-tu-estilo>header>h1>span>span#un {
+		font-size:16pt;
+		margin:25px 0 0 25px;
+	}
+	section#marca-tu-estilo>header>h1>span#estilo {
+		font-size:26pt;
+		margin:0 0 0 96.6px;
+	}
+	section#marca-tu-estilo>section {
+		gap:2.9%
+	}
+	section#marca-tu-estilo>section>article>p>br.movil {
+		display:none;
+	}
+	section#marca-tu-estilo>section>article>p>br.escritorio {
+		display:flex;
+	}
+	section#marca-tu-estilo>section>article#art-iz>p {
+		font-size:26pt;
+	}
+	section#marca-tu-estilo>section>article>p {
+		font-size:18.5pt;
+	}
+	section#formulario {
+		padding:100px 150.3px;
+	}
+	section#formulario>form>section {
+		display:flex;
+		flex-flow:row;
+		flex-wrap:wrap;
+		margin:0px 0px 36px 0px;
+		gap:35px;
+	}
+	section#formulario>form>section>article {
+		flex:1;
+		display:flex;
+		flex-flow:column;
+		flex-wrap:wrap;
+	}
 	textarea#mensaje {
 		font-size:16pt;
 	}
@@ -119,12 +167,6 @@ textarea#mensaje {
 	}
 	section#marca-tu-estilo>section {
 		gap:2.9%
-	}
-	section#marca-tu-estilo>section>article>p>br.movil {
-		display:none;
-	}
-	section#marca-tu-estilo>section>article>p>br.escritorio {
-		display:flex;
 	}
 	section#marca-tu-estilo>section>article#art-iz>p {
 		font-size:36pt;
