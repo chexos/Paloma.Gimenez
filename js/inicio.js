@@ -8,28 +8,68 @@ var filasTexto = mensaje.rows;
 let f = mensaje.value.split("\n").length;
 let filas;
 let spans = document.getElementsByClassName("fila");
-function ajustarFilas() {
+let altoDesplazamiento;
+let altoMensaje = mensaje.scrollHeight + 1;
+let caja = document.getElementById("caja");
+function ajustarAltoMensaje() {
+    altoMensaje = caja.offsetHeight + 1;
+    mensaje.style.height = altoMensaje + "px";
+}
+function ajustarAlto() {
+    console.log("Input changed");
+    caja.innerText = mensaje.value;
+    if (altoMensaje < mensaje.scrollHeight + 1) {
+        mensaje.rows += (mensaje.scrollHeight + 1) / altoMensaje;
+        altoDesplazamiento = altoMensaje;
+        ajustarAltoMensaje();
+    } else if (caja.offsetHeight < mensaje.scrollHeight && mensaje.rows >= 3) {
+        mensaje.rows--;
+        ajustarAltoMensaje();
+    }
+    /* else if (altoMensaje == mensaje.scrollHeight + 1) {
+        console.log(mensaje.rows);
+        mensaje.rows--;
+        console.log(mensaje.rows);
+        altoMensaje = mensaje.scrollHeight + 1;
+        //mensaje.style.height = altoMensaje + "px";
+    }*/
+    /*
+    console.log(altoMensaje = mensaje.offsetHeight);
+    console.log(altoMensaje);
+    mensaje.style.height = "auto";
+    altoDesplazamiento = mensaje.scrollHeight + 1;*/
+}
+function actualizarFilas() {
+    filasTexto = mensaje.rows;
+}
+function ajustarFilas() {/*
     filas = mensaje.value.split("\n").length;
-    if (f[filas] == "") {
-        filas--;
+    if (mensaje.rows == 2) {
         mensaje.style.height *= filas / (filas + 1) + "px";
     }
-    if (filas > 2) {
-        mensaje.rows = filas;
-    } else {
+    if (mensaje.rows < 2) {
         mensaje.rows = 2;
-    }
+    }/* else {
+        mensaje.rows = filas;
+    }*/
     let span = document.createElement("span");
     span.className = "fila";
-    if (mensaje.rows > filasTexto) {
-        filasTexto = mensaje.rows;
-        for (var i = 1; i <= filasTexto; i++) {
-            if (i > 0) {
+    if (mensaje.rows > 2) {
+        if (filasTexto < mensaje.rows) {
+            console.log("añadiendo un span");
+            actualizarFilas();
+            texto.appendChild(span);
+        }
+        /*
+        for (var i = 1; i <= mensaje.rows; i++) {
+            if (i < mensaje.rows) {
+                console.log("añadiendo un span");
                 texto.appendChild(span);
             }
-        }
+        }*/
     } else if (mensaje.rows < filasTexto) {
-        filasTexto--;
+        console.log("Eliminando filas");
+        actualizarFilas();
         spans[spans.length - 1].parentNode.removeChild(spans[spans.length - 1]);
     }
 }
@@ -46,8 +86,8 @@ spanAncho.style.maxWidth = "100%";
 spanAncho.style.fontFamily = "Hurme Semi Bold";
 spanAncho.style.color = "Gray"; 
 spanAncho.style.whiteSpace = "pre-wrap";
-//span.style.display = "none";
-articuloTexto.appendChild(spanAncho);
+spanAncho.style.display = "flex";
+articuloTexto.appendChild(spanAncho);/*
 function ultimoCaracter() {
     var ultimo = mensaje.value.lastIndexOf(" ");
     console.log(mensaje.value);
@@ -59,13 +99,11 @@ function removerDobleEspacioBlanco() {
     var textoDoble = mensaje.value;
     var textoReemplazado = textoDoble.replace(/ {2,}/g, " ");
     mensaje.value = textoReemplazado;
-}
-let altoDesplazamiento = mensaje.scrollHeight;
-let altoMensaje = mensaje.offsetHeight;
+}*/
 let anchoDesplazamiento = mensaje.scrollWidth;
 let anchoMensaje;
 function actualizarAnchoMensaje() {
-    anchoMensaje = mensaje.clientWidth
+    anchoMensaje = mensaje.clientWidth;
 }
 mensaje.addEventListener("loaded", actualizarAnchoMensaje());
 window.addEventListener("resize", actualizarAnchoMensaje());
@@ -81,12 +119,39 @@ function generarSalto() {
 function revisarAnchoAlto() {
     if (spanAncho.offsetWidth > anchoMensaje) {
         console.log(spanAncho.offsetWidth);
+        console.log(spanAncho.textContent);
         console.log(anchoMensaje);
         m2 = mensaje.value.slice(ultimoCaracter());
         console.log(m2);
         m = mensaje.value.slice(mensaje.length, ultimoCaracter());
-        if (m2 == "") {
-            console.l
+        if (m2 === "") {
+            console.log(m2);
+            var u = mensaje.value.lastIndexOf(" ", mensaje.value.length);
+            console.log(u);
+            m2 = mensaje.value.slice(u);
+            m = mensaje.value.slice(mensaje.length, u);
+            console.log(m2);
+            if (m2 === " ") {
+                spanAncho.textContent = m + "\n" + m2;
+                if (spanAncho.offsetWidth > anchoMensaje) {
+                    console.log(mensaje.value.length);
+                    var l = mensaje.value.lastIndexOf(" ");
+                    console.log(l);
+                    var a = mensaje.value.lastIndexOf(" ", l - 1);
+                    console.log(a);
+                    m2 = mensaje.value.slice(a);
+                    console.log(m2);
+                    m = mensaje.value.slice(mensaje.length, a);
+                    console.log(m);
+                }
+                m2 = mensaje.value.slice(u - 2);
+                console.log(m2);
+                m = mensaje.value.slice(mensaje.length, u - 2);
+                console.log(m);
+            }
+        }
+        if (m2 === "" && u + 1 === ultimoCaracter()) {
+            console.log(m2);
             var u = mensaje.value.lastIndexOf(" ", ultimoCaracter() - 2);
             console.log(u);
             m2 = mensaje.value.slice(u);
@@ -102,7 +167,7 @@ function revisarAnchoAlto() {
         console.log(mensaje.value);
         spanAncho.textContent = mensaje.value;
         //let textoConEspacio = spanAncho.textContent.replace("/\n/g", "<br> ");
-        spanAncho.textContent = textoConEspacio;
+        //spanAncho.textContent = textoConEspacio;
         console.log(spanAncho.textContent);
     }
     if (altoDesplazamiento > altoMensaje) {
@@ -112,14 +177,14 @@ function revisarAnchoAlto() {
 }
 function tamanioLetra() {
     spanAncho.style.fontSize = window.getComputedStyle(document.getElementById("mensaje"), null).getPropertyValue('font-size');
-}
+}/*
 let ajuste;
 function esperarAjuste() {
     clearTimeout(ajuste);
     ajuste = setTimeout(function() {
         anchoMensaje = mensaje.offsetWidth;
     }, 100);
-}
+}*/
 let dividirMensaje;
 let navegador = 0;
 function cambiarResolucion() {
@@ -164,20 +229,22 @@ function cambiarResolucion() {
             } else {
     
             }
-            generarSalto();
-            removerDobleEspacioBlanco();
+            console.log(JSON.stringify(mensaje.value));
+            //generarSalto();
+            //removerDobleEspacioBlanco();
         }
     }
 }
 function entradaFilas() {
     tamanioLetra();
-    removerDobleEspacioBlanco();
-    generarSalto();
+    //removerDobleEspacioBlanco();
+    //generarSalto();
+    ajustarAlto();
     ajustarFilas();
     cambiarPosicionFila();
 }
 mensaje.addEventListener("loaded", ajustarValor());
-texto.addEventListener("loaded", generarSalto);
+//texto.addEventListener("loaded", generarSalto);
 mensaje.addEventListener("input", entradaFilas);
 mensaje.addEventListener("loaded", entradaFilas());
 window.addEventListener("resize", cambiarResolucion);

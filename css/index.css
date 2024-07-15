@@ -93,6 +93,13 @@ section#formulario section#texto span.fila {
 }
 textarea#mensaje {
 	text-size-adjust:none;
+	overflow-y:hidden;
+	height:auto;
+}
+span#caja {
+	text-size-adjust:none;
+	font-family:"Hurme Semi Bold";
+	font-size:26pt;
 }
 @media screen and (min-width:1280px) {
 	section#marca-tu-estilo {
@@ -143,7 +150,8 @@ textarea#mensaje {
 		flex-flow:column;
 		flex-wrap:wrap;
 	}
-	textarea#mensaje {
+	textarea#mensaje,
+	span#caja {
 		font-size:16pt;
 	}
 }
@@ -192,7 +200,8 @@ textarea#mensaje {
 	}
 	section#formulario label,
 	section#formulario input,
-	section#formulario textarea {
+	section#formulario textarea,
+	span#caja {
 		font-size:26pt;
 	}
 	section#formulario>form>article :first-child {
