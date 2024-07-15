@@ -37,6 +37,7 @@ footer>main {
     display:flex;
     flex-flow:row;
     flex-wrap:wrap;
+    justify-content:space-evenly;
     margin:-1px 0px 0px 0px;
 }
 footer>main>section {
