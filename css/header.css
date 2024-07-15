@@ -24,7 +24,7 @@ header#header {
     z-index:2;
 }
 figure {
-    margin:0;
+    margin:0px;
 }
 header#header article {
     flex:1;
