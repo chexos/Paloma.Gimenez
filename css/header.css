@@ -25,6 +25,7 @@ header#header {
 }
 figure {
     margin:0px;
+    display:flex;
 }
 header#header article {
     flex:1;
