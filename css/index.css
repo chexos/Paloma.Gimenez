@@ -118,11 +118,13 @@ textarea#mensaje {
 	text-size-adjust:none;
 	overflow-y:hidden;
 	height:auto;
+	resize:none;
+	font-size:16pt;
 }
 span#caja {
 	text-size-adjust:none;
 	font-family:"Hurme Semi Bold";
-	font-size:26pt;
+	font-size:16pt;
 }
 @media screen and (min-width:1280px) {
 	section#marca-tu-estilo {
