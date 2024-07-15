@@ -47,7 +47,7 @@ footer>main>section {
 footer>main>section>a {
     text-decoration:none;
     color:rgb(87,87,86);
-    font-size:7pt;
+    font-size:6pt;
     font-family:"Hurme Semi Bold";
 }
 footer>main>section>a:first-child {
@@ -64,15 +64,15 @@ footer>main>section>article>a {
     width:fit-content;
     text-decoration:none;
     color:rgb(87,87,86);
-    font-size:6.5pt;
+    font-size:5.5pt;
     font-family:"Hurme";
 }
 footer>main>section>article>a>figure {
     display:flex;
 }
 footer>main>section article a figure img {
-    height:25px;
-    width:25px;
+    height:20px;
+    width:20px;
 }
 footer>main>section:last-child>section {
     display:flex;
