@@ -85,9 +85,10 @@ section#formulario form article#boton {
 	margin:27px 0px 36.5px 0px;
 }
 section#formulario form article button {
-	padding:6.4px 15.5px;
+	padding:4px 25px;
 	background-color:rgb(223, 222, 222);
 	border:none;
+	border-radius:5px;
 }
 section#formulario label {
 	color:rgb(87,87,86);
