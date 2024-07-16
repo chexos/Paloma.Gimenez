@@ -72,6 +72,9 @@ section#formulario form section {
 	flex-flow:column;
 	flex-wrap:wrap;
 }
+section#formulario>form>section>article {
+	margin:0px 0px 17px 0px;
+}
 section#formulario form section article {
 	display:flex;
 	flex-flow:column;
