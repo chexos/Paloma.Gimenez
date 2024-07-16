@@ -102,6 +102,7 @@ footer>footer>p {
     justify-content:center;
     color:#FFF;
     font-family:"Hurme Light";
+    font-size:5pt;
 }
 @media screen and (min-width:1280px) {
     footer {
