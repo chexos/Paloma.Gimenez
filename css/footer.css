@@ -102,9 +102,6 @@ footer>footer {
 }
 footer>footer>p {
     margin:0px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
     color:#FFF;
     font-family:"Hurme Light";
     font-size:5pt;
