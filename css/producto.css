@@ -3,7 +3,7 @@ header#header article.menu section#menuMovil a:first-child {
 }
 main#principal {
     display:flex;
-    flex-flow:column;
+    flex-flow:row;
     flex-wrap:wrap;
 }
 main#principal>article {
