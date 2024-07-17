@@ -86,7 +86,7 @@ header#header article.menu a figure {
     display:flex;
 }
 header#header article.menu a figure img {
-    height:25px;
+    height:20px;
     width:auto;
 }
 header#header article.menu section#menuMovil {
