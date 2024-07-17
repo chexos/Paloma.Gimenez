@@ -10,6 +10,7 @@ main#principal {
 }
 main#principal>article {
     width:48.96%;
+    margin:0px 0px 5.21px 0px;
 }
 main#principal>article>figure>img {
     width:100%;
