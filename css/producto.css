@@ -9,3 +9,6 @@ main#principal {
 main#principal>article {
     width:45%;
 }
+main#principal>article>figure>img {
+    width:100%;
+}
