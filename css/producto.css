@@ -1,3 +1,11 @@
 header#header article.menu section#menuMovil a:first-child {
     color:rgb(242,177,162);
 }
+main#principal {
+    display:flex;
+    flex-flow:column;
+    flex-wrap:wrap;
+}
+main#principal>article {
+    width:45%;
+}
