@@ -7,7 +7,7 @@ main#principal {
     flex-wrap:wrap;
 }
 main#principal>article {
-    width:45%;
+    width:35%;
 }
 main#principal>article>figure>img {
     width:100%;
