@@ -9,10 +9,6 @@ function moverMenu(e) {
     else
         menuMovil.classList.remove("visibilidad");
 }
-menumovil[0].addEventListener("click", moverMenu);
-menumovil[1].addEventListener("click", moverMenu);
-menumovil[2].addEventListener("click", moverMenu);
-menumovil[3].addEventListener("click", moverMenu);
 menu.addEventListener("click", moverMenu);
 function anchoDocumento() {
     anchoVentana = window.innerWidth;
