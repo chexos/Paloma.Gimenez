@@ -12,6 +12,23 @@ main#principal>article {
     width:48.96%;
     margin:0px 0px 5.21px 0px;
 }
+main#principal>article>figure {
+    display:flex;
+    flex-flow:row;
+    flex-wrap:wrap;
+    position:relative;
+}
 main#principal>article>figure>img {
     width:100%;
+}
+main#principal>article>figure>p {
+    display:none;
+    font-size:6pt;
+}
+main#principal>article>figure:hover>p {
+    display:flex;
+    flex-flow:column;
+    flex-wrap:wrap;
+    justify-content:center;
+    position:absolute;
 }
