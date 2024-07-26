@@ -29,18 +29,15 @@ main#principal>article>figure>p {
     font-size:3pt;
     margin:2px 1px;
 }
-main#principal>article>figure:hover>p {
+main#principal>article>figure.resaltar>p {
     display:flex;
     justify-content:center;
     position:absolute;
 }
-main#principal>article>figure:hover>p {
-    display:flex;
-    justify-content:center;
-    position:absolute;
-}
-main#principal>article>figure>p.resaltar {
-    display:flex;
-    justify-content:center;
-    position:absolute;
+@media screen and (min-width: 590px) {
+    main#principal>article>figure:hover>p {
+        display:flex;
+        justify-content:center;
+        position:absolute;
+    }
 }
