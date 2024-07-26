@@ -27,8 +27,6 @@ main#principal>article>figure>p {
 }
 main#principal>article>figure:hover>p {
     display:flex;
-    flex-flow:column;
-    flex-wrap:wrap;
     justify-content:center;
     position:absolute;
 }
