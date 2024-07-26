@@ -34,3 +34,13 @@ main#principal>article>figure:hover>p {
     justify-content:center;
     position:absolute;
 }
+main#principal>article>figure:hover>p {
+    display:flex;
+    justify-content:center;
+    position:absolute;
+}
+main#principal>article>figure>p.resaltar {
+    display:flex;
+    justify-content:center;
+    position:absolute;
+}
