@@ -9,7 +9,7 @@ function resaltarUno() {
     eliminarResaltado(0);
     sesion[0].classList.toggle("resaltar");
 }
-sesion[0].addEventListener("click", resaltarUno);
+sesion[0].addEventListener("touchstart", resaltarUno);
 function resaltarDos() {
     eliminarResaltado(1);
     sesion[1].classList.toggle("resaltar");
