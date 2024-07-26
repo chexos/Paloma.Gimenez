@@ -17,6 +17,8 @@ main#principal>article>figure {
     flex-flow:row;
     flex-wrap:wrap;
     position:relative;
+    justify-content:center;
+    text-align:center;
 }
 main#principal>article>figure>img {
     width:100%;
@@ -24,6 +26,7 @@ main#principal>article>figure>img {
 main#principal>article>figure>p {
     display:none;
     font-size:6pt;
+    margin:25px;
 }
 main#principal>article>figure:hover>p {
     display:flex;
