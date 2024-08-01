@@ -10,11 +10,13 @@ function resaltarUno() {
     sesion[0].classList.toggle("resaltar");
 }
 sesion[0].addEventListener("touchstart", resaltarUno);
+sesion[0].addEventListener("touchend", eliminarResaltado);
 function resaltarDos() {
     eliminarResaltado(1);
     sesion[1].classList.toggle("resaltar");
 }
-sesion[1].addEventListener("click", resaltarDos);
+sesion[1].addEventListener("touchstart", resaltarDos);
+sesion[1].addEventListener("touchend", eliminarResaltado);
 function resaltarTres() {
     eliminarResaltado(2);
     sesion[2].classList.toggle("resaltar");

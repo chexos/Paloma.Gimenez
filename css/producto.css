@@ -34,6 +34,11 @@ main#principal>article>figure.resaltar>p {
     justify-content:center;
     position:absolute;
 }
+.hover {
+    display:flex;
+    justify-content:center;
+    position:absolute;
+}
 @media screen and (min-width: 590px) {
     main#principal>article>figure:hover>p {
         display:flex;
