@@ -21,22 +21,26 @@ function resaltarTres() {
     eliminarResaltado(2);
     sesion[2].classList.toggle("resaltar");
 }
-sesion[2].addEventListener("click", resaltarTres);
+sesion[2].addEventListener("touchstart", resaltarTres);
+sesion[2].addEventListener("touchend", eliminarResaltado);
 function resaltarCuatro() {
     eliminarResaltado(3);
     sesion[3].classList.toggle("resaltar");
 }
-sesion[3].addEventListener("click", resaltarCuatro);
+sesion[3].addEventListener("touchstart", resaltarCuatro);
+sesion[3].addEventListener("touchend", eliminarResaltado);
 function resaltarCinco() {
     eliminarResaltado(4);
     sesion[4].classList.toggle("resaltar");
 }
-sesion[4].addEventListener("click", resaltarCinco);
+sesion[4].addEventListener("touchstart", resaltarCinco);
+sesion[4].addEventListener("touchend", eliminarResaltado);
 function resaltarSeis() {
     eliminarResaltado(5);
     sesion[5].classList.toggle("resaltar");
 }
-sesion[5].addEventListener("click", resaltarSeis);
+sesion[5].addEventListener("touchstart", resaltarSeis);
+sesion[5].addEventListener("touchend", eliminarResaltado);
 function resaltarSiete() {
     eliminarResaltado(6);
     sesion[6].classList.toggle("resaltar");
