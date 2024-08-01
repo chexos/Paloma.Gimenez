@@ -45,52 +45,62 @@ function resaltarSiete() {
     eliminarResaltado(6);
     sesion[6].classList.toggle("resaltar");
 }
-sesion[6].addEventListener("click", resaltarSiete);
+sesion[6].addEventListener("touchstart", resaltarSiete);
+sesion[6].addEventListener("touchend", eliminarResaltado);
 function resaltarOcho() {
     eliminarResaltado(7);
     sesion[7].classList.toggle("resaltar");
 }
-sesion[7].addEventListener("click", resaltarOcho);
+sesion[7].addEventListener("touchstart", resaltarOcho);
+sesion[7].addEventListener("touchend", eliminarResaltado);
 function resaltarNueve() {
     eliminarResaltado(8);
     sesion[8].classList.toggle("resaltar");
 }
-sesion[8].addEventListener("click", resaltarNueve);
+sesion[8].addEventListener("touchstart", resaltarNueve);
+sesion[8].addEventListener("touchend", eliminarResaltado);
 function resaltarDiez() {
     eliminarResaltado(9);
     sesion[9].classList.toggle("resaltar");
 }
-sesion[9].addEventListener("click", resaltarDiez);
+sesion[9].addEventListener("touchstart", resaltarDiez);
+sesion[9].addEventListener("touchend", eliminarResaltado);
 function resaltarOnce() {
     eliminarResaltado(10);
     sesion[10].classList.toggle("resaltar");
 }
-sesion[10].addEventListener("click", resaltarOnce);
+sesion[10].addEventListener("touchstart", resaltarOnce);
+sesion[10].addEventListener("touchend", eliminarResaltado);
 function resaltarDoce() {
     eliminarResaltado(11);
     sesion[11].classList.toggle("resaltar");
 }
-sesion[11].addEventListener("click", resaltarDoce);
+sesion[11].addEventListener("touchstart", resaltarDoce);
+sesion[11].addEventListener("touchend", eliminarResaltado);
 function resaltarTrece() {
     eliminarResaltado(12);
     sesion[12].classList.toggle("resaltar");
 }
-sesion[12].addEventListener("click", resaltarTrece);
+sesion[12].addEventListener("touchstart", resaltarTrece);
+sesion[12].addEventListener("touchend", eliminarResaltado);
 function resaltarCatorce() {
     eliminarResaltado(13);
     sesion[13].classList.toggle("resaltar");
 }
-sesion[13].addEventListener("click", resaltarCatorce);
+sesion[13].addEventListener("touchstart", resaltarCatorce);
+sesion[13].addEventListener("touchend", eliminarResaltado);
 function resaltarQuince() {
     eliminarResaltado(14);
     sesion[14].classList.toggle("resaltar");
 }
-sesion[14].addEventListener("click", resaltarQuince);
+sesion[14].addEventListener("touchstart", resaltarQuince);
+sesion[14].addEventListener("touchend", eliminarResaltado);
 function resaltarDeciseis() {
     eliminarResaltado(15);
     sesion[15].classList.toggle("resaltar");
 }
-sesion[15].addEventListener("click", resaltarDeciseis);/*
+sesion[15].addEventListener("touchstart", resaltarDeciseis);
+sesion[15].addEventListener("touchend", eliminarResaltado);/*
 function resaltarUno() {
     sesion[0].classList.toggle("resaltar");
 }
