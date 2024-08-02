@@ -1,16 +1,16 @@
 let sesion = document.getElementsByClassName("sesion");
-function eliminarResaltado(a) {/*
-    for (var i = 0; i < sesion.length; i++) {
-        if (i == a) {*/
-            sesion[a].classList.remove("resaltar");
-            console.log(sesion[a]);/*
-        }
-    }*/
+function eliminarResaltado(a) {
+    sesion[a].classList.remove("resaltar");
 }
 function resaltarUno(a) {
     eliminarResaltado(a);
     sesion[a].classList.toggle("resaltar");
 }
+for (let i = 0; i < sesion.length; i++) {
+    sesion[i].addEventListener("touchstart", () => resaltarUno(i));
+    sesion[i].addEventListener("touchend", () => eliminarResaltado(i))
+}
+/*
 sesion[0].addEventListener("touchstart", resaltarUno(0));
 sesion[0].addEventListener("touchend", eliminarResaltado(0));
 function resaltarDos() {
