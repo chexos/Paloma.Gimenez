@@ -21,6 +21,9 @@ main#principal>article>figure {
     justify-content:center;
     text-align:center;
 }
+main#principal>article#ampliar {
+    display:none;
+}
 main#principal>article>figure>img {
     width:100%;
 }
