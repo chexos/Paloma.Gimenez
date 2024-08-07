@@ -25,6 +25,8 @@ main#principal>article#ampliar {
     display:none;
     max-width:100%;
     width:100%;
+    position:fixed;
+    z-index:1;
 }
 main#principal>article>figure>img {
     width:100%;
