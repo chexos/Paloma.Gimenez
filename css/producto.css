@@ -23,6 +23,8 @@ main#principal>article>figure {
 }
 main#principal>article#ampliar {
     display:none;
+    max-width:100%;
+    width:100%;
 }
 main#principal>article>figure>img {
     width:100%;
