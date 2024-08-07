@@ -15,6 +15,7 @@ function ampliarImagen(a) {
     console.log(displayAmpliar);
     if (displayAmpliar != "flex") {
         ampliar.style.display = "flex";
+        imagenAmpliada.src = sesion[a].src;
     } else {
         ampliar.style.display = "none";
     }
