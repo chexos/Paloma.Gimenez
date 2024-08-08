@@ -1,7 +1,7 @@
 header#header article.menu section#menuMovil a:first-child {
     color:rgb(242,177,162);
 }
-main#principalarticle#ampliar {
+main#principal>article#ampliar {
     display:none;
     max-width:69.4%;
     width:69.4%;
@@ -9,11 +9,11 @@ main#principalarticle#ampliar {
     z-index:1;
     margin:55.6px 14.25%;
 }
-main#principalarticle#ampliar>figure.ampliar {
+main#principal>article#ampliar>figure.ampliar {
     max-width:100%;
     width:100%;
 }
-main#principalarticle#ampliar>figure.ampliar>img {
+main#principal>article#ampliar>figure.ampliar>img {
     max-width:100%;
     width:100%;
 }
