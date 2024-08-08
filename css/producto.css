@@ -7,6 +7,7 @@ article#ampliar {
     width:100%;
     position:fixed;
     z-index:1;
+    margin:55.6px 14.25%;
 }
 main#principal {
     display:flex;
