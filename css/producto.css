@@ -13,6 +13,10 @@ article#ampliar>figure.ampliar {
     max-width:100%;
     width:100%;
 }
+article#ampliar>figure.ampliar>img {
+    max-width:100%;
+    width:100%;
+}
 main#principal {
     display:flex;
     flex-flow:row;
