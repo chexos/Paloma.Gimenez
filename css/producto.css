@@ -1,18 +1,18 @@
 header#header article.menu section#menuMovil a:first-child {
     color:rgb(242,177,162);
 }
-main#principal>article#ampliar {
+article#ampliar {
     display:none;
     max-width:257.8px;
     width:257.8px;
     position:fixed;
     z-index:1;
 }
-main#principal>article#ampliar>figure.ampliar {
+article#ampliar>figure.ampliar {
     max-width:100%;
     width:100%;
 }
-main#principal>article#ampliar>figure.ampliar>img {
+article#ampliar>figure.ampliar>img {
     max-width:100%;
     width:100%;
 }
