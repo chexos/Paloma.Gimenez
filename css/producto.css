@@ -3,8 +3,8 @@ header#header article.menu section#menuMovil a:first-child {
 }
 main#principal>article#ampliar {
     display:none;
-    max-width:69.1%;
-    width:69.1%;
+    max-width:257.8px;
+    width:257.8px;
     position:fixed;
     z-index:1;
 }
