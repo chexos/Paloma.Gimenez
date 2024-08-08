@@ -3,11 +3,10 @@ header#header article.menu section#menuMovil a:first-child {
 }
 main#principal>article#ampliar {
     display:none;
-    max-width:69.4%;
-    width:69.4%;
-    position:relative;
+    max-width:69.1%;
+    width:69.1%;
+    position:fixed;
     z-index:1;
-    margin:55.6px 14.25%;
 }
 main#principal>article#ampliar>figure.ampliar {
     max-width:100%;
