@@ -9,6 +9,10 @@ article#ampliar {
     z-index:1;
     margin:55.6px 14.25%;
 }
+article#ampliar>figure.ampliar {
+    max-width:100%;
+    width:100%;
+}
 main#principal {
     display:flex;
     flex-flow:row;
