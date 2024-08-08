@@ -1,5 +1,6 @@
 let ampliar = document.getElementById("ampliar");
 let imagenAmpliada = document.getElementById("imagenAmpliada");
+let sesion = document.getElementsByClassName("sesion");
 let figuraSesion = document.getElementsByClassName("figura-sesion");
 let estiloAmpliar = window.getComputedStyle(ampliar);
 let displayAmpliar;
@@ -15,7 +16,7 @@ function ampliarImagen(a) {
     console.log(displayAmpliar);
     if (displayAmpliar != "flex") {
         ampliar.style.display = "flex";
-        imagenAmpliada.src = figuraSesion[a].src;
+        imagenAmpliada.src = sesion[a].src;
     } else {
         ampliar.style.display = "none";
     }
