@@ -1,6 +1,13 @@
 header#header article.menu section#menuMovil a:first-child {
     color:rgb(242,177,162);
 }
+article#ampliar {
+    display:none;
+    max-width:100%;
+    width:100%;
+    position:fixed;
+    z-index:1;
+}
 main#principal {
     display:flex;
     flex-flow:row;
@@ -20,14 +27,6 @@ main#principal>article>figure {
     align-items:flex-end;
     justify-content:center;
     text-align:center;
-}
-main#principal>article#ampliar {
-    display:none;
-    max-width:100%;
-    width:100%;
-    position:fixed;
-    z-index:1;
-    padding:0px 28.50% 0px 0px;
 }
 main#principal>article>figure>img {
     width:100%;
