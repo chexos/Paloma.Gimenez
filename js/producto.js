@@ -25,3 +25,4 @@ for (let i = 0; i < sesion.length; i++) {
     sesion[i].addEventListener("touchend", () => eliminarResaltado(i));
     sesion[i].addEventListener("click", () => ampliarImagen(i));
 }
+ampliar.addEventListener("click", () => ampliarImagen(0));
