@@ -8,7 +8,7 @@ article#ampliar {
     z-index:2;
     top:30px;
     padding:50px;
-    background-color:rgb(87,87,86);
+    background-color:rgba(44,44,44,0.8);
 }
 article#ampliar>figure.ampliar {
     max-width:100%;
