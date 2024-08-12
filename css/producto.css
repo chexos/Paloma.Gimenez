@@ -28,6 +28,7 @@ article#ampliar>section>span {
     left:100%;
 }
 article#ampliar>figure.ampliar {
+    height:max-content;
     max-width:100%;
     width:100%;
 }
