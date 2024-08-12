@@ -25,8 +25,14 @@ article#ampliar>section>span {
     border-top:2px solid white;
     z-index:3;
     bottom:10px;
-    left:100%;
+}
+article#ampliar>section>span.cerrar-izq {
     transform:rotate(45deg);
+    left:calc(100% - 6px);
+}
+article#ampliar>section>span.cerrar-der {
+    transform:rotate(-45deg);
+    left:calc(100% + 6px);
 }
 article#ampliar>figure.ampliar {
     height:max-content;
