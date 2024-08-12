@@ -10,6 +10,9 @@ article#ampliar {
     padding:50px;
     background-color:rgba(44,44,44,0.8);
 }
+article#ampliar>section {
+    position:relative;
+}
 article#ampliar>figure.ampliar {
     max-width:100%;
     width:100%;
