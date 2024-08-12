@@ -26,6 +26,7 @@ article#ampliar>section>span {
     z-index:3;
     bottom:10px;
     left:100%;
+    transform:rotate(45deg);
 }
 article#ampliar>figure.ampliar {
     height:max-content;
