@@ -13,6 +13,9 @@ article#ampliar {
 article#ampliar>section {
     position:relative;
 }
+article#ampliar>section>span {
+    position:absolute;
+}
 article#ampliar>figure.ampliar {
     max-width:100%;
     width:100%;
