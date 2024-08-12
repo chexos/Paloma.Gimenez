@@ -9,12 +9,14 @@ article#ampliar {
     top:30px;
     padding:50px;
     background-color:rgba(44,44,44,0.8);
+    max-width:100%;
+    width:100%;
 }
 article#ampliar>section {
+    display:flex;
     position:absolute;
     max-width:calc(100% - 100px);
     width:100%;
-    top:25px;
 }
 article#ampliar>section>span {
     position:absolute;
