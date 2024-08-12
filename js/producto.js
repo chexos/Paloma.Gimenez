@@ -5,6 +5,11 @@ let figuraSesion = document.getElementsByClassName("figura-sesion");
 let estiloAmpliar = window.getComputedStyle(ampliar);
 let displayAmpliar;
 let altoImagen = document.getElementById("altoImagen");
+function asignarAltoImagen() {
+    console.log(imagenAmpliada.offsetHeight);
+    altoImagen.style.height = imagenAmpliada.offsetHeight;
+}
+altoImagen.addEventListener("load", asignarAltoImagen());
 function eliminarResaltado(a) {
     figuraSesion[a].classList.remove("resaltar");
 }
@@ -14,7 +19,6 @@ function resaltarUno(a) {
 }
 function ampliarImagen(a) {
     displayAmpliar = estiloAmpliar.display;
-    console.log(displayAmpliar);
     if (displayAmpliar != "flex") {
         ampliar.style.display = "flex";
         imagenAmpliada.src = sesion[a].src;
