@@ -4,6 +4,7 @@ let sesion = document.getElementsByClassName("sesion");
 let figuraSesion = document.getElementsByClassName("figura-sesion");
 let estiloAmpliar = window.getComputedStyle(ampliar);
 let displayAmpliar;
+let altoImagen = document.getElementById("altoImagen");
 function eliminarResaltado(a) {
     figuraSesion[a].classList.remove("resaltar");
 }
