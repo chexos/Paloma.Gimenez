@@ -20,7 +20,7 @@ header#header {
     flex-flow:row;
     flex-wrap:wrap;
     background-color:rgb(44,44,44);
-    position:relative;
+    position:fixed;
     z-index:2;
 }
 figure {
