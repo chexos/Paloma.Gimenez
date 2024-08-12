@@ -2,13 +2,13 @@ header#header article.menu section#menuMovil a:first-child {
     color:rgb(242,177,162);
 }
 article#ampliar {
+    height:100%;
     display:none;
-    max-width:257.8px;
-    width:257.8px;
     position:fixed;
     z-index:2;
-    right:14.2%;
-    top:16.9%;
+    top:30px;
+    padding:50px;
+    background-color:rgb(87,87,86);
 }
 article#ampliar>figure.ampliar {
     max-width:100%;
