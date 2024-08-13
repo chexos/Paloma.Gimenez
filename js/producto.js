@@ -4,9 +4,9 @@ let sesion = document.getElementsByClassName("sesion");
 let figuraSesion = document.getElementsByClassName("figura-sesion");
 let estiloAmpliar = window.getComputedStyle(ampliar);
 let displayAmpliar;
-let altoImagen = document.getElementById("altoImagen");
-function asignarAltoImagen() {
-    altoImagen.style.height = imagenAmpliada.offsetHeight + "px";
+let altoImagen = document.getElementsByClassName("alto-imagen");
+function asignarAltoImagen(a) {
+    altoImagen[a].style.height = imagenAmpliada.offsetHeight + "px";
 }
 function eliminarResaltado(a) {
     figuraSesion[a].classList.remove("resaltar");
@@ -29,7 +29,9 @@ for (let i = 0; i < figuraSesion.length; i++) {
     figuraSesion[i].addEventListener("touchend", () => eliminarResaltado(i));
     figuraSesion[i].addEventListener("click", () => {
         ampliarImagen(i);
-        asignarAltoImagen();
+        for (let l = 0; l < altoImagen.length; l++) {
+            asignarAltoImagen(l);
+        }
     });
 }
 ampliar.addEventListener("click", () => ampliarImagen(0));
