@@ -6,6 +6,7 @@ let estiloAmpliar = window.getComputedStyle(ampliar);
 let displayAmpliar;
 let altoImagen = document.getElementsByClassName("alto-imagen");
 let altoImagenIzq = document.getElementById("altoImagenIzq");
+let altoImagenDer = document.getElementById("altoImagenDer");
 let imagen = new Array(21);
 imagen[0] = "Tamaño - Producto - 603x670 - 1.png";
 imagen[1] = "Tamaño - Producto - 603x670 - 2.png";
@@ -30,11 +31,13 @@ imagen[19] = "Tamaño---Producto---603x670---gif---4.gif";
 imagen[20] = "Tamaño---Producto---603x670---gif---5.gif";
 function intercambiarImagen(a) {
     if (a == "izq") {
-        
+
     } else if (a == "der") {
 
     }
 }
+altoImagenIzq.addEventListener("click", intercambiarImagen("izq"));
+altoImagenDer.addEventListener("click", intercambiarImagen("der"));
 function asignarAltoImagen(a) {
     altoImagen[a].style.height = imagenAmpliada.offsetHeight + "px";
 }
