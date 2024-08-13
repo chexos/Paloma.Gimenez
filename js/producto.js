@@ -30,7 +30,7 @@ for (let i = 0; i < figuraSesion.length; i++) {
     figuraSesion[i].addEventListener("click", () => {
         ampliarImagen(i);
         for (let l = 0; l < altoImagen.length; l++) {
-            asignarAltoImagen(l);
+            asignarAltoImagen(0);
         }
     });
 }
