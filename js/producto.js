@@ -5,6 +5,14 @@ let figuraSesion = document.getElementsByClassName("figura-sesion");
 let estiloAmpliar = window.getComputedStyle(ampliar);
 let displayAmpliar;
 let altoImagen = document.getElementsByClassName("alto-imagen");
+let altoImagenIzq = document.getElementById("altoImagenIzq");
+function intercambiarImagen(a) {
+    if (a == "izq") {
+        
+    } else if (a == "der") {
+        
+    }
+}
 function asignarAltoImagen(a) {
     altoImagen[a].style.height = imagenAmpliada.offsetHeight + "px";
 }
