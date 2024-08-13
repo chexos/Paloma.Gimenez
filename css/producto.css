@@ -24,7 +24,7 @@ article#ampliar>section>span {
     width:20px;
     border-top:2px solid white;
     z-index:3;
-    bottom:10px;
+    top:-10%;
 }
 article#ampliar>section>span.cerrar-izq {
     transform:rotate(45deg);
