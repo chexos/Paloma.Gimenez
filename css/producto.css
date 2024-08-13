@@ -12,6 +12,7 @@ article#ampliar {
     max-width:100%;
     width:100%;
     opacity:0;
+    transition:0.5s all;
 }
 article#ampliar.opacidad {
     opacity:1;
