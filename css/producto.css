@@ -20,6 +20,7 @@ article#ampliar>section {
 }
 article#ampliar>section>section#altoImagenIzq {
     transform:rotate(-90deg);
+    margin-left:-30px;
 }
 article#ampliar>section span {
     position:absolute;
