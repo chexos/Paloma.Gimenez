@@ -43,6 +43,12 @@ article#ampliar>section>span.pasar-izq {
 article#ampliar>section>span.pasar-der {
     right:-12.5%;
 }
+article#ampliar>section>span.pasar-izq-arr {
+    transform:rotate(45deg);
+}
+article#ampliar>section>span.pasar-izq-aba {
+    transform:rotate(-45deg);
+}
 article#ampliar>figure.ampliar {
     height:max-content;
     max-width:100%;
