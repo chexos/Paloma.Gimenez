@@ -37,19 +37,19 @@ article#ampliar>section>span.cerrar-der {
     transform:rotate(-45deg);
     left:calc(100% + 6px);
 }
-article#ampliar>section>section>span.pasar {
+article#ampliar>section>section>section>span.pasar {
     top:50%;
 }
-article#ampliar>section>section>span.pasar-izq {
+article#ampliar>section>section>section>span.pasar-izq {
     left:-12.5%;
 }
-article#ampliar>section>section>span.pasar-der {
+article#ampliar>section>section>section>span.pasar-der {
     right:-12.5%;
 }
-article#ampliar>section>section>span.pasar-izq-arr {
+article#ampliar>section>section>section>span.pasar-izq-arr {
     transform:rotate(45deg);
 }
-article#ampliar>section>section>span.pasar-izq-aba {
+article#ampliar>section>section>section>span.pasar-izq-aba {
     transform:rotate(-45deg);
 }
 article#ampliar>figure.ampliar {
