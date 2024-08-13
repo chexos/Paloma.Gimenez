@@ -9,7 +9,8 @@ function asignarAltoImagen() {
     console.log(imagenAmpliada.offsetHeight);
     altoImagen.style.height = imagenAmpliada.offsetHeight;
 }
-altoImagen.addEventListener("load", asignarAltoImagen());
+window.addEventListener("load", asignarAltoImagen);
+window.addEventListener("resize", asignarAltoImagen);
 function eliminarResaltado(a) {
     figuraSesion[a].classList.remove("resaltar");
 }
