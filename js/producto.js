@@ -8,6 +8,7 @@ let altoImagen = document.getElementsByClassName("alto-imagen");
 let altoImagenIzq = document.getElementById("altoImagenIzq");
 let altoImagenDer = document.getElementById("altoImagenDer");
 let imagen = new Array(21);
+let img;
 imagen[0] = "Tamaño - Producto - 603x670 - 1.png";
 imagen[1] = "Tamaño - Producto - 603x670 - 2.png";
 imagen[2] = "Tamaño - Producto - 603x670 - 3.png";
@@ -31,7 +32,10 @@ imagen[19] = "Tamaño---Producto---603x670---gif---4.gif";
 imagen[20] = "Tamaño---Producto---603x670---gif---5.gif";
 function intercambiarImagen(a) {
     if (a == "izq") {
-
+        img = imagenAmpliada.src.slice(0, imagenAmpliada.src.length - 4);
+        img = img.slice(img.length - 1, img.length);
+        console.log(img);
+        imagenAmpliada.src = "imágenes/" + imagen[0];
     } else if (a == "der") {
 
     }
