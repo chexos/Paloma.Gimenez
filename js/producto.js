@@ -30,8 +30,7 @@ imagen[19] = "Tamaño---Producto---603x670---gif---4.gif";
 imagen[20] = "Tamaño---Producto---603x670---gif---5.gif";
 function intercambiarImagen(a) {
     if (a == "izq") {
-        cambiarImagen = imagenAmpliada.src;
-
+        
     } else if (a == "der") {
 
     }
