@@ -22,6 +22,21 @@ article#ampliar>section>section#altoImagenIzq {
     transform:rotate(-90deg);
     margin:0px 0px 0px -30px;
 }
+article#ampliar>section>button {
+    display:flex;
+    border:0px;
+    background:none;
+    position:absolute;
+    width:fit-content;
+    padding:10px 20px;
+    flex-flow:row;
+    justify-content:center;
+    align-items:center;
+    height:0px;
+    transform:rotate(-90deg);
+    top:50%;
+    left:-15%;
+}
 article#ampliar>section span {
     position:absolute;
     height:20px;
@@ -39,10 +54,10 @@ article#ampliar>section>span.cerrar-der {
     left:calc(100% + 6px);
 }
 article#ampliar>section>button>span.pasar {
-    top:50%;
-}
-article#ampliar>section>button>span.pasar-izq {
-    left:-12.5%;
+    top:5px;
+    display:flex;
+    position:absolute;
+    padding:5px 10px;
 }
 article#ampliar>section>button>span.pasar-der {
     right:-12.5%;
