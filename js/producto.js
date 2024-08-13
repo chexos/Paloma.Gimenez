@@ -3,7 +3,6 @@ let imagenAmpliada = document.getElementById("imagenAmpliada");
 let sesion = document.getElementsByClassName("sesion");
 let figuraSesion = document.getElementsByClassName("figura-sesion");
 let estiloAmpliar = window.getComputedStyle(ampliar);
-let displayAmpliar;
 let altoImagen = document.getElementsByClassName("alto-imagen");
 let altoImagenIzq = document.getElementById("altoImagenIzq");
 let altoImagenDer = document.getElementById("altoImagenDer");
@@ -37,7 +36,7 @@ function intercambiarImagen(a) {
         console.log(img);
         imagenAmpliada.src = "imágenes/" + imagen[0];
     } else if (a == "der") {
-        
+
     }
 }
 altoImagenIzq.addEventListener("click", intercambiarImagen("izq"));
@@ -53,12 +52,11 @@ function resaltarUno(a) {
     figuraSesion[a].classList.toggle("resaltar");
 }
 function ampliarImagen(a) {
-    displayAmpliar = estiloAmpliar.display;
-    if (displayAmpliar != "flex") {
-        ampliar.style.display = "flex";
+    if (!ampliar.classList.contains("opacidad")) {
+        ampliar.classList.add("opacidad");
         imagenAmpliada.src = sesion[a].src;
     } else {
-        ampliar.style.display = "none";
+        ampliar.classList.remove("opacidad");
     }
 }
 for (let i = 0; i < figuraSesion.length; i++) {

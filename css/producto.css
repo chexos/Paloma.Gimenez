@@ -3,7 +3,7 @@ header#header article.menu section#menuMovil a:first-child {
 }
 article#ampliar {
     height:calc(100% - 30px);
-    display:none;
+    display:flex;
     position:fixed;
     z-index:2;
     top:30px;
@@ -11,6 +11,10 @@ article#ampliar {
     background-color:rgba(44,44,44,0.8);
     max-width:100%;
     width:100%;
+    opacity:0;
+}
+article#ampliar.opacidad {
+    opacity:1;
 }
 article#ampliar>section {
     display:flex;
