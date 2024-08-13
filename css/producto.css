@@ -21,7 +21,7 @@ article#ampliar>section {
 article#ampliar>section>section#altoImagenIzq {
     transform:rotate(-90deg);
 }
-article#ampliar>section>section>span {
+article#ampliar>section span {
     position:absolute;
     height:20px;
     width:20px;
@@ -29,11 +29,11 @@ article#ampliar>section>section>span {
     z-index:3;
     top:-10%;
 }
-article#ampliar>section>section>span.cerrar-izq {
+article#ampliar>section>span.cerrar-izq {
     transform:rotate(45deg);
     left:calc(100% - 6px);
 }
-article#ampliar>section>section>span.cerrar-der {
+article#ampliar>section>span.cerrar-der {
     transform:rotate(-45deg);
     left:calc(100% + 6px);
 }
