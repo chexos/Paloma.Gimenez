@@ -33,7 +33,7 @@ function intercambiarImagen(a) {
     if (a == "izq") {
         img = imagenAmpliada.src.slice(0, imagenAmpliada.src.length - 4);
         img = img.slice(img.length - 1, img.length);
-        console.log(img);
+        //console.log(img);
         imagenAmpliada.src = "imágenes/" + imagen[0];
     } else if (a == "der") {
 
@@ -42,8 +42,10 @@ function intercambiarImagen(a) {
 altoImagenIzq.addEventListener("click", intercambiarImagen("izq"));
 altoImagenDer.addEventListener("click", intercambiarImagen("der"));
 function asignarAltoImagen(a) {
+    console.log(imagenAmpliada.offsetHeight);
     altoImagen[a].style.height = imagenAmpliada.offsetHeight + "px";
 }
+altoImagen[0].addEventListener("onload", asignarAltoImagen(0));
 function eliminarResaltado(a) {
     figuraSesion[a].classList.remove("resaltar");
 }
@@ -62,11 +64,6 @@ function ampliarImagen(a) {
 for (let i = 0; i < figuraSesion.length; i++) {
     figuraSesion[i].addEventListener("touchstart", () => resaltarUno(i));
     figuraSesion[i].addEventListener("touchend", () => eliminarResaltado(i));
-    figuraSesion[i].addEventListener("click", () => {
-        ampliarImagen(i);
-        for (let l = 0; l < altoImagen.length; l++) {
-            asignarAltoImagen(0);
-        }
-    });
+    figuraSesion[i].addEventListener("click", () => ampliarImagen(i));
 }
 ampliar.addEventListener("click", () => ampliarImagen(0));
