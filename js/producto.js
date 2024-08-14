@@ -33,7 +33,7 @@ function intercambiarImagen(a) {
     if (a == "izq") {
         img = imagenAmpliada.src.slice(0, imagenAmpliada.src.length - 4);
         img = img.slice(img.length - 1, img.length);
-        //console.log(img);
+        console.log(img);
         imagenAmpliada.src = "imágenes/" + imagen[0];
     } else if (a == "der") {
 
@@ -66,4 +66,8 @@ for (let i = 0; i < figuraSesion.length; i++) {
     figuraSesion[i].addEventListener("touchend", () => eliminarResaltado(i));
     figuraSesion[i].addEventListener("click", () => ampliarImagen(i));
 }
-ampliar.addEventListener("click", () => ampliarImagen(0));
+ampliar.addEventListener("click", () => {
+    if (ampliar.classList.contains("opacidad")) {
+        ampliarImagen(0);
+    }
+})
