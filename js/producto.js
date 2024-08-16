@@ -30,17 +30,17 @@ imagen[18] = "Tamaño---Producto---603x670---gif---3.gif";
 imagen[19] = "Tamaño---Producto---603x670---gif---4.gif";
 imagen[20] = "Tamaño---Producto---603x670---gif---5.gif";
 function intercambiarImagen(a) {
-    if (a == "izq") {
+    if (a == 1) {
         img = imagenAmpliada.src.slice(0, imagenAmpliada.src.length - 4);
         img = img.slice(img.length - 1, img.length);
         console.log(img);
         imagenAmpliada.src = "imágenes/" + imagen[0];
-    } else if (a == "der") {
+    } else if (a == 2) {
         
     }
 }
-altoImagenIzq.addEventListener("click", intercambiarImagen("izq"));
-altoImagenDer.addEventListener("click", intercambiarImagen("der"));
+altoImagenIzq.addEventListener("click", intercambiarImagen(1));
+altoImagenDer.addEventListener("click", intercambiarImagen(2));
 function asignarAltoImagen(a) {
     console.log(imagenAmpliada.offsetHeight);
     altoImagen[a].style.height = imagenAmpliada.offsetHeight + "px";
@@ -67,7 +67,9 @@ for (let i = 0; i < figuraSesion.length; i++) {
     figuraSesion[i].addEventListener("click", () => ampliarImagen(i));
 }
 ampliar.addEventListener("click", () => {
-    if (ampliar.classList.contains("opacidad")) {
+    if (!ampliar.classList.contains("opacidad")) {
         ampliarImagen(0);
+    } else {
+        console.log("a");
     }
 })
