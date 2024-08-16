@@ -39,13 +39,13 @@ function intercambiarImagen(a) {
         
     }
 }
-altoImagenIzq.addEventListener("click", intercambiarImagen(1));
-altoImagenDer.addEventListener("click", intercambiarImagen(2));
+altoImagenIzq.addEventListener("click", () => intercambiarImagen(1));
+altoImagenDer.addEventListener("click", () => intercambiarImagen(2));
 function asignarAltoImagen(a) {
     console.log(imagenAmpliada.offsetHeight);
     altoImagen[a].style.height = imagenAmpliada.offsetHeight + "px";
 }
-altoImagen[0].addEventListener("onload", asignarAltoImagen(0));
+altoImagen[0].addEventListener("onload", () => asignarAltoImagen(0));
 function eliminarResaltado(a) {
     figuraSesion[a].classList.remove("resaltar");
 }
