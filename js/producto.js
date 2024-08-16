@@ -36,7 +36,7 @@ function intercambiarImagen(a) {
         console.log(img);
         imagenAmpliada.src = "imágenes/" + imagen[0];
     } else if (a == "der") {
-
+        
     }
 }
 altoImagenIzq.addEventListener("click", intercambiarImagen("izq"));

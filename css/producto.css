@@ -43,6 +43,7 @@ article#ampliar>section>button {
     transform:rotate(-90deg);
     top:50%;
     left:-15%;
+    z-index:6;
 }
 article#ampliar>section span {
     position:absolute;
