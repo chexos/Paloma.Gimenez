@@ -25,6 +25,7 @@ article#ampliar>section {
     position:absolute;
     max-width:calc(100% - 100px);
     width:100%;
+    z-index:3;
 }
 article#ampliar>section>section#altoImagenIzq {
     transform:rotate(-90deg);
