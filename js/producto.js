@@ -65,9 +65,11 @@ function ampliarImagen(a) {
     console.log(ampliar.classList.contains("opacidad"));
     console.log(a);
     if (a != - 1) {
+        ampliar.classList.add("opacidad");
         console.log(imagenAmpliada.src);
-        console.log(figuraSesion[a].src);
-        ampliar.src = figuraSesion[a].src;
+        console.log(sesion[a].src);
+        imagenAmpliada.src = sesion[a].src;
+        asignarAltoImagen();
     } else if (a == -1) {
         if (ampliar.classList.contains("opacidad")) {
             ampliar.classList.remove("opacidad");
