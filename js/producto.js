@@ -8,6 +8,7 @@ let altoImagenIzq = document.getElementById("altoImagenIzq");
 let altoImagenDer = document.getElementById("altoImagenDer");
 let imagen = new Array(21);
 let img;
+let estado = false;
 imagen[0] = "Tamaño - Producto - 603x670 - 1.png";
 imagen[1] = "Tamaño - Producto - 603x670 - 2.png";
 imagen[2] = "Tamaño - Producto - 603x670 - 3.png";
@@ -30,13 +31,15 @@ imagen[18] = "Tamaño---Producto---603x670---gif---3.gif";
 imagen[19] = "Tamaño---Producto---603x670---gif---4.gif";
 imagen[20] = "Tamaño---Producto---603x670---gif---5.gif";
 function intercambiarImagen(a) {
+    estado = true;
     if (a == 1) {
         img = imagenAmpliada.src.slice(0, imagenAmpliada.src.length - 4);
         img = img.slice(img.length - 1, img.length);
-        console.log(img);
         imagenAmpliada.src = "imágenes/" + imagen[0];
     } else if (a == 2) {
-        
+        img = imagenAmpliada.src.slice(0, imagenAmpliada.src.length - 4);
+        img = img.slice(img.length - 1, img.length);
+        imagenAmpliada.src = "imágenes/" + imagen[0];
     }
 }
 altoImagenIzq.addEventListener("click", () => intercambiarImagen(1));
@@ -54,23 +57,32 @@ function resaltarUno(a) {
     figuraSesion[a].classList.toggle("resaltar");
 }
 function ampliarImagen(a) {
-    if (!ampliar.classList.contains("opacidad")) {
-        ampliar.classList.add("opacidad");
-        imagenAmpliada.src = sesion[a].src;
-        asignarAltoImagen();
-    } else {
-        ampliar.classList.remove("opacidad");
+    console.log(estado);
+    if (estado == true) {
+        estado = false;
+        return;
+    }
+    console.log(ampliar.classList.contains("opacidad"));
+    console.log(a);
+    if (a != - 1) {
+        console.log(imagenAmpliada.src);
+        console.log(figuraSesion[a].src);
+        ampliar.src = figuraSesion[a].src;
+    } else if (a == -1) {
+        if (ampliar.classList.contains("opacidad")) {
+            ampliar.classList.remove("opacidad");
+        }
     }
 }
 for (let i = 0; i < figuraSesion.length; i++) {
     figuraSesion[i].addEventListener("touchstart", () => resaltarUno(i));
     figuraSesion[i].addEventListener("touchend", () => eliminarResaltado(i));
-    figuraSesion[i].addEventListener("click", () => ampliarImagen(i));
+    figuraSesion[i].addEventListener("click", () => {
+        console.log(i);
+        ampliarImagen(i);
+    });
 }
 ampliar.addEventListener("click", () => {
-    if (!ampliar.classList.contains("opacidad")) {
-        ampliarImagen(0);
-    } else {
-        console.log("a");
-    }
-})
+    console.log(0);
+    ampliarImagen(-1);
+});
