@@ -41,10 +41,16 @@ article#ampliar>section>button {
     flex-flow:row;
     justify-content:center;
     height:0px;
-    transform:rotate(-90deg);
     top:50%;
-    left:-15%;
     z-index:6;
+}
+article#ampliar>section>button#altoImagenIzq {
+    transform:rotate(-90deg);
+    left:-15%;
+}
+article#ampliar>section>button#altoImagenDer {
+    transform:rotate(90deg);
+    right:-15%;
 }
 article#ampliar>section span {
     position:absolute;
@@ -68,13 +74,12 @@ article#ampliar>section>button>span.pasar {
     position:absolute;
     padding:5px 10px;
 }
-article#ampliar>section>button>span.pasar-der {
-    right:-12.5%;
-}
-article#ampliar>section>button>span.pasar-izq-arr {
+article#ampliar>section>button>span.pasar-izq-arr,
+article#ampliar>section>button>span.pasar-der-arr {
     transform:rotate(45deg);
 }
-article#ampliar>section>button>span.pasar-izq-aba {
+article#ampliar>section>button>span.pasar-izq-aba,
+article#ampliar>section>button>span.pasar-der-aba {
     transform:rotate(-45deg);
 }
 article#ampliar>figure.ampliar {
