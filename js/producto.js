@@ -1,7 +1,7 @@
 let ampliar = document.getElementById("ampliar");
 let imagenAmpliada = document.getElementById("imagenAmpliada");
-let cambiarImagen;
-let nombreImagen = "file:///C:/Users/sgglm/OneDrive/Escritorio/sebastián/Proyectos/Paloma.Gimenez/Paloma.Gimenez/imagenes/";
+let cambiarImagen = "file:///C:/Users/sgglm/OneDrive/Escritorio/sebastián/Proyectos/Paloma.Gimenez/Paloma.Gimenez/imagenes/";
+let nombreImagen;
 let sesion = document.getElementsByClassName("sesion");
 let figuraSesion = document.getElementsByClassName("figura-sesion");
 let estiloAmpliar = window.getComputedStyle(ampliar);
@@ -31,27 +31,32 @@ imagen[15] = "Tama%C3%B1o-Producto-603x670-16.png";
 imagen[16] = "Tama%C3%B1o-Producto-603x670-17.gif";
 imagen[17] = "Tama%C3%B1o-Producto-603x670-18.png";
 imagen[18] = "Tama%C3%B1o-Producto-603x670-19.png";
-imagen[19] = "Tama%C3%B1o-Producto-603x670-20.png";
+imagen[19] = "Tama%C3%B1o-Producto-603x670-20.png";/*
 function verificarImagen(a) {
-    
-}
+    if (imagen[a].slice[nombreImagen.length - 3, nombreImagen.length] == "png")
+}*/
 function intercambiarImagen(a) {
+    console.log(a);
     estado = true;
     console.log(nombreImagen = imagenAmpliada.src.slice(107, imagenAmpliada.src.length));
-    console.log(cambiarImagen = "file:///C:/Users/sgglm/OneDrive/Escritorio/sebastián/Proyectos/Paloma.Gimenez/Paloma.Gimenez/imagenes/"
-                + imagen[0]);
     for (let i = 0; i < imagen.length; i++) {
         if (imagen[i] == nombreImagen) {
             if (a == 1) {
-                if (i == 0)
-                    imagenAmpliada.src = imagen[imagen.length - 2];
-                else
-                    imagenAmpliada.src = imagen[--i];
+                if (i == 0) {
+                    console.log(cambiarImagen + imagen[imagen.length - 2]);
+                    imagenAmpliada.src = cambiarImagen + imagen[imagen.length - 2];
+                } else {
+                    console.log(i);
+                    console.log(imagen[--i]);
+                    //imagenAmpliada.src = cambiarImagen + imagen[--i];
+                }
             } else if (a == 2) {
-                if (i == imagen.length)
-                    imagenAmpliada.src = imagen[0];
-                else
-                    imagenAmpliada.src = imagen[++i];
+                if (i == imagen.length - 2)
+                    imagenAmpliada.src = cambiarImagen + imagen[0];
+                else {
+                    console.log(i);
+                    imagenAmpliada.src = cambiarImagen + imagen[++i];
+                }
             }
         }
     }
