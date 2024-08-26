@@ -46,9 +46,7 @@ function intercambiarImagen(a) {
                     console.log(cambiarImagen + imagen[imagen.length - 2]);
                     imagenAmpliada.src = cambiarImagen + imagen[imagen.length - 2];
                 } else {
-                    console.log(i);
-                    console.log(imagen[--i]);
-                    //imagenAmpliada.src = cambiarImagen + imagen[--i];
+                    imagenAmpliada.src = cambiarImagen + imagen[--i];
                 }
             } else if (a == 2) {
                 if (i == imagen.length - 2)
