@@ -32,27 +32,28 @@ imagen[16] = "Tama%C3%B1o-Producto-603x670-17.gif";
 imagen[17] = "Tama%C3%B1o-Producto-603x670-18.png";
 imagen[18] = "Tama%C3%B1o-Producto-603x670-19.png";
 imagen[19] = "Tama%C3%B1o-Producto-603x670-20.png";
+function verificarImagen(a) {
+    
+}
 function intercambiarImagen(a) {
     estado = true;
-    if (a == 1) {
-        console.log(nombreImagen = imagenAmpliada.src.slice(107, imagenAmpliada.src.length));
-        console.log(cambiarImagen = "file:///C:/Users/sgglm/OneDrive/Escritorio/sebastián/Proyectos/Paloma.Gimenez/Paloma.Gimenez/imagenes/"
-                    + imagen[0]);
-        if (imagen[0] == nombreImagen) {
-            console.log(true);
-            console.log(nombreImagen);
-        } else {
-            console.log(imagen[0]);
+    console.log(nombreImagen = imagenAmpliada.src.slice(107, imagenAmpliada.src.length));
+    console.log(cambiarImagen = "file:///C:/Users/sgglm/OneDrive/Escritorio/sebastián/Proyectos/Paloma.Gimenez/Paloma.Gimenez/imagenes/"
+                + imagen[0]);
+    for (let i = 0; i < imagen.length; i++) {
+        if (imagen[i] == nombreImagen) {
+            if (a == 1) {
+                if (i == 0)
+                    imagenAmpliada.src = imagen[imagen.length - 2];
+                else
+                    imagenAmpliada.src = imagen[--i];
+            } else if (a == 2) {
+                if (i == imagen.length)
+                    imagenAmpliada.src = imagen[0];
+                else
+                    imagenAmpliada.src = imagen[++i];
+            }
         }
-        img = imagenAmpliada.src.slice(0, imagenAmpliada.src.length - 4);
-        console.log(img);
-        img = img.slice(img.length - 1, img.length);
-        console.log(img);
-        imagenAmpliada.src = cambiarImagen;
-    } else if (a == 2) {
-        img = imagenAmpliada.src.slice(0, imagenAmpliada.src.length - 4);
-        img = img.slice(img.length - 1, img.length);
-        imagenAmpliada.src = cambiarImagen;
     }
 }
 altoImagenIzq.addEventListener("click", () => intercambiarImagen(1));
