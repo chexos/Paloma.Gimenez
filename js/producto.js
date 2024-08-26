@@ -1,5 +1,6 @@
 let ampliar = document.getElementById("ampliar");
 let imagenAmpliada = document.getElementById("imagenAmpliada");
+let cambiarImagen;
 let sesion = document.getElementsByClassName("sesion");
 let figuraSesion = document.getElementsByClassName("figura-sesion");
 let estiloAmpliar = window.getComputedStyle(ampliar);
@@ -10,7 +11,7 @@ let img;
 let estado = false;
 let ruta = "C:/Users/sgglm/OneDrive/Escritorio/sebastián/Proyectos/Paloma.Gimenez/Paloma.Gimenez/";
 let imagen = new Array(21);
-imagen[0] = "Tamaño - Producto - 603x670 - 1.png";
+imagen[0] = "Tamaño-Producto-603x670-1.png";
 imagen[1] = "Tamaño - Producto - 603x670 - 2.png";
 imagen[2] = "Tamaño - Producto - 603x670 - 3.png";
 imagen[3] = "Tamaño - Producto - 603x670 - 4.png";
@@ -35,7 +36,7 @@ function intercambiarImagen(a) {
     estado = true;
     if (a == 1) {
         console.log(imagenAmpliada.src);
-        console.log("file:///C:/Users/sgglm/OneDrive/Escritorio/sebastián/Proyectos/Paloma.Gimenez/Paloma.Gimenez/"
+        console.log(cambiarImagen = "file:///C:/Users/sgglm/OneDrive/Escritorio/sebastián/Proyectos/Paloma.Gimenez/Paloma.Gimenez/imagenes/"
                     + imagen[0]);
         if (imagenAmpliada.src == imagen[0]) {
             console.log(imagenAmpliada.src);
@@ -46,11 +47,11 @@ function intercambiarImagen(a) {
         console.log(img);
         img = img.slice(img.length - 1, img.length);
         console.log(img);
-        imagenAmpliada.src = "imágenes/" + imagen[0];
+        imagenAmpliada.src = cambiarImagen;
     } else if (a == 2) {
         img = imagenAmpliada.src.slice(0, imagenAmpliada.src.length - 4);
         img = img.slice(img.length - 1, img.length);
-        imagenAmpliada.src = "imágenes/" + imagen[0];
+        imagenAmpliada.src = cambiarImagen;
     }
 }
 altoImagenIzq.addEventListener("click", () => intercambiarImagen(1));
