@@ -1,6 +1,7 @@
 let ampliar = document.getElementById("ampliar");
 let imagenAmpliada = document.getElementById("imagenAmpliada");
 let cambiarImagen;
+let nombreImagen = "file:///C:/Users/sgglm/OneDrive/Escritorio/sebastián/Proyectos/Paloma.Gimenez/Paloma.Gimenez/imagenes/";
 let sesion = document.getElementsByClassName("sesion");
 let figuraSesion = document.getElementsByClassName("figura-sesion");
 let estiloAmpliar = window.getComputedStyle(ampliar);
@@ -11,34 +12,35 @@ let img;
 let estado = false;
 let ruta = "C:/Users/sgglm/OneDrive/Escritorio/sebastián/Proyectos/Paloma.Gimenez/Paloma.Gimenez/";
 let imagen = new Array(21);
-imagen[0] = "Tamaño-Producto-603x670-1.png";
-imagen[1] = "Tamaño-Producto-603x670-2.png";
-imagen[2] = "Tamaño-Producto-603x670-3.png";
-imagen[3] = "Tamaño-Producto-603x670-4.png";
-imagen[4] = "Tamaño-Producto-603x670-5.png";
-imagen[5] = "Tamaño-Producto-603x670-6.png";
-imagen[6] = "Tamaño-Producto-603x670-7.png";
-imagen[7] = "Tamaño-Producto-603x670-8.png";
-imagen[8] = "Tamaño-Producto-603x670-9.gif";
-imagen[9] = "Tamaño-Producto-603x670-10.png";
-imagen[10] = "Tamaño-Producto-603x670-11.png";
-imagen[11] = "Tamaño-Producto-603x670-12.gif";
-imagen[12] = "Tamaño-Producto-603x670-13.gif";
-imagen[13] = "Tamaño-Producto-603x670-14.png";
-imagen[14] = "Tamaño-Producto-603x670-15.gif";
-imagen[15] = "Tamaño-Producto-603x670-16.png";
-imagen[16] = "Tamaño-Producto-603x670-17.gif";
-imagen[17] = "Tamaño-Producto-603x670-18.png";
-imagen[18] = "Tamaño-Producto-603x670-19.png";
-imagen[19] = "Tamaño-Producto-603x670-20.png";
+imagen[0] = "Tama%C3%B1o-Producto-603x670-1.png";
+imagen[1] = "Tama%C3%B1o-Producto-603x670-2.png";
+imagen[2] = "Tama%C3%B1o-Producto-603x670-3.png";
+imagen[3] = "Tama%C3%B1o-Producto-603x670-4.png";
+imagen[4] = "Tama%C3%B1o-Producto-603x670-5.png";
+imagen[5] = "Tama%C3%B1o-Producto-603x670-6.png";
+imagen[6] = "Tama%C3%B1o-Producto-603x670-7.png";
+imagen[7] = "Tama%C3%B1o-Producto-603x670-8.png";
+imagen[8] = "Tama%C3%B1o-Producto-603x670-9.gif";
+imagen[9] = "Tama%C3%B1o-Producto-603x670-10.png";
+imagen[10] = "Tama%C3%B1o-Producto-603x670-11.png";
+imagen[11] = "Tama%C3%B1o-Producto-603x670-12.gif";
+imagen[12] = "Tama%C3%B1o-Producto-603x670-13.gif";
+imagen[13] = "Tama%C3%B1o-Producto-603x670-14.png";
+imagen[14] = "Tama%C3%B1o-Producto-603x670-15.gif";
+imagen[15] = "Tama%C3%B1o-Producto-603x670-16.png";
+imagen[16] = "Tama%C3%B1o-Producto-603x670-17.gif";
+imagen[17] = "Tama%C3%B1o-Producto-603x670-18.png";
+imagen[18] = "Tama%C3%B1o-Producto-603x670-19.png";
+imagen[19] = "Tama%C3%B1o-Producto-603x670-20.png";
 function intercambiarImagen(a) {
     estado = true;
     if (a == 1) {
-        console.log(imagenAmpliada.src);
+        console.log(nombreImagen = imagenAmpliada.src.slice(107, imagenAmpliada.src.length));
         console.log(cambiarImagen = "file:///C:/Users/sgglm/OneDrive/Escritorio/sebastián/Proyectos/Paloma.Gimenez/Paloma.Gimenez/imagenes/"
                     + imagen[0]);
-        if (imagenAmpliada.src == imagen[0]) {
-            console.log(imagenAmpliada.src);
+        if (imagen[0] == nombreImagen) {
+            console.log(true);
+            console.log(nombreImagen);
         } else {
             console.log(imagen[0]);
         }
