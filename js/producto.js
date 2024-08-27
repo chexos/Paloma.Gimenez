@@ -35,7 +35,7 @@ imagen[19] = "Tama%C3%B1o-Producto-603x670-20.png";
 function intercambiarImagen(a) {
     console.log(a);
     estado = true;
-    console.log(nombreImagen = imagenAmpliada.src.slice(107, imagenAmpliada.src.length));
+    console.log(nombreImagen = imagenAmpliada.src.slice(49, imagenAmpliada.src.length));
     for (let i = 0; i < imagen.length; i++) {
         if (imagen[i] == nombreImagen) {
             if (a == 1) {
