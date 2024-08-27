@@ -135,4 +135,7 @@ main#principal>article>figure.resaltar>p {
     main#principal {
         margin:493px 344px 344px 344px;
     }
+    main#principal>article {
+        margin:0px 0px 26px 0px;
+    }
 }
