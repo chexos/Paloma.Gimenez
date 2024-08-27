@@ -1,6 +1,6 @@
 let ampliar = document.getElementById("ampliar");
 let imagenAmpliada = document.getElementById("imagenAmpliada");
-let cambiarImagen = "file:///C:/Users/sgglm/OneDrive/Escritorio/sebastián/Proyectos/Paloma.Gimenez/Paloma.Gimenez/imagenes/";
+let cambiarImagen = "https://chexos.github.io/Paloma.Gimenez/imagenes/";
 let nombreImagen;
 let sesion = document.getElementsByClassName("sesion");
 let figuraSesion = document.getElementsByClassName("figura-sesion");
