@@ -31,10 +31,7 @@ imagen[15] = "Tama%C3%B1o-Producto-603x670-16.png";
 imagen[16] = "Tama%C3%B1o-Producto-603x670-17.gif";
 imagen[17] = "Tama%C3%B1o-Producto-603x670-18.png";
 imagen[18] = "Tama%C3%B1o-Producto-603x670-19.png";
-imagen[19] = "Tama%C3%B1o-Producto-603x670-20.png";/*
-function verificarImagen(a) {
-    if (imagen[a].slice[nombreImagen.length - 3, nombreImagen.length] == "png")
-}*/
+imagen[19] = "Tama%C3%B1o-Producto-603x670-20.png";
 function intercambiarImagen(a) {
     console.log(a);
     estado = true;
@@ -43,17 +40,16 @@ function intercambiarImagen(a) {
         if (imagen[i] == nombreImagen) {
             if (a == 1) {
                 if (i == 0) {
-                    console.log(cambiarImagen + imagen[imagen.length - 2]);
                     imagenAmpliada.src = cambiarImagen + imagen[imagen.length - 2];
                 } else {
-                    imagenAmpliada.src = cambiarImagen + imagen[--i];
+                    imagenAmpliada.src = cambiarImagen + imagen[i - 1];
                 }
             } else if (a == 2) {
-                if (i == imagen.length - 2)
+                if (i == imagen.length - 2) {
                     imagenAmpliada.src = cambiarImagen + imagen[0];
+                }
                 else {
-                    console.log(i);
-                    imagenAmpliada.src = cambiarImagen + imagen[++i];
+                    imagenAmpliada.src = cambiarImagen + imagen[i + 1];
                 }
             }
         }
