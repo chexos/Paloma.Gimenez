@@ -8,3 +8,6 @@ footer>header,
 footer>main {
     background-color:rgb(44,44,44);
 }
+footer>main>section>a {
+    color:rgb(245,222,222);
+}
