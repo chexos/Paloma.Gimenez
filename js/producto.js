@@ -33,9 +33,8 @@ imagen[17] = "Tama%C3%B1o-Producto-603x670-18.png";
 imagen[18] = "Tama%C3%B1o-Producto-603x670-19.png";
 imagen[19] = "Tama%C3%B1o-Producto-603x670-20.png";
 function intercambiarImagen(a) {
-    console.log(a);
     estado = true;
-    console.log(nombreImagen = imagenAmpliada.src.slice(49, imagenAmpliada.src.length));
+    nombreImagen = imagenAmpliada.src.slice(49, imagenAmpliada.src.length);
     for (let i = 0; i < imagen.length; i++) {
         if (imagen[i] == nombreImagen) {
             if (a == 1) {
@@ -58,7 +57,6 @@ function intercambiarImagen(a) {
 altoImagenIzq.addEventListener("click", () => intercambiarImagen(1));
 altoImagenDer.addEventListener("click", () => intercambiarImagen(2));
 function asignarAltoImagen() {
-    console.log(imagenAmpliada.offsetHeight);
     altoImagen[0].style.height = imagenAmpliada.offsetHeight + "px";
 }
 altoImagen[0].addEventListener("onload", asignarAltoImagen());
@@ -70,17 +68,12 @@ function resaltarUno(a) {
     figuraSesion[a].classList.toggle("resaltar");
 }
 function ampliarImagen(a) {
-    console.log(estado);
     if (estado == true) {
         estado = false;
         return;
     }
-    console.log(ampliar.classList.contains("opacidad"));
-    console.log(a);
     if (a != - 1) {
         ampliar.classList.add("opacidad");
-        console.log(imagenAmpliada.src);
-        console.log(sesion[a].src);
         imagenAmpliada.src = sesion[a].src;
         asignarAltoImagen();
     } else if (a == -1) {
@@ -93,11 +86,9 @@ for (let i = 0; i < figuraSesion.length; i++) {
     figuraSesion[i].addEventListener("touchstart", () => resaltarUno(i));
     figuraSesion[i].addEventListener("touchend", () => eliminarResaltado(i));
     figuraSesion[i].addEventListener("click", () => {
-        console.log(i);
         ampliarImagen(i);
     });
 }
 ampliar.addEventListener("click", () => {
-    console.log(0);
     ampliarImagen(-1);
 });
