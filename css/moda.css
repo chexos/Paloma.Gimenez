@@ -56,6 +56,7 @@ main#principal>a>p {
     main#principal {
         margin:493px 214px 344px 214px;
         column-gap:26px;
+        justify-content:initial;
     }
     main#principal>a {
         width:33%;
