@@ -151,6 +151,10 @@ main#principal>article>figure.resaltar>p {
         height:auto;
         width:auto;
     }
+    article#ampliar>section span {
+        height:50px;
+        width:50px;
+    }
     article#ampliar>section>span.cerrar-izq {
         left:calc(100% - 16px);
     }
