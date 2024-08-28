@@ -4,9 +4,16 @@
     }
     main#principal>section:first-child {
         display:flex;
-        flex-flow:row;
+        flex-flow:column;
         flex-wrap:wrap;
         justify-content:center;
         align-items:center;
+        margin:0px 0px 85px 0px;
+        text-align:center;
+    }
+    main#principal>section>section {
+        display:flex;
+        flex-flow:row;
+        flex-wrap:wrap;
     }
 }
