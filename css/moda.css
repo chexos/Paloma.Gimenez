@@ -34,7 +34,7 @@ main#principal>a>section {
 main#principal>a>section>p {
     flex:1;
     margin:0px;
-    font-size:8pt;
+    font-size:4.5pt;
     font-family:"Hurme Light";
 }
 main#principal>a>section>p:last-child {
@@ -44,10 +44,11 @@ main#principal>a>section>p:last-child {
 main#principal>a>header>h1 {
     margin:0px;
     font-family:"Hurme";
+    font-size:10.5pt;
 }
 main#principal>a>p {
     margin:0px;
-    font-size:9pt;
+    font-size:4pt;
     font-family:"Hurme Light";
 }
 @media screen and (min-width: 1920px) {
