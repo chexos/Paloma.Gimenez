@@ -1,0 +1,12 @@
+@media screen and (min-width: 1920px) {
+    main#principal {
+        flex-flow:column;
+    }
+    main#principal>section:first-child {
+        display:flex;
+        flex-flow:row;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+    }
+}
