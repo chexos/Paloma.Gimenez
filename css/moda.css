@@ -37,8 +37,8 @@ main#principal>article>p {
 @media screen and (min-width: 1920px) {
     main#principal {
         margin:493px 214px 344px 214px;
-    }
+    }/*
     main#principal>article {
         margin:0px 0px 85px 0px;
-    }
+    }*/
 }
