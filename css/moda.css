@@ -57,6 +57,7 @@ main#principal>a>p {
     main#principal>a {
         width:33%;
         column-gap:26px;
+        margin:0px;
         /*
         margin:0px 0px 85px 0px;*/
     }
