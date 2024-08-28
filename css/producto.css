@@ -154,11 +154,12 @@ main#principal>article>figure.resaltar>p {
     article#ampliar>section span {
         height:50px;
         width:50px;
+        top:-5%;
     }
     article#ampliar>section>span.cerrar-izq {
-        left:calc(100% - 16px);
+        left:calc(95% - 16px);
     }
     article#ampliar>section>span.cerrar-der {
-        left:calc(100% + 16px);
+        left:calc(95% + 16px);
     }
 }
