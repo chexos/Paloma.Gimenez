@@ -10,7 +10,7 @@ main#principal {
 }
 main#principal>article {
     display:flex;
-    flex-flow:row;
+    flex-flow:column;
     flex-wrap:wrap;
     flex:1;
     margin:0 0 17px 0;
