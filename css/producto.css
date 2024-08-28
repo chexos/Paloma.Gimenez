@@ -143,4 +143,7 @@ main#principal>article>figure.resaltar>p {
         top:149px;
         padding:100px;
     }
+    article#ampliar>section {
+        max-width:calc(100% - 200px);
+    }
 }
