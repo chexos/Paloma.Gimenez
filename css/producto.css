@@ -140,5 +140,6 @@ main#principal>article>figure.resaltar>p {
     }
     article#ampliar {
         height:calc(100% - 149px);
+        top:149px;
     }
 }
