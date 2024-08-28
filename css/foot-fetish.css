@@ -16,4 +16,11 @@
         flex-wrap:wrap;
         width:100%;
     }
+    main#principal>section>section>p {
+        display:flex;
+        flex:1;
+    }
+    main#principal>section>section>p:last-child {
+        justify-content:flex-end;
+    }
 }
