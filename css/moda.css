@@ -8,28 +8,34 @@ main#principal {
     margin:55.6px;
     column-gap:5.25px;
 }
-main#principal>article {
+main#principal>a {
     display:flex;
     flex-flow:column;
     flex-wrap:wrap;
     margin:0px 0px 17px 0px;
+    text-decoration:none;
+    color:black;
 }
-main#principal>article>section {
+main#principal>a>section {
     display:flex;
     flex-flow:row;
     flex-wrap:wrap;
 }
-main#principal>article>section>p {
+main#principal>a>section>p {
     flex:1;
     margin:0px;
     font-size:8pt;
     font-family:"Hurme Light";
 }
-main#principal>article>header>h1 {
+main#principal>a>section>p:last-child {
+    display:flex;
+    justify-content:flex-end;
+}
+main#principal>a>header>h1 {
     margin:0px;
     font-family:"Hurme";
 }
-main#principal>article>p {
+main#principal>a>p {
     margin:0px;
     font-size:9pt;
     font-family:"Hurme Light";
@@ -38,7 +44,7 @@ main#principal>article>p {
     main#principal {
         margin:493px 214px 344px 214px;
     }
-    main#principal>article {
+    main#principal>a {
         margin:0px 26px 0px 0px;
         /*
         margin:0px 0px 85px 0px;*/
