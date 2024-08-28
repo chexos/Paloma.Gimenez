@@ -151,6 +151,9 @@ main#principal>article>figure.resaltar>p {
         height:auto;
         width:auto;
     }
+    article#ampliar>section>button {
+        padding:25px 45px;
+    }
     article#ampliar>section span {
         height:50px;
         width:50px;
@@ -167,5 +170,8 @@ main#principal>article>figure.resaltar>p {
     }
     article#ampliar>section>button#altoImagenDer {
         right:5%;
+    }
+    article#ampliar>section>button>span.pasar {
+        top:15px;
     }
 }
