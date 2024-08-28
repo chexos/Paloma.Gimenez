@@ -158,6 +158,7 @@ main#principal>article>figure.resaltar>p {
         height:50px;
         width:50px;
         top:-5%;
+        border-top:5px solid white;
     }
     article#ampliar>section>span.cerrar-izq {
         left:calc(95% - 16px);
