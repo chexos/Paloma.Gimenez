@@ -155,6 +155,6 @@ main#principal>article>figure.resaltar>p {
         left:calc(100% - 16px);
     }
     article#ampliar>section>span.cerrar-der {
-        
+        left:calc(100% + 16px);
     }
 }
