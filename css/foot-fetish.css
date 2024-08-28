@@ -26,4 +26,7 @@
     main#principal>section>section>p:last-child {
         justify-content:flex-end;
     }
+    main#principal>section>p {
+        font-size:20pt;
+    }
 }
