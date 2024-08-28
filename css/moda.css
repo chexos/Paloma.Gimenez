@@ -35,3 +35,8 @@ main#principal>article>p {
     font-size:9pt;
     font-family:"Hurme Light";
 }
+@media screen and (min-width: 1920px) {
+    main#principal {
+        margin:493px 214px 344px 214px;
+    }
+}
