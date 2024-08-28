@@ -65,6 +65,7 @@ main#principal>a>p {
         margin:0px 0px 85px 0px;*/
     }
     main#principal>a>section>p {
+        max-height:calc(100% / 2);
         font-size:16pt;
     }
     main#principal>a>header>h1 {
