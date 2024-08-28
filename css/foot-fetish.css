@@ -1,6 +1,11 @@
 main#principal>section>section {
     color:rgb(87,87,86);
 }
+main#principal>section:nth-child(2) {
+    display:flex;
+    flex-flow:row;
+    flex-wrap:wrap;
+}
 @media screen and (min-width: 1920px) {
     main#principal {
         flex-flow:column;
