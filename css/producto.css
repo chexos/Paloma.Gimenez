@@ -147,6 +147,6 @@ main#principal>article>figure.resaltar>p {
         max-width:calc(100% - 200px);
     }
     article#ampliar>figure.ampliar {
-        justify-content:center;
+        margin:0 auto;
     }
 }
