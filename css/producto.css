@@ -162,4 +162,10 @@ main#principal>article>figure.resaltar>p {
     article#ampliar>section>span.cerrar-der {
         left:calc(95% + 16px);
     }
+    article#ampliar>section>button#altoImagenIzq {
+        left:5%;
+    }
+    article#ampliar>section>button#altoImagenDer {
+        right:5%;
+    }
 }
