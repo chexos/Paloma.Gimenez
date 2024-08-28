@@ -12,7 +12,7 @@ main#principal>article {
     display:flex;
     flex-flow:column;
     flex-wrap:wrap;
-    margin:0 0 17px 0;
+    margin:0px 0px 17px 0px;
 }
 main#principal>article>section {
     display:flex;
@@ -21,21 +21,24 @@ main#principal>article>section {
 }
 main#principal>article>section>p {
     flex:1;
-    margin:0;
+    margin:0px;
     font-size:8pt;
     font-family:"Hurme Light";
 }
 main#principal>article>header>h1 {
-    margin:0;
+    margin:0px;
     font-family:"Hurme";
 }
 main#principal>article>p {
-    margin:0;
+    margin:0px;
     font-size:9pt;
     font-family:"Hurme Light";
 }
 @media screen and (min-width: 1920px) {
     main#principal {
         margin:493px 214px 344px 214px;
+    }
+    main#principal>article {
+        margin:0px 0px 85px 0px;
     }
 }
