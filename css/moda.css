@@ -11,8 +11,8 @@ main#principal {
 main#principal>a {
     display:flex;
     flex-flow:column;
-    flex-wrap:wrap;
-    margin:0px 0px 17px 0px;
+    flex-wrap:wrap;/*
+    margin:0px 0px 17px 0px;*/
     text-decoration:none;
     color:black;
     width:48%;
