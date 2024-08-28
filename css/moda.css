@@ -15,6 +15,13 @@ main#principal>a {
     margin:0px 0px 17px 0px;
     text-decoration:none;
     color:black;
+    width:100%;
+}
+main#principal>a>figure {
+    width:100%;
+}
+main#principal>a>figure>img {
+    width:100%;
 }
 main#principal>a>section {
     display:flex;
