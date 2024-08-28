@@ -12,10 +12,10 @@ main#principal>a {
     display:flex;
     flex-flow:column;
     flex-wrap:wrap;
-    margin:0px 0px 17px 0px;
+    margin:0px 0px 5.25px 0px;
     text-decoration:none;
     color:black;
-    width:100%;
+    width:50%;
 }
 main#principal>a:last-child {
     margin:0px;
