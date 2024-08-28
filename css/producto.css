@@ -161,10 +161,14 @@ main#principal>article>figure.resaltar>p {
         border-top:5px solid white;
     }
     article#ampliar>section>span.cerrar-izq {
-        left:calc(95% - 16px);
+        right:7.5%;
     }
     article#ampliar>section>span.cerrar-der {
-        left:calc(95% + 16px);
+        right:5.7%;
+    }
+    article#ampliar>section>span.cerrar-izq,
+    article#ampliar>section>span.cerrar-der {
+        left:auto;
     }
     article#ampliar>section>button#altoImagenIzq {
         left:5%;
