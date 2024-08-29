@@ -6,6 +6,19 @@ main#principal>section:nth-child(2) {
     flex-flow:row;
     flex-wrap:wrap;
 }
+main#principal>section:nth-child(3) {
+    display:flex;
+    flex-flow:column;
+    flex-wrap:wrap;
+    align-items:center;
+    align-self:center;
+}
+main#principal>section:nth-child(3)>p {
+    font-family:"Hurme Semi Bold";
+}
+main#principal>section:nth-child(3)>p>span {
+    font-family:"Hurme";
+}
 @media screen and (min-width: 1920px) {
     main#principal {
         flex-flow:column;
