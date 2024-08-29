@@ -16,8 +16,15 @@ main#principal>section:nth-child(3) {
 main#principal>section:nth-child(3)>p {
     font-family:"Hurme Semi Bold";
 }
+main#principal>section:nth-child(3)>p:last-of-type {
+    margin:0px 0px 85px 0px;
+}
 main#principal>section:nth-child(3)>p>span {
     font-family:"Hurme";
+}
+main#principal>section:nth-child(3)>footer {
+    background-color:white;
+    padding:0px;
 }
 @media screen and (min-width: 1920px) {
     main#principal {
