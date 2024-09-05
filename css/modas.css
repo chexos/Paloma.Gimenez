@@ -9,3 +9,8 @@ main#principal>section>header>h1 {
     font-family:"Hurme";
     text-align:center;
 }
+main#principal>section>section {
+    display:flex;
+    flex-flow:row;
+    flex-wrap:wrap;
+}
