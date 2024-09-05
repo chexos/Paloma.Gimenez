@@ -14,3 +14,6 @@ main#principal>section>section {
     flex-flow:row;
     flex-wrap:wrap;
 }
+main#principal>section>section>p {
+    flex:1;
+}
