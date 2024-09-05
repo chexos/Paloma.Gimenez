@@ -4,3 +4,8 @@ main#principal {
     margin:0px;
     padding:55.6px;
 }
+main#principal>section>header>h1 {
+    font-size:16pt;
+    font-family:"Hurme";
+    text-align:center;
+}
