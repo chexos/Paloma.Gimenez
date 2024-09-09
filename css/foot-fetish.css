@@ -16,15 +16,15 @@ main#principal>section>article {
 main#principal>section>article.articulo-sesion-480x670 {
     max-width:48%;
     width:48%;
-}
+}/*
 main#principal>section>article>figure.figura-sesion-480x670 {
-}
+}*/
 main#principal>section>article>figure>img {
     max-width:100%;
     width:100%;
-}
+}/*
 main#principal>section>article>figure>img.sesion-480x670 {
-}
+}*/
 main#principal>section:nth-child(3) {
     display:flex;
     flex-flow:column;
