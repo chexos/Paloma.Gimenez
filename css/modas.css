@@ -16,4 +16,12 @@ main#principal>section>section {
 }
 main#principal>section>section>p {
     flex:1;
+    font-size:6pt;
+}
+main#principal>section>section>p:last-child {
+    display:flex;
+    justify-content:flex-end;
+}
+main#principal>section>p {
+    font-size:5.5pt;
 }
