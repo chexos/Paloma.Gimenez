@@ -5,6 +5,16 @@ main#principal>section:nth-child(2) {
     display:flex;
     flex-flow:row;
     flex-wrap:wrap;
+    max-width:100%;
+    width:100%;
+}
+main#principal>section>article {
+    max-width:100%;
+    width:100%;
+}
+main#principal>section>article>figure>img {
+    max-width:100%;
+    width:100%;
 }
 main#principal>section:nth-child(3) {
     display:flex;
