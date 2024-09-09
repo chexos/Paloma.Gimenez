@@ -60,6 +60,11 @@ main#principal>section:nth-child(3)>footer>a {
     color:rgb(242,177,162);
     font-family:"Hurme";
 }
+main#principal>section:nth-child(3)>footer>p,
+main#principal>section:nth-child(3)>footer>a {
+    max-width:100%;
+    width:100%;
+}
 @media screen and (min-width: 1920px) {
     main#principal {
         flex-flow:column;
