@@ -51,11 +51,9 @@ main#principal>section:nth-child(3)>footer {
 }
 main#principal>section:nth-child(3)>footer>p {
     font-family:"Hurme Semi Bold";
-    font-size:20pt;
     margin:0px 0px 30px 0px;
 }
 main#principal>section:nth-child(3)>footer>a {
-    font-size:20pt;
     text-decoration:none;
     color:rgb(242,177,162);
     font-family:"Hurme";
@@ -64,6 +62,7 @@ main#principal>section:nth-child(3)>footer>p,
 main#principal>section:nth-child(3)>footer>a {
     max-width:100%;
     width:100%;
+    font-size:11pt;
 }
 @media screen and (min-width: 1920px) {
     main#principal {
