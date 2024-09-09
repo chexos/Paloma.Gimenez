@@ -7,15 +7,18 @@ main#principal>section:nth-child(2) {
     flex-wrap:wrap;
     max-width:100%;
     width:100%;
-    gap:5.25px;
 }
 main#principal>section>article {
     max-width:100%;
     width:100%;
+    margin:0px 0px 5.25px 0px;
 }
 main#principal>section>article.articulo-sesion-480x670 {
-    max-width:48%;
-    width:48%;
+    max-width:48.9%;
+    width:48.9%;
+}
+main#principal>section>article.margen-sesion-480x670 {
+    margin:0px 5.25px 5.25px 0px;
 }/*
 main#principal>section>article>figure.figura-sesion-480x670 {
 }*/
