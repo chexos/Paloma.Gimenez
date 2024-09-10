@@ -85,8 +85,44 @@ function intercambiarImagen(a) {
                 }
             }
         }
-    } else if (locacion == "") {
-        
+    } else if (locacion == "foot-fetish") {
+        for (let i = 0; i < fetichePie.length; i++) {
+            if (fetichePie[i] == nombreImagen) {
+                if (a == 1) {
+                    if (i == 0) {
+                        imagenAmpliada.src = cambiarImagen + fetichePie[fetichePie.length - 2];
+                    } else {
+                        imagenAmpliada.src = cambiarImagen + fetichePie[i - 1];
+                    }
+                } else if (a == 2) {
+                    if (i == produfetichePiecto.length - 2) {
+                        imagenAmpliada.src = cambiarImagen + fetichePie[0];
+                    }
+                    else {
+                        imagenAmpliada.src = cambiarImagen + fetichePie[i + 1];
+                    }
+                }
+            }
+        }
+    } else if (locacion == "colapso") {
+        for (let i = 0; i < colapso.length; i++) {
+            if (colapso[i] == nombreImagen) {
+                if (a == 1) {
+                    if (i == 0) {
+                        imagenAmpliada.src = cambiarImagen + colapso[colapso.length - 2];
+                    } else {
+                        imagenAmpliada.src = cambiarImagen + colapso[i - 1];
+                    }
+                } else if (a == 2) {
+                    if (i == colapso.length - 2) {
+                        imagenAmpliada.src = cambiarImagen + colapso[0];
+                    }
+                    else {
+                        imagenAmpliada.src = cambiarImagen + colapso[i + 1];
+                    }
+                }
+            }
+        }
     }
 }
 altoImagenIzq.addEventListener("click", () => intercambiarImagen(1));
