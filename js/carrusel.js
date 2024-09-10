@@ -95,7 +95,7 @@ function intercambiarImagen(a) {
                         imagenAmpliada.src = cambiarImagen + fetichePie[i - 1];
                     }
                 } else if (a == 2) {
-                    if (i == produfetichePiecto.length - 2) {
+                    if (i == fetichePie.length - 2) {
                         imagenAmpliada.src = cambiarImagen + fetichePie[0];
                     }
                     else {
