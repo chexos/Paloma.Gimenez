@@ -1,6 +1,3 @@
-header#header article.menu section#menuMovil a:first-child {
-    color:rgb(245,222,222);
-}
 header#header article.menu section#menuMovil a:nth-child(3) {
     color:rgb(242,177,162);
 }
