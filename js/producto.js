@@ -48,19 +48,16 @@ fetichePie[11] = "Tamaño-Moda-480x670-FootFetish-9.png";
 fetichePie[12] = "Tamaño-Moda-480x670-FootFetish-10.png";
 fetichePie[13] = "Tamaño-Moda-480x670-FootFetish-11.png";
 let colapso = new Array(14);
-colapso[0] = "Tamaño-Moda-986x670-FootFetish.png";
-colapso[1] = "Tamaño-Moda-986x670-FootFetish-2.png";
-colapso[2] = "Tamaño-Moda-480x670-FootFetish.png";
-colapso[3] = "Tamaño-Moda-480x670-FootFetish-2.png";
-colapso[4] = "Tamaño-Moda-480x670-FootFetish-3.png";
-colapso[5] = "Tamaño-Moda-480x670-FootFetish-4.png";
-colapso[6] = "Tamaño-Moda-480x670-FootFetish-5.png";
-colapso[7] = "Tamaño-Moda-480x670-FootFetish-6.png";
-colapso[8] = "Tamaño-Moda-480x670-FootFetish-7.png";
-colapso[9] = "Tamaño-Moda-480x670-FootFetish-8.png";
-colapso[10] = "Tamaño-Moda-480x670-FootFetish-9.png";
-colapso[11] = "Tamaño-Moda-480x670-FootFetish-10.png";
-colapso[12] = "Tamaño-Moda-480x670-FootFetish-11.png";
+colapso[0] = "Tamaño-Moda-480x360-Colapso.png";
+colapso[1] = "Tamaño-Moda-480x670-Colapso-1.png";
+colapso[2] = "Tamaño-Moda-480x670-Colapso-2.png";
+colapso[3] = "Tamaño-Moda-480x670-Colapso-3.png";
+colapso[4] = "Tamaño-Moda-480x670-Colapso-4.png";
+colapso[5] = "Tamaño-Moda-480x670-Colapso-5.png";
+colapso[6] = "Tamaño-Moda-480x670-Colapso-6.png";
+colapso[7] = "Tamaño-Moda-480x670-Colapso-7.png";
+colapso[8] = "Tamaño-Moda-480x670-Colapso-8.png";
+colapso[9] = "Tamaño-Moda-480x670-Colapso-9.png";
 function intercambiarImagen(a) {
     estado = true;
     nombreImagen = imagenAmpliada.src.slice(49, imagenAmpliada.src.length);
@@ -73,11 +70,11 @@ function intercambiarImagen(a) {
                     imagenAmpliada.src = cambiarImagen + producto[i - 1];
                 }
             } else if (a == 2) {
-                if (i == imagen.length - 2) {
-                    imagenAmpliada.src = cambiarImagen + imagen[0];
+                if (i == producto.length - 2) {
+                    imagenAmpliada.src = cambiarImagen + producto[0];
                 }
                 else {
-                    imagenAmpliada.src = cambiarImagen + imagen[i + 1];
+                    imagenAmpliada.src = cambiarImagen + producto[i + 1];
                 }
             }
         }
