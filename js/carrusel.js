@@ -11,7 +11,7 @@ let altoImagenDer = document.getElementById("altoImagenDer");
 let img;
 let estado = false;
 let ruta = "C:/Users/sgglm/OneDrive/Escritorio/sebastián/Proyectos/Paloma.Gimenez/Paloma.Gimenez/";
-let producto = new Array(21);
+let producto = new Array(20);
 producto[0] = "Tama%C3%B1o-Producto-603x670-1.png";
 producto[1] = "Tama%C3%B1o-Producto-603x670-2.png";
 producto[2] = "Tama%C3%B1o-Producto-603x670-3.png";
