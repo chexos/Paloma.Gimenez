@@ -58,26 +58,35 @@ colapso[6] = "Tamaño-Moda-480x670-Colapso-6.png";
 colapso[7] = "Tamaño-Moda-480x670-Colapso-7.png";
 colapso[8] = "Tamaño-Moda-480x670-Colapso-8.png";
 colapso[9] = "Tamaño-Moda-480x670-Colapso-9.png";
+let locacion;
+function conseguirLocacion() { 
+    locacion = location.pathname.slice(16, location.pathname.length - 5);
+}
+document.addEventListener("DOMContentLoaded", conseguirLocacion);
 function intercambiarImagen(a) {
     estado = true;
     nombreImagen = imagenAmpliada.src.slice(49, imagenAmpliada.src.length);
-    for (let i = 0; i < producto.length; i++) {
-        if (producto[i] == nombreImagen) {
-            if (a == 1) {
-                if (i == 0) {
-                    imagenAmpliada.src = cambiarImagen + producto[producto.length - 2];
-                } else {
-                    imagenAmpliada.src = cambiarImagen + producto[i - 1];
-                }
-            } else if (a == 2) {
-                if (i == producto.length - 2) {
-                    imagenAmpliada.src = cambiarImagen + producto[0];
-                }
-                else {
-                    imagenAmpliada.src = cambiarImagen + producto[i + 1];
+    if (locacion = "producto") {
+        for (let i = 0; i < producto.length; i++) {
+            if (producto[i] == nombreImagen) {
+                if (a == 1) {
+                    if (i == 0) {
+                        imagenAmpliada.src = cambiarImagen + producto[producto.length - 2];
+                    } else {
+                        imagenAmpliada.src = cambiarImagen + producto[i - 1];
+                    }
+                } else if (a == 2) {
+                    if (i == producto.length - 2) {
+                        imagenAmpliada.src = cambiarImagen + producto[0];
+                    }
+                    else {
+                        imagenAmpliada.src = cambiarImagen + producto[i + 1];
+                    }
                 }
             }
         }
+    } else if (locacion == "") {
+        
     }
 }
 altoImagenIzq.addEventListener("click", () => intercambiarImagen(1));
