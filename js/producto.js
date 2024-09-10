@@ -64,7 +64,7 @@ colapso[12] = "Tamaño-Moda-480x670-FootFetish-11.png";
 function intercambiarImagen(a) {
     estado = true;
     nombreImagen = imagenAmpliada.src.slice(49, imagenAmpliada.src.length);
-    for (let i = 0; i < v.length; i++) {
+    for (let i = 0; i < producto.length; i++) {
         if (producto[i] == nombreImagen) {
             if (a == 1) {
                 if (i == 0) {
