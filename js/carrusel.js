@@ -63,10 +63,11 @@ function conseguirLocacion() {
     locacion = location.pathname.slice(16, location.pathname.length - 5);
 }
 document.addEventListener("DOMContentLoaded", conseguirLocacion);
+document.addEventListener("unload", conseguirLocacion);
 function intercambiarImagen(a) {
     estado = true;
     nombreImagen = imagenAmpliada.src.slice(49, imagenAmpliada.src.length);
-    if (locacion = "producto") {
+    if (locacion == "producto") {
         for (let i = 0; i < producto.length; i++) {
             if (producto[i] == nombreImagen) {
                 if (a == 1) {
@@ -86,6 +87,7 @@ function intercambiarImagen(a) {
             }
         }
     } else if (locacion == "foot-fetish") {
+        console.log("a");
         for (let i = 0; i < fetichePie.length; i++) {
             if (fetichePie[i] == nombreImagen) {
                 if (a == 1) {
