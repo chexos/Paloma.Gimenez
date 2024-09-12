@@ -113,7 +113,7 @@ main#principal>section:nth-child(3)>footer>a {
     main#principal>section>p>br.parrafo-movil {
         display:none;
     }
-    main#principal>section>p>br.parrafo-escritorio {
+    main#principal>section:nth-child(1)>p>br.parrafo-escritorio {
         display:flex;
     }
 }
