@@ -72,7 +72,7 @@ function intercambiarImagen(a) {
             if (producto[i] == nombreImagen) {
                 if (a == 1) {
                     if (i == 0) {
-                        imagenAmpliada.src = cambiarImagen + producto[producto.length - 2];
+                        imagenAmpliada.src = cambiarImagen + producto[producto.length - 1];
                     } else {
                         imagenAmpliada.src = cambiarImagen + producto[i - 1];
                     }
