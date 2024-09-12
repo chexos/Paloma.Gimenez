@@ -47,7 +47,7 @@ fetichePie[10] = "Tama%C3%B1o-Moda-480x670-FootFetish-11.png";
 fetichePie[11] = "Tama%C3%B1o-Moda-480x670-FootFetish-12.png";
 //fetichePie[12] = "Tama%C3%B1o-Moda-480x670-FootFetish-10.png";
 //fetichePie[13] = "Tama%C3%B1o-Moda-480x670-FootFetish-11.png";
-let colapso = new Array(9);
+let colapso = new Array(8);
 colapso[0] = "Tama%C3%B1o-Moda-480x670-Colapso-1.png";
 colapso[1] = "Tama%C3%B1o-Moda-480x670-Colapso-2.png";
 colapso[2] = "Tama%C3%B1o-Moda-480x670-Colapso-3.png";
@@ -56,7 +56,7 @@ colapso[4] = "Tama%C3%B1o-Moda-480x670-Colapso-5.png";
 colapso[5] = "Tama%C3%B1o-Moda-480x670-Colapso-6.png";
 colapso[6] = "Tama%C3%B1o-Moda-480x670-Colapso-7.png";
 colapso[7] = "Tama%C3%B1o-Moda-480x670-Colapso-8.png";
-colapso[8] = "Tama%C3%B1o-Moda-480x670-Colapso-9.png";
+//colapso[8] = "Tama%C3%B1o-Moda-480x670-Colapso-9.png";
 //colapso[9] = "Tama%C3%B1o-Moda-480x670-Colapso-10.png";
 let locacion;
 function conseguirLocacion() { 
