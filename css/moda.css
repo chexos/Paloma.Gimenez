@@ -40,6 +40,8 @@ main#principal>a>section>p {
     margin:0px;
     font-size:4.5pt;
     font-family:"Hurme Light";
+    display:flex;
+    align-self:center;
 }
 main#principal>a>section>p:last-child {
     display:flex;
