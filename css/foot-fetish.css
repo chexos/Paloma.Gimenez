@@ -108,7 +108,7 @@ main#principal>section:nth-child(3)>footer>a {
         justify-content:flex-end;
     }
     main#principal>section>p {
-        font-size:20pt;
+        font-size:24pt;
     }
     main#principal>section>p>br.parrafo-movil {
         display:none;
