@@ -42,6 +42,7 @@ main#principal>section:nth-child(3) {
 }
 main#principal>section:nth-child(3)>p {
     font-family:"Hurme Semi Bold";
+    font-size:5.5pt;
 }
 main#principal>section:nth-child(3)>p:last-of-type {
     margin:0px 0px 55.6px 0px;
