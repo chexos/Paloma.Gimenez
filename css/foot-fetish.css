@@ -1,6 +1,9 @@
 main#principal>section>section {
     color:rgb(87,87,86);
 }
+main#principal>section:nth-child(1)>p>br.parrafo-escritorio {
+    display:none;
+}
 main#principal>section:nth-child(2) {
     display:flex;
     flex-flow:row;
@@ -106,5 +109,11 @@ main#principal>section:nth-child(3)>footer>a {
     }
     main#principal>section>p {
         font-size:20pt;
+    }
+    main#principal>section>p>br.parrafo-movil {
+        display:none;
+    }
+    main#principal>section>p>br.parrafo-escritorio {
+        display:flex;
     }
 }
