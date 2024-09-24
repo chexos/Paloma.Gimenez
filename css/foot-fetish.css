@@ -103,7 +103,7 @@ main#principal>section:nth-child(3)>footer>a {
     main#principal>section>section>p {
         display:flex;
         flex:1;
-        font-size:18pt;
+        font-size:20pt;
     }
     main#principal>section>section>p:last-child {
         justify-content:flex-end;
