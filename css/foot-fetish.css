@@ -117,4 +117,7 @@ main#principal>section:nth-child(3)>footer>a {
     main#principal>section:nth-child(1)>p>br.parrafo-escritorio {
         display:flex;
     }
+    main#principal>section>article.articulo-sesion-480x670 {
+        width:32%;
+    }
 }
