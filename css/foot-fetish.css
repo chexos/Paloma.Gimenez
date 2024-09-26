@@ -15,6 +15,7 @@ main#principal>section>article {
     max-width:100%;
     width:100%;
     margin:0px 0px 5.25px 0px;
+    display:flex;
 }
 main#principal>section>article.articulo-sesion-480x670 {
     max-width:48.9%;
