@@ -119,6 +119,7 @@ main#principal>section:nth-child(3)>footer>a {
     }
     main#principal>section>article {
         width:32%!important;
+        margin:0!important;
     }
     main#principal>section>article.articulo {
         width:64%!important;
