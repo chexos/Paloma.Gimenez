@@ -118,11 +118,14 @@ main#principal>section:nth-child(3)>footer>a {
     main#principal>section:nth-child(1)>p>br.parrafo-escritorio {
         display:flex;
     }
+    main#principal>section:nth-child(2) {
+        gap:26px;
+    }
     main#principal>section>article {
         width:32%!important;
-        margin:0!important;
+        margin:0px!important;
     }
     main#principal>section>article.articulo {
-        width:64%!important;
+        width:66%!important;
     }
 }
