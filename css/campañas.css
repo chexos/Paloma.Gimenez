@@ -7,3 +7,11 @@ header#header article.menu section#menuMovil a:nth-child(2) {
 header#header article.logo a figure img {
     content:url(../iconos/logo-blanco.png);
 }
+main#principal>article#video {
+    width:100%;
+}
+main#principal>article>video {/*
+    height:100%;
+    width:100%;*/
+    display:flex;
+}
