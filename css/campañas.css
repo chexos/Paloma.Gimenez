@@ -1,3 +1,6 @@
+header#header article.menu section#menuMovil {
+    background-color:white;
+}
 header#header article.menu section#menuMovil a:nth-child(2) {
     color:rgb(242,177,162);
 }
