@@ -4,3 +4,6 @@ header#header article.menu section#menuMovil {
 header#header article.menu section#menuMovil a:nth-child(2) {
     color:rgb(242,177,162);
 }
+header#header article.logo a figure img {
+    content:url(../iconos/logo-blanco.png);
+}
