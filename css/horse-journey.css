@@ -5,3 +5,6 @@ main#principal>section>article.articulo-sesion-480x670 {
     max-width:47%;
     width:47%;
 }
+main#principal>section:nth-child(3)>p {
+    margin:0px!important;
+}
