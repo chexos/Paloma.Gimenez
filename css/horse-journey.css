@@ -7,4 +7,5 @@ main#principal>section>article.articulo-sesion-480x670 {
 }
 main#principal>section:nth-child(3)>p {
     margin:0px!important;
+    text-align:center;
 }
