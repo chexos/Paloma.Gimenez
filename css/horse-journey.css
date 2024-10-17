@@ -9,3 +9,6 @@ main#principal>section:nth-child(3)>p {
     margin:0px!important;
     text-align:center;
 }
+main#principal>section>article:last-child {
+    margin:0px 0px 5.25px 0px;
+}
