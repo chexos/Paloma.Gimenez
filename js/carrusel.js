@@ -147,6 +147,26 @@ function intercambiarImagen(a) {
                 }
             }
         }
+    } else if (locacion == "horse-journey") {
+        console.log("a");
+        for (let i = 0; i < camino.length; i++) {
+            if (fetichePie[i] == nombreImagen) {
+                if (a == 1) {
+                    if (i == 0) {
+                        imagenAmpliada.src = cambiarImagen + camino[camino.length - 2];
+                    } else {
+                        imagenAmpliada.src = cambiarImagen + camino[i - 1];
+                    }
+                } else if (a == 2) {
+                    if (i == camino.length - 2) {
+                        imagenAmpliada.src = cambiarImagen + camino[0];
+                    }
+                    else {
+                        imagenAmpliada.src = cambiarImagen + camino[i + 1];
+                    }
+                }
+            }
+        }
     }
 }
 altoImagenIzq.addEventListener("click", () => intercambiarImagen(1));
