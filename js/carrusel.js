@@ -148,7 +148,7 @@ function intercambiarImagen(a) {
             }
         }
     } else if (locacion == "horse-journey") {
-        console.log("a");
+        console.log("camino");
         for (let i = 0; i < camino.length; i++) {
             if (camino[i] == nombreImagen) {
                 if (a == 1) {
