@@ -153,12 +153,12 @@ function intercambiarImagen(a) {
             if (camino[i] == nombreImagen) {
                 if (a == 1) {
                     if (i == 0) {
-                        imagenAmpliada.src = cambiarImagen + camino[camino.length - 2];
+                        imagenAmpliada.src = cambiarImagen + camino[camino.length - 1];
                     } else {
                         imagenAmpliada.src = cambiarImagen + camino[i - 1];
                     }
                 } else if (a == 2) {
-                    if (i == camino.length - 2) {
+                    if (i == camino.length - 1) {
                         imagenAmpliada.src = cambiarImagen + camino[0];
                     }
                     else {
