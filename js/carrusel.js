@@ -99,7 +99,7 @@ function intercambiarImagen(a) {
                         imagenAmpliada.src = cambiarImagen + producto[i - 1];
                     }
                 } else if (a == 2) {
-                    if (i == producto.length - 2) {
+                    if (i == producto.length - 1) {
                         imagenAmpliada.src = cambiarImagen + producto[0];
                     }
                     else {
@@ -114,12 +114,12 @@ function intercambiarImagen(a) {
             if (fetichePie[i] == nombreImagen) {
                 if (a == 1) {
                     if (i == 0) {
-                        imagenAmpliada.src = cambiarImagen + fetichePie[fetichePie.length - 2];
+                        imagenAmpliada.src = cambiarImagen + fetichePie[fetichePie.length - 1];
                     } else {
                         imagenAmpliada.src = cambiarImagen + fetichePie[i - 1];
                     }
                 } else if (a == 2) {
-                    if (i == fetichePie.length - 2) {
+                    if (i == fetichePie.length - 1) {
                         imagenAmpliada.src = cambiarImagen + fetichePie[0];
                     }
                     else {
@@ -133,12 +133,12 @@ function intercambiarImagen(a) {
             if (colapso[i] == nombreImagen) {
                 if (a == 1) {
                     if (i == 0) {
-                        imagenAmpliada.src = cambiarImagen + colapso[colapso.length - 2];
+                        imagenAmpliada.src = cambiarImagen + colapso[colapso.length - 1];
                     } else {
                         imagenAmpliada.src = cambiarImagen + colapso[i - 1];
                     }
                 } else if (a == 2) {
-                    if (i == colapso.length - 2) {
+                    if (i == colapso.length - 1) {
                         imagenAmpliada.src = cambiarImagen + colapso[0];
                     }
                     else {
