@@ -150,7 +150,7 @@ function intercambiarImagen(a) {
     } else if (locacion == "horse-journey") {
         console.log("a");
         for (let i = 0; i < camino.length; i++) {
-            if (fetichePie[i] == nombreImagen) {
+            if (camino[i] == nombreImagen) {
                 if (a == 1) {
                     if (i == 0) {
                         imagenAmpliada.src = cambiarImagen + camino[camino.length - 2];
