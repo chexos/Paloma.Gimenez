@@ -109,7 +109,6 @@ function intercambiarImagen(a) {
             }
         }
     } else if (locacion == "foot-fetish") {
-        console.log("a");
         for (let i = 0; i < fetichePie.length; i++) {
             if (fetichePie[i] == nombreImagen) {
                 if (a == 1) {
@@ -148,7 +147,6 @@ function intercambiarImagen(a) {
             }
         }
     } else if (locacion == "horse-journey") {
-        console.log("camino");
         for (let i = 0; i < camino.length; i++) {
             if (camino[i] == nombreImagen) {
                 if (a == 1) {
