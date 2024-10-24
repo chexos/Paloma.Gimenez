@@ -117,6 +117,7 @@ function intercambiarImagen(a) {
             }
         }
     } else if (locacion == "campa%C3%B1as") {
+        console.log("a");
         for (let i = 0; i < campaña.length; i++) {
             if (campaña[i] == nombreImagen) {
                 if (a == 1) {
