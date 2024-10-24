@@ -7,6 +7,9 @@ header#header article.menu section#menuMovil a:nth-child(2) {
 header#header article.logo a figure img {
     content:url(../iconos/logo-blanco.png);
 }
+main#principal {
+    background-color:rgb(44,44,44);
+}
 main#principal>article#video {
     width:100%;
 }
