@@ -9,6 +9,8 @@ header#header article.logo a figure img {
 }
 main#principal {
     background-color:rgb(44,44,44);
+    margin:0px!important;
+    padding:55.6px 14.25%;
 }
 main#principal>article#video {
     width:100%;
