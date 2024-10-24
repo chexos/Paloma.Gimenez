@@ -116,6 +116,25 @@ function intercambiarImagen(a) {
                 }
             }
         }
+    } else if (locacion == "campa%C3%B1as") {
+        for (let i = 0; i < campaña.length; i++) {
+            if (campaña[i] == nombreImagen) {
+                if (a == 1) {
+                    if (i == 0) {
+                        imagenAmpliada.src = cambiarImagen + campaña[campaña.length - 1];
+                    } else {
+                        imagenAmpliada.src = cambiarImagen + campaña[i - 1];
+                    }
+                } else if (a == 2) {
+                    if (i == campaña.length - 1) {
+                        imagenAmpliada.src = cambiarImagen + campaña[0];
+                    }
+                    else {
+                        imagenAmpliada.src = cambiarImagen + campaña[i + 1];
+                    }
+                }
+            }
+        }
     } else if (locacion == "foot-fetish") {
         for (let i = 0; i < fetichePie.length; i++) {
             if (fetichePie[i] == nombreImagen) {
