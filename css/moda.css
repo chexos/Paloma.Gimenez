@@ -67,10 +67,8 @@ main#principal>a>p {
         justify-content:initial;
     }
     main#principal>a {
-        width:33%;
+        width:32%;
         margin:0px;
-        /*
-        margin:0px 0px 85px 0px;*/
     }
     main#principal>a>p {
         font-size:14pt;
