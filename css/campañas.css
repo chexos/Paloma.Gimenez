@@ -23,3 +23,8 @@ main#principal>article>video {/*
     width:100%;*/
     display:flex;
 }
+@media screen and (min-width:1920px) {
+    header#header article.menu section#menuMovil {
+        background-color:white;
+    }
+}
