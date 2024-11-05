@@ -1,5 +1,5 @@
 header#header article.menu section#menuMovil {
-    background-color:white;
+    background-color:rgb(44,44,44);
 }
 header#header article.menu section#menuMovil a:nth-child(2) {
     color:rgb(242,177,162);
