@@ -27,7 +27,7 @@ main#principal>article>video {/*
     header#header article.menu section#menuMovil {
         background-color:white;
     }
-    header#header article.menu section#menuMovil a:first-child {
-        color:rgb(245,222,222);
+    header#header article.menu section#menuMovil a {
+        color:rgb(44,44,44)!important;
     }
 }
