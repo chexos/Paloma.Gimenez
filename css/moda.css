@@ -58,6 +58,9 @@ main#principal>a>p {
     font-family:"Hurme Light";
 }
 @media screen and (min-width: 1920px) {
+    header#header article.menu section#menuMovil a:first-child {
+        color:rgb(245, 222, 222);
+    }
     main#principal {
         margin:493px 214px 344px 214px;
         column-gap:26px;
