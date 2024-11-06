@@ -55,7 +55,7 @@ main#principal>a>header>h1 {
 main#principal>a>p {
     margin:0px;
     font-size:4pt;
-    font-family:"Hurme Light";
+    font-family:"Hurme Luz";
 }
 @media screen and (min-width: 1920px) {
     header#header article.menu section#menuMovil a:first-child {
