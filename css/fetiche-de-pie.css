@@ -42,7 +42,7 @@ main#principal>section:nth-child(3) {
     width:100%;
 }
 main#principal>section:nth-child(3)>p {
-    font-family:"Hurme Semi Bold";
+    font-family:"Hurme Semi Ondulado";
     font-size:5.5pt;
 }
 main#principal>section:nth-child(3)>p:last-of-type {
