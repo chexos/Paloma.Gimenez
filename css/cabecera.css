@@ -208,7 +208,7 @@ main#principal {
         margin:0 103px 0 0;
         justify-content:flex-end;
 	}
-    header#header article.redes-sociales a figure img {
+    header#header article.redes-sociales a picture img {
         height:60px;
         width:auto;
     }
