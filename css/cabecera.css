@@ -130,6 +130,8 @@ main#principal {
         height:66.6px;
     }
     header#header article.logo {
+		order:1;
+        margin:0 0 0 68.6px;
         justify-content:flex-start;
     }
 	header#header article.logo a {
@@ -143,10 +145,6 @@ main#principal {
         height:50px;
         width:auto;
     }
-	header#header article.logo {
-		order:1;
-        margin:0 0 0 68.6px;
-	}
 	header#header article.menu {
 		order:2;
         padding:0;
