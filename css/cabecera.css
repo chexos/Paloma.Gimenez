@@ -23,7 +23,7 @@ header#header {
     position:fixed;
     z-index:2;
 }
-figure {
+picture {
     margin:0px;
     display:flex;
 }
