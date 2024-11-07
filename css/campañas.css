@@ -7,7 +7,7 @@ header#header article.menu section#menuMovil a:first-child {
 header#header article.menu section#menuMovil a:nth-child(2) {
     color:rgb(242,177,162);
 }
-header#header article.logo a figure img {
+header#header article.logo a picture img {
     content:url(../iconos/logo-blanco.png);
 }
 main#principal {
