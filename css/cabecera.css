@@ -136,13 +136,13 @@ main#principal {
         height:50px;
         width:auto;
     }
+	header#header article.logo a picture {
+        justify-content:flex-start;
+	}
     header#header article.logo a picture img {
         height:50px;
         width:auto;
     }
-	header#header article.logo a picture {
-        justify-content:flex-start;
-	}
 	header#header article.logo {
 		order:1;
         margin:0 0 0 68.6px;
