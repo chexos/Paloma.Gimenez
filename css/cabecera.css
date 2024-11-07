@@ -85,7 +85,7 @@ header#header article.menu a {
 header#header article.menu a picture {
     display:flex;
 }
-header#header article.menu a figure img {
+header#header article.menu a picture img {
     height:20px;
     width:auto;
 }
