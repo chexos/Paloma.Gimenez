@@ -131,7 +131,7 @@ main#principal {
     }
     header#header article.logo {
 		order:1;
-        margin:0px 0 0 68.6px;
+        margin:0px 0px 0 68.6px;
         justify-content:flex-start;
     }
 	header#header article.logo a {
