@@ -82,7 +82,7 @@ header#header article.menu a {
     display:flex;
     align-items:center;
 }
-header#header article.menu a figure {
+header#header article.menu a picture {
     display:flex;
 }
 header#header article.menu a figure img {
