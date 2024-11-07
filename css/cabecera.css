@@ -147,7 +147,7 @@ main#principal {
     }
 	header#header article.menu {
 		order:2;
-        padding:0;
+        padding:0px;
 	}
 	header#header article.redes-sociales {
 		order:3;
