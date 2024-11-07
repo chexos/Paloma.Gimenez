@@ -45,7 +45,7 @@ header#header article.redes-sociales a {
 header#header article.redes-sociales a:nth-child(2) {
     margin:0px 0px 0px 15px;
 }
-header#header article.redes-sociales a figure {
+header#header article.redes-sociales a picture {
     display:flex;
 }
 header#header article.redes-sociales a figure img {
