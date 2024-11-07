@@ -64,7 +64,7 @@ header#header article.logo a {
     height:fit-content;
     width:fit-content;
 }
-header#header article.logo a figure {
+header#header article.logo a picture {
     display:flex;
     width:fit-content;
 }
