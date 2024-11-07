@@ -151,7 +151,7 @@ main#principal {
 	}
 	header#header article.redes-sociales {
 		order:3;
-        margin:0 68.6px 0 0;
+        margin:0px 68.6px 0 0;
         justify-content:flex-end;
 	}
     header#header article.redes-sociales a picture img {
