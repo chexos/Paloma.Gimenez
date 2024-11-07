@@ -140,7 +140,7 @@ main#principal {
         height:50px;
         width:auto;
     }
-	header#header article.logo a figure {
+	header#header article.logo a picture {
         justify-content:flex-start;
 	}
 	header#header article.logo {
