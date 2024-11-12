@@ -114,7 +114,7 @@ main#principal>article>picture {
 main#principal>article>picture>img {
     width:100%;
 }
-main#principal>article>figure>p {
+main#principal>article>picture>p {
     display:none;
     font-size:3pt;
     margin:2px 1px;
