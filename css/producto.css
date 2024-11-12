@@ -111,7 +111,7 @@ main#principal>article>picture {
     justify-content:center;
     text-align:center;
 }
-main#principal>article>figure>img {
+main#principal>article>picture>img {
     width:100%;
 }
 main#principal>article>figure>p {
