@@ -82,7 +82,7 @@ article#ampliar>section>button>span.pasar-izq-aba,
 article#ampliar>section>button>span.pasar-der-aba {
     transform:rotate(-45deg);
 }
-article#ampliar>figure.ampliar {
+article#ampliar>picture.ampliar {
     height:max-content;
     max-width:100%;
     width:100%;
