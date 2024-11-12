@@ -119,7 +119,7 @@ main#principal>article>picture>p {
     font-size:3pt;
     margin:2px 1px;
 }
-main#principal>article>figure.resaltar>p {
+main#principal>article>picture.resaltar>p {
     display:flex;
     justify-content:center;
     position:absolute;
