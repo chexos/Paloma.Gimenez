@@ -102,7 +102,7 @@ main#principal>article {
     width:48.96%;
     margin:0px 0px 5.21px 0px;
 }
-main#principal>article>figure {
+main#principal>article>picture {
     display:flex;
     flex-flow:row;
     flex-wrap:wrap;
