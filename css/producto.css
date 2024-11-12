@@ -146,7 +146,7 @@ main#principal>article>picture.resaltar>p {
     article#ampliar>section {
         max-width:calc(100% - 200px);
     }
-    article#ampliar>figure.ampliar {
+    article#ampliar>picture.ampliar {
         margin:0px auto;
         height:auto;
         width:auto;
