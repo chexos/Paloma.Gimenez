@@ -125,7 +125,7 @@ main#principal>article>picture.resaltar>p {
     position:absolute;
 }
 @media screen and (min-width: 590px) {
-    main#principal>article>figure:hover>p {
+    main#principal>article>picture:hover>p {
         display:flex;
         justify-content:center;
         position:absolute;
