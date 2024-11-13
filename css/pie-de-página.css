@@ -23,7 +23,7 @@ footer>header>article>a {
     display:flex;
     width:fit-content;
 }
-footer>header>article>a>figure>img {
+footer>header>article>a>picture>img {
     height:35px;
 }
 footer>header>article>p {
