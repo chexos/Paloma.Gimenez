@@ -24,7 +24,7 @@ main#principal>a {
 main#principal>a:last-child {
     margin:0px;
 }
-main#principal>a>figure {
+main#principal>a>picture {
     width:100%;
 }
 main#principal>a>figure>img {
