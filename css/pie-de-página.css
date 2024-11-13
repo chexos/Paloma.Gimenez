@@ -71,7 +71,7 @@ footer>main>section>article>a {
 footer>main>section>article>a>picture {
     display:flex;
 }
-footer>main>section>article>a>figure>img {
+footer>main>section>article>a>picture>img {
     margin:0px 5px 0px 0px;
 }
 footer>main>section article a figure img {
