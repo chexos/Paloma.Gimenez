@@ -27,7 +27,7 @@ main#principal>a:last-child {
 main#principal>a>picture {
     width:100%;
 }
-main#principal>a>figure>img {
+main#principal>a>picture>img {
     width:100%;
 }
 main#principal>a>section {
