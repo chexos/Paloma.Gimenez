@@ -7,7 +7,7 @@ header#header article.redes-sociales a:nth-child(1) picture img {
 header#header article.redes-sociales a:nth-child(2) picture img {
     content:url("../iconos/linkedin-gris.png");
 }
-header#header article.logo a figure img {
+header#header article.logo a picture img {
     content:url("../iconos/logo-blanco.png");
 }
 header#header article.menu a figure img {
