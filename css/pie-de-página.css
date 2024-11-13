@@ -68,7 +68,7 @@ footer>main>section>article>a {
     font-size:5.5pt;
     font-family:"Hurme Geométrico";
 }
-footer>main>section>article>a>figure {
+footer>main>section>article>a>picture {
     display:flex;
 }
 footer>main>section>article>a>figure>img {
