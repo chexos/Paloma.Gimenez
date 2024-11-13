@@ -139,7 +139,7 @@ footer>footer>p {
     footer>main>section article a {
         font-size:12pt;
     }
-    footer>main>section article a figure img {
+    footer>main>section article a picture img {
         height:25px;
         width:25px;
     }
@@ -164,7 +164,7 @@ footer>footer>p {
     footer>header {
         padding:0px 125.5px 68px;
     }
-    footer>header>article>a>figure>img {
+    footer>header>article>a>picture>img {
         height:auto;
         width:auto;
     }
