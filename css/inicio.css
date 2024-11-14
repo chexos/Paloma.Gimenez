@@ -126,7 +126,7 @@ section#formulario section#texto span.fila {
 	position:absolute;
 	border-bottom:1px solid white;
 }
-section#formulario section#texto span.fila:first-child {
+section#formulario section#texto:nth-child(2) span.fila {
 	display:none;
 }
 textarea#mensaje {
