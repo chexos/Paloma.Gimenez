@@ -89,7 +89,7 @@ section#formulario form article#boton {
 	flex-flow:row;
 	flex-wrap:wrap;
 	justify-content:center;
-	margin:27px 0px 36.5px 0px;
+	margin:27px 0px 0px 0px;
 }
 section#formulario form article button {
 	height:15.5px;
