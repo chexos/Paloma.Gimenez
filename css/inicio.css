@@ -127,7 +127,7 @@ section#formulario section#texto span.fila {
 	border-bottom:1px solid white;
 }
 section#formulario section#texto span.fila:first-child {
-	
+	display:none;
 }
 textarea#mensaje {
 	text-size-adjust:none;
