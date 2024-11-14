@@ -126,6 +126,9 @@ section#formulario section#texto span.fila {
 	position:absolute;
 	border-bottom:1px solid white;
 }
+section#formulario section#texto span.fila:first-child {
+	
+}
 textarea#mensaje {
 	text-size-adjust:none;
 	overflow-y:hidden;
