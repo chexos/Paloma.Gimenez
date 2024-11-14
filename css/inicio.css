@@ -241,7 +241,7 @@ p#caja {
 	section#formulario label,
 	section#formulario input,
 	section#formulario textarea,
-	span#caja {
+	p#caja {
 		font-size:26pt;
 	}
 	section#formulario>form>article :first-child {
