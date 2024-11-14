@@ -191,7 +191,7 @@ p#caja {
 		flex-wrap:wrap;
 	}
 	textarea#mensaje,
-	span#caja {
+	p#caja {
 		font-size:16pt;
 	}
 }
