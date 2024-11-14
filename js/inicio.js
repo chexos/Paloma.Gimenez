@@ -177,6 +177,7 @@ function revisarAnchoAlto() {
 }
 function tamanioLetra() {
     spanAncho.style.fontSize = window.getComputedStyle(document.getElementById("mensaje"), null).getPropertyValue('font-size');
+    caja.style.fontSize = window.getComputedStyle(document.getElementById("mensaje"), null).getPropertyValue('font-size');
 }/*
 let ajuste;
 function esperarAjuste() {
