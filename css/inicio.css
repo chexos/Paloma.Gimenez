@@ -136,7 +136,7 @@ textarea#mensaje {
 	resize:none;
 	font-size:16pt;
 }
-span#caja {
+p#caja {
 	text-size-adjust:none;
 	font-family:"Hurme Semi Ondulado";
 	font-size:16pt;
