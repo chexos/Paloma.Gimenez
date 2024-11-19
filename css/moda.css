@@ -58,7 +58,7 @@ main#principal>a>p {
     font-family:"Hurme Luz";
 }
 main#principal>a>p>br.parrafo-escritorio {
-    display:
+    display:none;
 }
 @media screen and (min-width: 1920px) {
     header#header article.menu section#menuMovil a:first-child {
