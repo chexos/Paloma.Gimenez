@@ -55,7 +55,7 @@ main#principal>a>section>header>h1 {
     font-family:"Hurme Geométrico";
     font-size:10.5pt;
 }
-main#principal>a>p {
+main#principal>a>section>p {
     margin:0px;
     font-size:4pt;
     font-family:"Hurme Luz";
