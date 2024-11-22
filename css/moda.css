@@ -21,6 +21,9 @@ main#principal>a {
     color:black;
     width:48%;
 }
+main#principal>a.margen-móvil {
+    
+}
 main#principal>a:last-child {
     margin:0px;
 }
