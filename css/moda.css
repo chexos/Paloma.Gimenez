@@ -22,7 +22,7 @@ main#principal>a {
     width:48%;
 }
 main#principal>a.margen-móvil {
-    margin:
+    margin:0px 0px 17px 0px;
 }
 main#principal>a:last-child {
     margin:0px;
