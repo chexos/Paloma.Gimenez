@@ -50,7 +50,7 @@ main#principal>a>section>section>p:last-child {
     display:flex;
     justify-content:flex-end;
 }
-main#principal>a>header>h1 {
+main#principal>a>section>header>h1 {
     margin:0px;
     font-family:"Hurme Geométrico";
     font-size:10.5pt;
