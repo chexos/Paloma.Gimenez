@@ -60,7 +60,7 @@ main#principal>a>section>p {
     font-size:4pt;
     font-family:"Hurme Luz";
 }
-main#principal>a>p>br.parrafo-escritorio {
+main#principal>a>section>p>br.parrafo-escritorio {
     display:none;
 }
 @media screen and (min-width: 1920px) {
