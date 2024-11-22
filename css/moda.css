@@ -33,7 +33,9 @@ main#principal>a>picture {
 main#principal>a>picture>img {
     width:100%;
 }
-main#principal>a>section 
+main#principal>a>section {
+    margin:
+}
 main#principal>a>section>section {
     display:flex;
     flex-flow:row;
