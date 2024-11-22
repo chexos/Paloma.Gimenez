@@ -38,7 +38,7 @@ main#principal>a>section>section {
     flex-flow:row;
     flex-wrap:wrap;
 }
-main#principal>a>section>p {
+main#principal>a>section>section>p {
     flex:1;
     margin:0px;
     font-size:4.5pt;
