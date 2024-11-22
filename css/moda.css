@@ -46,7 +46,7 @@ main#principal>a>section>section>p {
     display:flex;
     align-self:center;
 }
-main#principal>a>section>p:last-child {
+main#principal>a>section>section>p:last-child {
     display:flex;
     justify-content:flex-end;
 }
