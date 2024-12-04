@@ -34,7 +34,7 @@ main#principal>a>picture>img {
     width:100%;
 }
 main#principal>a>section {
-    margin:0px;/**/
+    margin:0px;
 }
 main#principal>a>section>section {
     display:flex;
