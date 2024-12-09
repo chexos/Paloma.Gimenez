@@ -239,6 +239,9 @@ p#caja {
 		flex-flow:column;
 		flex-wrap:wrap;
 	}
+	section#formulario form article button {
+		
+	}
 	section#formulario label,
 	section#formulario input,
 	section#formulario textarea,
