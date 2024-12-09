@@ -250,7 +250,7 @@ p#caja {
 	p#caja {
 		font-size:26pt;
 	}
-	section#formulario>form>article :first-child {
+	section#formulario>form>article#articuloTexto {
 		display:flex;
 		flex-flow:column;
 		flex-wrap:wrap;
