@@ -240,7 +240,7 @@ p#caja {
 		flex-wrap:wrap;
 	}
 	section#formulario form article button {
-		
+		height:50px;
 	}
 	section#formulario label,
 	section#formulario input,
