@@ -241,6 +241,7 @@ p#caja {
 	}
 	section#formulario form article button {
 		height:50px;
+		width:140px;
 	}
 	section#formulario label,
 	section#formulario input,
