@@ -127,7 +127,7 @@ main#principal {
 }
 @media screen and (min-width: 1200px) {
     header#header article.redes-sociales a picture img#instagram {
-        src:url("../iconos/instagram-blanco-grande.png");
+        background-image:url("../iconos/instagram-blanco-grande.png");
     }
 }
 @media screen and (min-width: 1280px) {
