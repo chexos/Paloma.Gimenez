@@ -48,11 +48,11 @@ header#header article.redes-sociales a:nth-child(2) {
 header#header article.redes-sociales a picture {
     display:flex;
 }
-header#header article.redes-sociales a picture span {
+header#header article.redes-sociales a picture img {
     height:20px;
     width:20px;
 }
-header#header article.redes-sociales a picture span#instagram {
+header#header article.redes-sociales a picture img#instagram {
     background-image:url("../iconos/instagram-blanco.png");
     background-size:contain;
 }
