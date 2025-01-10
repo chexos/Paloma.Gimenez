@@ -22,6 +22,7 @@ function removerTransicion() {
 }
 function cambiarImagenes() {
     let instagram = document.getElementById("instagram");
+    let linkedin = document.getElementById("linkedin");
 }
 function redimension() {
     anchoDocumento();
