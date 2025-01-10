@@ -1,20 +1,19 @@
-let header = document.getElementById("header");
-let menu = document.getElementById("menu");
-let menuMovil = document.getElementById("menuMovil");
-let menumovil = document.getElementsByClassName("menu-movil");
-let anchoVentana = window.innerWidth;
-function moverMenu(e) {
-    if (!menuMovil.classList.contains("visibilidad"))
-        menuMovil.classList.add("visibilidad");
-    else
-        menuMovil.classList.remove("visibilidad");
-}
-menu.addEventListener("click", moverMenu);
 function anchoDocumento() {
     anchoVentana = window.innerWidth;
 }
-let tiempoEspera;
+function mn() {
+    let menu = document.getElementById("menu");
+    function moverMenu(e) {
+        let menuMovil = document.getElementById("menuMovil");
+        if (!menuMovil.classList.contains("visibilidad"))
+            menuMovil.classList.add("visibilidad");
+        else
+            menuMovil.classList.remove("visibilidad");
+    }
+    menu.addEventListener("click", moverMenu);
+}
 function removerTransicion() {
+    let anchoVentana = window.innerWidth;
     if (anchoVentana >= 1280) {
         menuMovil.classList.remove("transicion");
     } else {
@@ -25,4 +24,8 @@ function funcionesRedimension() {
     anchoDocumento();
     removerTransicion();
 }
-window.addEventListener("resize", funcionesRedimension);
+function agregarEventos() {
+    window.addEventListener("DOMContentLoaded", mn);
+    window.addEventListener("resize", funcionesRedimension);
+}
+agregarEventos();
