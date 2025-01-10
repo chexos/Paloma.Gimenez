@@ -20,6 +20,9 @@ function removerTransicion() {
         menuMovil.classList.add("transicion");
     }
 }
+function cambiarImagenes() {
+    
+}
 function funcionesRedimension() {
     anchoDocumento();
     removerTransicion();
