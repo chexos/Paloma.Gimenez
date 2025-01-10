@@ -52,6 +52,10 @@ header#header article.redes-sociales a picture img {
     height:20px;
     width:20px;
 }
+header#header article.redes-sociales a picture span#instagram {
+    background-image:url("../iconos/instagram-blanco.png");
+    background-size:contain;
+}
 header#header article.logo {
     display:flex;
     justify-content:center;
