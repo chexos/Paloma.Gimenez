@@ -21,14 +21,14 @@ function removerTransicion() {
     }
 }
 function cambiarImagenes() {
-    
+
 }
-function funcionesRedimension() {
+function redimension() {
     anchoDocumento();
     removerTransicion();
 }
 function agregarEventos() {
     window.addEventListener("DOMContentLoaded", mn);
-    window.addEventListener("resize", funcionesRedimension);
+    window.addEventListener("resize", redimension);
 }
 agregarEventos();
