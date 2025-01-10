@@ -21,7 +21,7 @@ function removerTransicion() {
     }
 }
 function cambiarImagenes() {
-
+    let instagram = document.getElementById("instagram");
 }
 function redimension() {
     anchoDocumento();
