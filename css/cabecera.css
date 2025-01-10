@@ -125,6 +125,9 @@ main#principal {
     position:relative;
     z-index:1;
 }
+@media screen and (min-width: 1200px) {
+    
+}
 @media screen and (min-width: 1280px) {
     header#header {
         height:66.6px;
