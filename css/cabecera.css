@@ -126,7 +126,9 @@ main#principal {
     z-index:1;
 }
 @media screen and (min-width: 1200px) {
-    
+    header#header article.redes-sociales a picture img#instagram {
+        src:url("../iconos/instagram-blanco-grande.png");
+    }
 }
 @media screen and (min-width: 1280px) {
     header#header {
