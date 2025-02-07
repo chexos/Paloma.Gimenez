@@ -1,3 +1,9 @@
+section#carrusel {
+	width:700%;
+	display:flex;
+	flex-flow:row;
+	flex-wrap:wrap;
+}
 section#marca-tu-estilo {
 	display:flex;
 	flex-flow:row;
