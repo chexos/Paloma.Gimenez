@@ -1,8 +1,8 @@
 function anchoDocumento() {
     anchoVentana = window.innerWidth;
 }
-function mn() {
-    let menu = document.getElementById("menu");
+function menu() {
+    let mn = document.getElementById("menu");
     function moverMenu(e) {
         let menuMovil = document.getElementById("menuMovil");
         if (!menuMovil.classList.contains("visibilidad"))
@@ -10,7 +10,7 @@ function mn() {
         else
             menuMovil.classList.remove("visibilidad");
     }
-    menu.addEventListener("click", moverMenu);
+    mn.addEventListener("click", moverMenu);
 }
 function removerTransicion() {
     let anchoVentana = window.innerWidth;
@@ -29,7 +29,7 @@ function redimension() {
     removerTransicion();
 }
 function agregarEventos() {
-    window.addEventListener("DOMContentLoaded", mn);
+    window.addEventListener("DOMContentLoaded", menu);
     window.addEventListener("resize", redimension);
 }
 agregarEventos();
