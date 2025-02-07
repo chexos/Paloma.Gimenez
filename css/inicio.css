@@ -203,6 +203,9 @@ p#caja {
 	}
 }
 @media screen and (min-width:1920px) {
+	main#principal {
+		margin:296px 0px 0px 0px;
+	}
 	section#marca-tu-estilo {
 		padding:214px 344px;
 	}
