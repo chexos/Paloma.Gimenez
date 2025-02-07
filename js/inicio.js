@@ -1,3 +1,4 @@
+let carrusel = document.getElementById("carrusel");
 let texto = document.getElementById("texto");
 let mensaje = document.getElementById("mensaje");
 let fila = document.getElementsByClassName("fila");
