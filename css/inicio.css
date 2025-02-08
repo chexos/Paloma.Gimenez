@@ -3,6 +3,11 @@ section#carrusel {
 	display:flex;
 	flex-flow:row;
 	flex-wrap:wrap;
+	position:relative;
+	right:calc(900% / 9);
+	/*
+    right: calc((900% / 9)* 2);
+	*/
 }
 section#marca-tu-estilo {
 	display:flex;
