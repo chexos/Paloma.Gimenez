@@ -16,6 +16,17 @@ section#carrusel>div {
 	display:flex;
 	flex-flow:row;
 	flex-wrap:wrap;
+	justify-content:center;
+	width:calc(100% / 9);
+	position:absolute;
+	top:95%;
+	transform:translateX(100%);
+	gap:20px;
+}
+section#carrusel>div>span {
+	height:30px;
+	width:30px;
+	background-color:rgb(245,222,222);
 }
 section#marca-tu-estilo {
 	display:flex;
