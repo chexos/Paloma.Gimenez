@@ -1,5 +1,5 @@
 let carrusel = document.getElementById("carrusel");
-function arrastrarCarrusel() {
+function moverCarrusel() {
     
 }
 let texto = document.getElementById("texto");

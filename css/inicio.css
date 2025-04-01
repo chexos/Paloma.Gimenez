@@ -5,9 +5,12 @@ section#carrusel {
 	flex-wrap:wrap;
 	position:relative;
 	right:calc(900% / 9);
-	/*
-    right: calc((900% / 9)* 2);
-	*/
+}
+section#carrusel>picture {
+	width:calc(100% / 9);
+}
+section#carrusel>picture>img {
+	width:100%;
 }
 section#marca-tu-estilo {
 	display:flex;
