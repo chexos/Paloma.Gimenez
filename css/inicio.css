@@ -12,6 +12,11 @@ section#carrusel>picture {
 section#carrusel>picture>img {
 	width:100%;
 }
+section#carrusel>div {
+	display:flex;
+	flex-flow:row;
+	flex-wrap:wrap;
+}
 section#marca-tu-estilo {
 	display:flex;
 	flex-flow:row;
