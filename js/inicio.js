@@ -1,10 +1,16 @@
 let carrusel = document.getElementById("carrusel");
 let imagenCarrusel = document.getElementsByClassName("imagen-carrusel");
 let espacios = document.getElementsByClassName("boton-seleccionado");
-function moverCarrusel() {
+function cambiarCarrusel(b) {
     for (var e = 0; e < imagenCarrusel; e++) {
-
+        imagenCarrusel[b];
     }
+    for (var e = 0; e < espacios; e++) {
+        espacios[e].addEventListener("click", );
+    }
+}
+function moverCarrusel() {
+
 }
 let texto = document.getElementById("texto");
 let mensaje = document.getElementById("mensaje");
