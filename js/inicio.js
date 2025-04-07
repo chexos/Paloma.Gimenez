@@ -1,4 +1,5 @@
 let carrusel = document.getElementById("carrusel");
+let imagenCarrusel = document.getElementsByClassName("imagen-carrusel");
 let espacios = document.getElementsByClassName("btn-seleccionado");
 function moverCarrusel() {
     
