@@ -3,14 +3,14 @@ let imagenCarrusel = document.getElementsByClassName("imagen-carrusel");
 let espacios = document.getElementsByClassName("boton-seleccionado");
 let imagenesCarrusel = new Array(20);
 imagenCarrusel[0] = "./imagenes/Tamaño-inicio-1920x1080-1.png";
-imagenCarrusel[0] = "./imagenes/Tamaño-inicio-1920x1080-2.png";
-imagenCarrusel[0] = "./imagenes/Tamaño-inicio-1920x1080-3.png";
-imagenCarrusel[0] = "./imagenes/Tamaño-inicio-1920x1080-4.png";
-imagenCarrusel[0] = "./imagenes/Tamaño-inicio-1920x1080-5.png";
-imagenCarrusel[0] = "./imagenes/Tamaño-inicio-1920x1080-6.png";
-imagenCarrusel[0] = "./imagenes/Tamaño-inicio-1920x1080-7.png";
-imagenCarrusel[0] = "./imagenes/Tamaño-inicio-1920x1080-8.png";
-imagenCarrusel[0] = "./imagenes/Tamaño-inicio-1920x1080-9.png";
+imagenCarrusel[1] = "./imagenes/Tamaño-inicio-1920x1080-2.png";
+imagenCarrusel[2] = "./imagenes/Tamaño-inicio-1920x1080-3.png";
+imagenCarrusel[3] = "./imagenes/Tamaño-inicio-1920x1080-4.png";
+imagenCarrusel[4] = "./imagenes/Tamaño-inicio-1920x1080-5.png";
+imagenCarrusel[5] = "./imagenes/Tamaño-inicio-1920x1080-6.png";
+imagenCarrusel[6] = "./imagenes/Tamaño-inicio-1920x1080-7.png";
+imagenCarrusel[7] = "./imagenes/Tamaño-inicio-1920x1080-8.png";
+imagenCarrusel[8] = "./imagenes/Tamaño-inicio-1920x1080-9.png";
 function seleccionarEspacio(e) {
     for (var i = 0; i <= espacios.length; i++) {
         
