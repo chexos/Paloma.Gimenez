@@ -11,9 +11,14 @@ imagenCarrusel[5] = "./imagenes/Tamaño-inicio-1920x1080-6.png";
 imagenCarrusel[6] = "./imagenes/Tamaño-inicio-1920x1080-7.png";
 imagenCarrusel[7] = "./imagenes/Tamaño-inicio-1920x1080-8.png";
 imagenCarrusel[8] = "./imagenes/Tamaño-inicio-1920x1080-9.png";
-function seleccionarEspacio(e) {
+function seleccionarEspacio(a) {
+    function verificarEspacio(b) {
+        if (b == 0) {
+            carrusel.classList.add();
+        }
+    }
     for (var i = 0; i <= espacios.length; i++) {
-        
+        espacios.addEventListener("click", verificarEspacio(i));
     }
 }
 function cambiarCarrusel() {
