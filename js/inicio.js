@@ -2,7 +2,9 @@ let carrusel = document.getElementById("carrusel");
 let imagenCarrusel = document.getElementsByClassName("imagen-carrusel");
 let espacios = document.getElementsByClassName("boton-seleccionado");
 function seleccionarEspacio(e) {
-    
+    for (var i = 0; i <= espacios.length; i++) {
+        
+    }
 }
 function cambiarCarrusel() {
     for (var e = 0; e < imagenCarrusel; e++) {
