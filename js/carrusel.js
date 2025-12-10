@@ -206,10 +206,10 @@ function intercambiarMultimedia(a) {
 }
 altoMultimediaIzq.addEventListener("click", () => intercambiarMultimedia(1));
 altoMultimediaDer.addEventListener("click", () => intercambiarMultimedia(2));
-function asignaraltoMultimedia() {
+function asignarAltoMultimedia() {
     altoMultimedia[0].style.height = multimediaAmpliado.offsetHeight + "px";
 }
-altoMultimedia[0].addEventListener("onload", asignaraltoMultimedia());
+altoMultimedia[0].addEventListener("onload", asignarAltoMultimedia());
 function eliminarResaltado(a) {
     figuraSesion[a].classList.remove("resaltar");
 }
@@ -225,7 +225,7 @@ function ampliarMultimedia(a) {
     if (a != - 1) {
         ampliar.classList.add("opacidad");
         multimediaAmpliado.src = sesion[a].src;
-        asignaraltoMultimedia();
+        asignarAltoMultimedia();
     } else if (a == -1) {
         if (ampliar.classList.contains("opacidad")) {
             ampliar.classList.remove("opacidad");
