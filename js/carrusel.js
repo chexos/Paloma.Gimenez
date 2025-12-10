@@ -1,13 +1,13 @@
 let ampliar = document.getElementById("ampliar");
 let imagenAmpliada = document.getElementById("imagenAmpliada");
-let cambiarImagen = "https://chexos.github.io/Paloma.Gimenez/imagenes/";
-let nombreImagen;
+let cambiarMultimedia = "https://chexos.github.io/Paloma.Gimenez/multimedia/";
+let nombreMultimedia;
 let sesion = document.getElementsByClassName("sesion");
 let figuraSesion = document.getElementsByClassName("figura-sesion");
 let estiloAmpliar = window.getComputedStyle(ampliar);
-let altoImagen = document.getElementsByClassName("alto-imagen");
-let altoImagenIzq = document.getElementById("altoImagenIzq");
-let altoImagenDer = document.getElementById("altoImagenDer");
+let altoMultimedia = document.getElementsByClassName("alto-multimedia");
+let altoMultimediaIzq = document.getElementById("altoMultimediaIzq");
+let altoMultimediaDer = document.getElementById("altoMultimediaDer");
 let img;
 let estado = false;
 let ruta = "C:/Users/sgglm/OneDrive/Escritorio/sebastián/Proyectos/Paloma.Gimenez/Paloma.Gimenez/";
@@ -103,24 +103,24 @@ function conseguirLocacion() {
 }
 document.addEventListener("DOMContentLoaded", conseguirLocacion);
 document.addEventListener("unload", conseguirLocacion);
-function intercambiarImagen(a) {
+function intercambiarMultimedia(a) {
     estado = true;
-    nombreImagen = imagenAmpliada.src.slice(49, imagenAmpliada.src.length);
+    nombreMultimedia = imagenAmpliada.src.slice(49, imagenAmpliada.src.length);
     if (locacion == "producto") {
         for (let i = 0; i < producto.length; i++) {
-            if (producto[i] == nombreImagen) {
+            if (producto[i] == nombreMultimedia) {
                 if (a == 1) {
                     if (i == 0) {
-                        imagenAmpliada.src = cambiarImagen + producto[producto.length - 1];
+                        imagenAmpliada.src = cambiarMultimedia + producto[producto.length - 1];
                     } else {
-                        imagenAmpliada.src = cambiarImagen + producto[i - 1];
+                        imagenAmpliada.src = cambiarMultimedia + producto[i - 1];
                     }
                 } else if (a == 2) {
                     if (i == producto.length - 1) {
-                        imagenAmpliada.src = cambiarImagen + producto[0];
+                        imagenAmpliada.src = cambiarMultimedia + producto[0];
                     }
                     else {
-                        imagenAmpliada.src = cambiarImagen + producto[i + 1];
+                        imagenAmpliada.src = cambiarMultimedia + producto[i + 1];
                     }
                 }
             }
@@ -128,88 +128,88 @@ function intercambiarImagen(a) {
     } else if (locacion == "campa%C3%B1as") {
         console.log("a");
         for (let i = 0; i < campaña.length; i++) {
-            if (campaña[i] == nombreImagen) {
+            if (campaña[i] == nombreMultimedia) {
                 if (a == 1) {
                     if (i == 0) {
-                        imagenAmpliada.src = cambiarImagen + campaña[campaña.length - 1];
+                        imagenAmpliada.src = cambiarMultimedia + campaña[campaña.length - 1];
                     } else {
-                        imagenAmpliada.src = cambiarImagen + campaña[i - 1];
+                        imagenAmpliada.src = cambiarMultimedia + campaña[i - 1];
                     }
                 } else if (a == 2) {
                     if (i == campaña.length - 1) {
-                        imagenAmpliada.src = cambiarImagen + campaña[0];
+                        imagenAmpliada.src = cambiarMultimedia + campaña[0];
                     }
                     else {
-                        imagenAmpliada.src = cambiarImagen + campaña[i + 1];
+                        imagenAmpliada.src = cambiarMultimedia + campaña[i + 1];
                     }
                 }
             }
         }
     } else if (locacion == "foot-fetish") {
         for (let i = 0; i < fetichePie.length; i++) {
-            if (fetichePie[i] == nombreImagen) {
+            if (fetichePie[i] == nombreMultimedia) {
                 if (a == 1) {
                     if (i == 0) {
-                        imagenAmpliada.src = cambiarImagen + fetichePie[fetichePie.length - 1];
+                        imagenAmpliada.src = cambiarMultimedia + fetichePie[fetichePie.length - 1];
                     } else {
-                        imagenAmpliada.src = cambiarImagen + fetichePie[i - 1];
+                        imagenAmpliada.src = cambiarMultimedia + fetichePie[i - 1];
                     }
                 } else if (a == 2) {
                     if (i == fetichePie.length - 1) {
-                        imagenAmpliada.src = cambiarImagen + fetichePie[0];
+                        imagenAmpliada.src = cambiarMultimedia + fetichePie[0];
                     }
                     else {
-                        imagenAmpliada.src = cambiarImagen + fetichePie[i + 1];
+                        imagenAmpliada.src = cambiarMultimedia + fetichePie[i + 1];
                     }
                 }
             }
         }
     } else if (locacion == "colapso") {
         for (let i = 0; i < colapso.length; i++) {
-            if (colapso[i] == nombreImagen) {
+            if (colapso[i] == nombreMultimedia) {
                 if (a == 1) {
                     if (i == 0) {
-                        imagenAmpliada.src = cambiarImagen + colapso[colapso.length - 1];
+                        imagenAmpliada.src = cambiarMultimedia + colapso[colapso.length - 1];
                     } else {
-                        imagenAmpliada.src = cambiarImagen + colapso[i - 1];
+                        imagenAmpliada.src = cambiarMultimedia + colapso[i - 1];
                     }
                 } else if (a == 2) {
                     if (i == colapso.length - 1) {
-                        imagenAmpliada.src = cambiarImagen + colapso[0];
+                        imagenAmpliada.src = cambiarMultimedia + colapso[0];
                     }
                     else {
-                        imagenAmpliada.src = cambiarImagen + colapso[i + 1];
+                        imagenAmpliada.src = cambiarMultimedia + colapso[i + 1];
                     }
                 }
             }
         }
     } else if (locacion == "horse-journey") {
         for (let i = 0; i < camino.length; i++) {
-            if (camino[i] == nombreImagen) {
+            if (camino[i] == nombreMultimedia) {
                 if (a == 1) {
                     if (i == 0) {
-                        imagenAmpliada.src = cambiarImagen + camino[camino.length - 1];
+                        imagenAmpliada.src = cambiarMultimedia + camino[camino.length - 1];
                     } else {
-                        imagenAmpliada.src = cambiarImagen + camino[i - 1];
+                        imagenAmpliada.src = cambiarMultimedia + camino[i - 1];
                     }
                 } else if (a == 2) {
                     if (i == camino.length - 1) {
-                        imagenAmpliada.src = cambiarImagen + camino[0];
+                        imagenAmpliada.src = cambiarMultimedia + camino[0];
                     }
                     else {
-                        imagenAmpliada.src = cambiarImagen + camino[i + 1];
+                        imagenAmpliada.src = cambiarMultimedia + camino[i + 1];
                     }
                 }
             }
         }
     }
 }
-altoImagenIzq.addEventListener("click", () => intercambiarImagen(1));
-altoImagenDer.addEventListener("click", () => intercambiarImagen(2));
-function asignarAltoImagen() {
-    altoImagen[0].style.height = imagenAmpliada.offsetHeight + "px";
+altoMultimediaIzq.addEventListener("click", () => intercambiarMultimedia(1));
+altoMultimediaDer.addEventListener("click", () => intercambiarMultimedia(2));
+function asignaraltoMultimedia() {
+    altoMultimedia[0].style.height = imagenAmpliada.offsetHeight + "px";
 }
-altoImagen[0].addEventListener("onload", asignarAltoImagen());
+altoMultimedia[0].addEventListener("onload", asignaraltoMultimedia());
 function eliminarResaltado(a) {
     figuraSesion[a].classList.remove("resaltar");
 }
@@ -225,7 +225,7 @@ function ampliarImagen(a) {
     if (a != - 1) {
         ampliar.classList.add("opacidad");
         imagenAmpliada.src = sesion[a].src;
-        asignarAltoImagen();
+        asignaraltoMultimedia();
     } else if (a == -1) {
         if (ampliar.classList.contains("opacidad")) {
             ampliar.classList.remove("opacidad");
