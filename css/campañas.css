@@ -10,6 +10,9 @@ header#header article.menu section#menuMovil a:nth-child(2) {
 header#header article.logo a picture img {
     content:url(../iconos/logo-blanco.png);
 }
+#artVideo {
+    display:none;
+}
 main#principal {
     background-color:rgb(44,44,44);
     margin:0px!important;
