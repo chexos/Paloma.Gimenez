@@ -1,5 +1,5 @@
 let ampliar = document.getElementById("ampliar");
-let multimediaAmpliada = document.getElementById("multimediaAmpliada");
+let multimediaAmpliado = document.getElementById("multimediaAmpliado");
 let cambiarMultimedia = "https://chexos.github.io/Paloma.Gimenez/multimedia/";
 let nombreMultimedia;
 let sesion = document.getElementsByClassName("sesion");
