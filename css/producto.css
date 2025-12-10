@@ -117,7 +117,6 @@ main#principal>article>picture>img {
 main#principal>article>picture>p {
     display:none;
     font-size:3pt;
-    margin:2px 1px;
 }
 main#principal>article>picture.resaltar>p {
     display:flex;
