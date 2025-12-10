@@ -12,6 +12,8 @@ let img;
 let estado = false;
 let ruta = "C:/Users/sgglm/OneDrive/Escritorio/sebastián/Proyectos/Paloma.Gimenez/Paloma.Gimenez/";
 let resolucion;
+let foto = document.getElementById("foto");
+let video = document.getElementById("artVideo");
 function revisarResolucion() {
     resolucion = window.innerWidth;
     if (resolucion >= 1920) {
@@ -129,19 +131,29 @@ function intercambiarMultimedia(a) {
     } else if (locacion == "campa%C3%B1as") {
         console.log("a");
         for (let i = 0; i < campaña.length; i++) {
+            function añadirVideo() {
+                if (i == 3) {
+                    foto.classList.toggle("visible");
+                    artVideo.classList.toggle("visible");
+                }
+            }
             if (campaña[i] == nombreMultimedia) {
                 if (a == 1) {
                     if (i == 0) {
                         multimediaAmpliado.src = cambiarMultimedia + campaña[campaña.length - 1];
+                        añadirVideo();
                     } else {
                         multimediaAmpliado.src = cambiarMultimedia + campaña[i - 1];
+                        añadirVideo();
                     }
                 } else if (a == 2) {
                     if (i == campaña.length - 1) {
                         multimediaAmpliado.src = cambiarMultimedia + campaña[0];
+                        añadirVideo();
                     }
                     else {
                         multimediaAmpliado.src = cambiarMultimedia + campaña[i + 1];
+                        añadirVideo();
                     }
                 }
             }

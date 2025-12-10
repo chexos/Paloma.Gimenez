@@ -10,8 +10,17 @@ header#header article.menu section#menuMovil a:nth-child(2) {
 header#header article.logo a picture img {
     content:url(../iconos/logo-blanco.png);
 }
-#artVideo {
+picture.ampliar {
     display:none;
+}
+picture.ampliar.visible {
+    display:flex;
+}
+#artVideo.ampliar {
+    display:none;
+}
+#artVideo.ampliar.visible {
+    display:flex;
 }
 main#principal {
     background-color:rgb(44,44,44);
