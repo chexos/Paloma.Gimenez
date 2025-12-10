@@ -27,7 +27,7 @@ article#ampliar>section {
     width:100%;
     z-index:3;
 }
-article#ampliar>section>section#altoImagenIzq {
+article#ampliar>section>section#altoMultimediaIzq {
     transform:rotate(-90deg);
     margin:0px 0px 0px -30px;
 }
@@ -44,11 +44,11 @@ article#ampliar>section>button {
     top:50%;
     z-index:6;
 }
-article#ampliar>section>button#altoImagenIzq {
+article#ampliar>section>button#altoMultimediaIzq {
     transform:rotate(-90deg);
     left:-15%;
 }
-article#ampliar>section>button#altoImagenDer {
+article#ampliar>section>button#altoMultimediaDer {
     transform:rotate(90deg);
     right:-15%;
 }
@@ -174,10 +174,10 @@ main#principal>article>picture.resaltar>p {
     article#ampliar>section>span.cerrar-der {
         left:auto;
     }
-    article#ampliar>section>button#altoImagenIzq {
+    article#ampliar>section>button#altoMultimediaIzq {
         left:5%;
     }
-    article#ampliar>section>button#altoImagenDer {
+    article#ampliar>section>button#altoMultimediaDer {
         right:5%;
     }
     article#ampliar>section>button>span.pasar {
