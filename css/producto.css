@@ -123,6 +123,7 @@ main#principal>article>picture.resaltar>p {
     display:flex;
     justify-content:center;
     position:absolute;
+    width:100%;
 }
 @media screen and (min-width: 590px) {
     main#principal>article>picture:hover>p {
