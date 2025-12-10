@@ -105,22 +105,22 @@ document.addEventListener("DOMContentLoaded", conseguirLocacion);
 document.addEventListener("unload", conseguirLocacion);
 function intercambiarMultimedia(a) {
     estado = true;
-    nombreMultimedia = imagenAmpliada.src.slice(49, imagenAmpliada.src.length);
+    nombreMultimedia = multimediaAmpliado.src.slice(49, multimediaAmpliado.src.length);
     if (locacion == "producto") {
         for (let i = 0; i < producto.length; i++) {
             if (producto[i] == nombreMultimedia) {
                 if (a == 1) {
                     if (i == 0) {
-                        imagenAmpliada.src = cambiarMultimedia + producto[producto.length - 1];
+                        multimediaAmpliado.src = cambiarMultimedia + producto[producto.length - 1];
                     } else {
-                        imagenAmpliada.src = cambiarMultimedia + producto[i - 1];
+                        multimediaAmpliado.src = cambiarMultimedia + producto[i - 1];
                     }
                 } else if (a == 2) {
                     if (i == producto.length - 1) {
-                        imagenAmpliada.src = cambiarMultimedia + producto[0];
+                        multimediaAmpliado.src = cambiarMultimedia + producto[0];
                     }
                     else {
-                        imagenAmpliada.src = cambiarMultimedia + producto[i + 1];
+                        multimediaAmpliado.src = cambiarMultimedia + producto[i + 1];
                     }
                 }
             }
@@ -131,16 +131,16 @@ function intercambiarMultimedia(a) {
             if (campaña[i] == nombreMultimedia) {
                 if (a == 1) {
                     if (i == 0) {
-                        imagenAmpliada.src = cambiarMultimedia + campaña[campaña.length - 1];
+                        multimediaAmpliado.src = cambiarMultimedia + campaña[campaña.length - 1];
                     } else {
-                        imagenAmpliada.src = cambiarMultimedia + campaña[i - 1];
+                        multimediaAmpliado.src = cambiarMultimedia + campaña[i - 1];
                     }
                 } else if (a == 2) {
                     if (i == campaña.length - 1) {
-                        imagenAmpliada.src = cambiarMultimedia + campaña[0];
+                        multimediaAmpliado.src = cambiarMultimedia + campaña[0];
                     }
                     else {
-                        imagenAmpliada.src = cambiarMultimedia + campaña[i + 1];
+                        multimediaAmpliado.src = cambiarMultimedia + campaña[i + 1];
                     }
                 }
             }
@@ -150,16 +150,16 @@ function intercambiarMultimedia(a) {
             if (fetichePie[i] == nombreMultimedia) {
                 if (a == 1) {
                     if (i == 0) {
-                        imagenAmpliada.src = cambiarMultimedia + fetichePie[fetichePie.length - 1];
+                        multimediaAmpliado.src = cambiarMultimedia + fetichePie[fetichePie.length - 1];
                     } else {
-                        imagenAmpliada.src = cambiarMultimedia + fetichePie[i - 1];
+                        multimediaAmpliado.src = cambiarMultimedia + fetichePie[i - 1];
                     }
                 } else if (a == 2) {
                     if (i == fetichePie.length - 1) {
-                        imagenAmpliada.src = cambiarMultimedia + fetichePie[0];
+                        multimediaAmpliado.src = cambiarMultimedia + fetichePie[0];
                     }
                     else {
-                        imagenAmpliada.src = cambiarMultimedia + fetichePie[i + 1];
+                        multimediaAmpliado.src = cambiarMultimedia + fetichePie[i + 1];
                     }
                 }
             }
@@ -169,16 +169,16 @@ function intercambiarMultimedia(a) {
             if (colapso[i] == nombreMultimedia) {
                 if (a == 1) {
                     if (i == 0) {
-                        imagenAmpliada.src = cambiarMultimedia + colapso[colapso.length - 1];
+                        multimediaAmpliado.src = cambiarMultimedia + colapso[colapso.length - 1];
                     } else {
-                        imagenAmpliada.src = cambiarMultimedia + colapso[i - 1];
+                        multimediaAmpliado.src = cambiarMultimedia + colapso[i - 1];
                     }
                 } else if (a == 2) {
                     if (i == colapso.length - 1) {
-                        imagenAmpliada.src = cambiarMultimedia + colapso[0];
+                        multimediaAmpliado.src = cambiarMultimedia + colapso[0];
                     }
                     else {
-                        imagenAmpliada.src = cambiarMultimedia + colapso[i + 1];
+                        multimediaAmpliado.src = cambiarMultimedia + colapso[i + 1];
                     }
                 }
             }
@@ -188,16 +188,16 @@ function intercambiarMultimedia(a) {
             if (camino[i] == nombreMultimedia) {
                 if (a == 1) {
                     if (i == 0) {
-                        imagenAmpliada.src = cambiarMultimedia + camino[camino.length - 1];
+                        multimediaAmpliado.src = cambiarMultimedia + camino[camino.length - 1];
                     } else {
-                        imagenAmpliada.src = cambiarMultimedia + camino[i - 1];
+                        multimediaAmpliado.src = cambiarMultimedia + camino[i - 1];
                     }
                 } else if (a == 2) {
                     if (i == camino.length - 1) {
-                        imagenAmpliada.src = cambiarMultimedia + camino[0];
+                        multimediaAmpliado.src = cambiarMultimedia + camino[0];
                     }
                     else {
-                        imagenAmpliada.src = cambiarMultimedia + camino[i + 1];
+                        multimediaAmpliado.src = cambiarMultimedia + camino[i + 1];
                     }
                 }
             }
@@ -207,7 +207,7 @@ function intercambiarMultimedia(a) {
 altoMultimediaIzq.addEventListener("click", () => intercambiarMultimedia(1));
 altoMultimediaDer.addEventListener("click", () => intercambiarMultimedia(2));
 function asignaraltoMultimedia() {
-    altoMultimedia[0].style.height = imagenAmpliada.offsetHeight + "px";
+    altoMultimedia[0].style.height = multimediaAmpliado.offsetHeight + "px";
 }
 altoMultimedia[0].addEventListener("onload", asignaraltoMultimedia());
 function eliminarResaltado(a) {
@@ -224,7 +224,7 @@ function ampliarImagen(a) {
     }
     if (a != - 1) {
         ampliar.classList.add("opacidad");
-        imagenAmpliada.src = sesion[a].src;
+        multimediaAmpliado.src = sesion[a].src;
         asignaraltoMultimedia();
     } else if (a == -1) {
         if (ampliar.classList.contains("opacidad")) {
