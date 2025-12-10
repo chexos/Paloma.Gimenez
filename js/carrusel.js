@@ -108,6 +108,7 @@ function intercambiarMultimedia(a) {
     nombreMultimedia = multimediaAmpliado.src.slice(49, multimediaAmpliado.src.length);
     console.log(nombreMultimedia);
     if (locacion == "producto") {
+        console.log(nombreMultimedia);
         console.log(locacion);
         console.log(a);
         console.log(producto.length);
