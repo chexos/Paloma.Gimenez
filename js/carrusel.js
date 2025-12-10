@@ -217,7 +217,7 @@ function resaltarUno(a) {
     eliminarResaltado(a);
     figuraSesion[a].classList.toggle("resaltar");
 }
-function ampliarImagen(a) {
+function ampliarMultimedia(a) {
     if (estado == true) {
         estado = false;
         return;
@@ -236,9 +236,9 @@ for (let i = 0; i < figuraSesion.length; i++) {
     figuraSesion[i].addEventListener("touchstart", () => resaltarUno(i));
     figuraSesion[i].addEventListener("touchend", () => eliminarResaltado(i));
     figuraSesion[i].addEventListener("click", () => {
-        ampliarImagen(i);
+        ampliarMultimedia(i);
     });
 }
 ampliar.addEventListener("click", () => {
-    ampliarImagen(-1);
+    ampliarMultimedia(-1);
 });
