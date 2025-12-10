@@ -109,6 +109,7 @@ function intercambiarMultimedia(a) {
     if (locacion == "producto") {
         for (let i = 0; i < producto.length; i++) {
             if (producto[i] == nombreMultimedia) {
+                console.log(cambiarMultimedia + producto[producto.length - 1]);
                 if (a == 1) {
                     if (i == 0) {
                         multimediaAmpliado.src = cambiarMultimedia + producto[producto.length - 1];
