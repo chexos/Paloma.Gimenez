@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", conseguirLocacion);
 document.addEventListener("unload", conseguirLocacion);
 function intercambiarMultimedia(a) {
     estado = true;
-    nombreMultimedia = multimediaAmpliado.src.slice(49, multimediaAmpliado.src.length);
+    nombreMultimedia = multimediaAmpliado.src.slice(51, multimediaAmpliado.src.length);
     console.log(nombreMultimedia);
     if (locacion == "producto") {
         console.log(nombreMultimedia);
