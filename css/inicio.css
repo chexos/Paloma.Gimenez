@@ -19,7 +19,7 @@ section#carrusel>div {
 	justify-content:center;
 	width:calc(100% / 9);
 	position:absolute;
-	top:95%;
+	top:90%;
 	transform:translateX(100%);
 	gap:25px;
 }
