@@ -118,6 +118,7 @@ main#principal>article>picture>p {
     display:none;
     font-size:3pt;
     color:white;
+    padding:5px 0;
 }
 main#principal>article>picture.resaltar>p {
     display:flex;
