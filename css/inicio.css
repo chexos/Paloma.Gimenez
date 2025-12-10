@@ -24,8 +24,8 @@ section#carrusel>div {
 	gap:25px;
 }
 section#carrusel>div>span {
-	height:30px;
-	width:30px;
+	height:10px;
+	width:10px;
 	border-radius:25px;
 	background-color:rgb(245,222,222);
 }
