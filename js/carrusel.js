@@ -110,6 +110,7 @@ function intercambiarMultimedia(a) {
         console.log(locacion);
         console.log(a);
         for (let i = 0; i < producto.length; i++) {
+            console.log(i);
             if (producto[i] == nombreMultimedia) {
                 console.log(a);
                 console.log(cambiarMultimedia + producto[producto.length - 1]);
