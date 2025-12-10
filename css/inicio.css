@@ -21,7 +21,7 @@ section#carrusel>div {
 	position:absolute;
 	top:90%;
 	transform:translateX(100%);
-	gap:25px;
+	gap:10px;
 }
 section#carrusel>div>span {
 	height:10px;
