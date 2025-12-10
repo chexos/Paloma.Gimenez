@@ -123,6 +123,7 @@ main#principal>article>picture.resaltar>p {
     justify-content:center;
     position:absolute;
     width:100%;
+    background-color:rgb(60, 60, 60);
 }
 @media screen and (min-width: 590px) {
     main#principal>article>picture:hover>p {
