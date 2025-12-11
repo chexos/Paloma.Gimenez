@@ -44,7 +44,7 @@ producto[19] = "Tama%C3%B1o-Producto-603x670-20.png";
 let campaña = new Array(9);
 campaña[0] = "Taman%CC%83o-Producto-480x670-1.png";
 campaña[1] = "Taman%CC%83o-Producto-480x670-2.png";
-campaña[2] = "";
+campaña[2] = "8.PalomaGimenez-FotosNorthFace-Post1pagweb.mp4";
 campaña[3] = "Taman%CC%83o-Producto-480x670-3.png";
 campaña[4] = "Taman%CC%83o-Producto-986x670-1.png";
 campaña[5] = "Taman%CC%83o-Producto-480x670-4.png";
@@ -141,19 +141,15 @@ function intercambiarMultimedia(a) {
                 if (a == 1) {
                     if (i == 0) {
                         multimediaAmpliado.src = cambiarMultimedia + campaña[campaña.length - 1];
-                        añadirVideo();
                     } else {
                         multimediaAmpliado.src = cambiarMultimedia + campaña[i - 1];
-                        añadirVideo();
                     }
                 } else if (a == 2) {
                     if (i == campaña.length - 1) {
                         multimediaAmpliado.src = cambiarMultimedia + campaña[0];
-                        añadirVideo();
                     }
                     else {
                         multimediaAmpliado.src = cambiarMultimedia + campaña[i + 1];
-                        añadirVideo();
                     }
                 }
             }
