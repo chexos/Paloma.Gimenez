@@ -173,6 +173,7 @@ p#caja {
 	text-size-adjust:none;
 	font-family:"Hurme Semi Ondulado";
 	font-size:16pt;
+	opacity:0;
 }
 @media screen and (min-width:1280px) {
 	section#marca-tu-estilo {
