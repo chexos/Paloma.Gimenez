@@ -8,7 +8,7 @@ section#carrusel {
 	right:calc(900% / 9);
 }
 section#carrusel>picture {
-	width:calc(100% / 9);
+	width:calc(100% / 11);
 }
 section#carrusel>picture>img {
 	width:100%;
