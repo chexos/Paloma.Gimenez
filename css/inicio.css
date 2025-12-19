@@ -8,7 +8,7 @@ section#carrusel {
 	transform:translateX(1300% / 13);
 }
 section#carrusel>picture {
-	width:calc(100% / 11);
+	width:calc(100% / 13);
 }
 section#carrusel>picture>img {
 	width:100%;
