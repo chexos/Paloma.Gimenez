@@ -30,6 +30,7 @@ function portada() {
                 cambiarCirculo();
                 removerClasesPortada();
                 carrusel.classList.add("primera-imagen");
+                circulos.classList.add("trasladar-100");
                 break;
             case 2:
                 cp = 2;
