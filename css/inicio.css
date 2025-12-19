@@ -48,6 +48,9 @@ section#carrusel.doceava-imagen {
 section#carrusel.treceava-imagen {
 	transform:translateX(calc(-1300% / 13));
 }
+section#carrusel.catorceava-imagen {
+	transform:translateX(calc(-1400% / 13));
+}
 section#carrusel>picture {
 	width:calc(100% / 13);
 }
