@@ -93,6 +93,7 @@ function portada() {
                 cambiarCirculo();
                 removerClasesPortada();
                 carrusel.classList.add("decima-imagen");
+                circulos.classList.add("trasladar-1000");
                 break;
             case 11:
                 cp = 11;
