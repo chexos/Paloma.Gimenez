@@ -12,6 +12,9 @@ function portada() {
     let p = 0;
     let carrusel = document.getElementById("carrusel");
     function verificarPortada() {
+        function removerClasesPortada() {
+            carrusel.classList.remove(carrusel.classList);
+        }
         switch (p) {
             case 0:
                 cp = 11;
