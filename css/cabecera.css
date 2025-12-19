@@ -169,7 +169,7 @@ main#principal {
 		right:0%;
 		flex-flow:row;
     }
-	header#header article.menu section#menuMovil.visibilidad {
+	header#header article.menu section#menuMovil.invisibilidad {
 		transform:translateX(0%);
 	}
     header#header article.menu section#menuMovil a {
