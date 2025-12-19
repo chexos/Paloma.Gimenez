@@ -106,6 +106,8 @@ function portada() {
                 removerClasesPortada();
                 carrusel.classList.add("catorceava-imagen");
                 break;
+            default:
+                break;
         }
     }
     function cambiarPortada() {
