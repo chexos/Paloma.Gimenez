@@ -5,10 +5,10 @@ function menu() {
     let mn = document.getElementById("menu");
     function moverMenu(e) {
         let menuMovil = document.getElementById("menuMovil");
-        if (!menuMovil.classList.contains("visibilidad"))
-            menuMovil.classList.add("visibilidad");
+        if (!menuMovil.classList.contains("invisibilidad"))
+            menuMovil.classList.add("invisibilidad");
         else
-            menuMovil.classList.remove("visibilidad");
+            menuMovil.classList.remove("invisibilidad");
     }
     mn.addEventListener("click", moverMenu);
 }
