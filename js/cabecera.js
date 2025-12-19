@@ -19,6 +19,7 @@ function menu() {
 }
 function removerTransicion() {
     let anchoVentana = window.innerWidth;
+    console.log(anchoVentana);
     if (anchoVentana >= 1280) {
         menuMovil.classList.remove("transicion");
     } else {

@@ -173,6 +173,7 @@ main#principal {
     }
 	header#header article.menu section#menuMovil.invisibilidad {
 		transform:translateX(0%);
+        transition:0s;
 	}
     header#header article.menu section#menuMovil a {
         color:rgb(245,222,222);
