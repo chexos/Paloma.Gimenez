@@ -107,6 +107,7 @@ function portada() {
                 cambiarCirculo();
                 removerClasesPortada();
                 carrusel.classList.add("doceava-imagen");
+                circulos.classList.add("trasladar-1200");
                 break;
             case 13:
                 cp = 13;
