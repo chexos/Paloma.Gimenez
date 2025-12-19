@@ -111,6 +111,9 @@ function portada() {
         }
     }
     function cambiarPortada() {
+        function primerCirculo() {
+            
+        }
     }
 }
 document.addEventListener("DOMContentLoaded", function() {
