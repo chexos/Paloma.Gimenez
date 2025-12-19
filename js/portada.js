@@ -58,6 +58,12 @@ function portada() {
                 removerClasesPortada();
                 carrusel.classList.add("sexta-imagen");
                 break;
+            case 7:
+                cp = 7;
+                cambiarCirculo();
+                removerClasesPortada();
+                carrusel.classList.add("septima-imagen");
+                break;
         }
     }
     function cambiarPortada() {
