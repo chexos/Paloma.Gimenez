@@ -1,10 +1,12 @@
 function portada() {
-    let p = 0;
-    let cp = -1;
     let botonesCarrusel = document.getElementsByClassName("btn-carrusel");
     function cambiarCirculo() {
-        
+        for (var i = 0; i < botonesCarrusel.length; i++) {
+
+        }
     }
+    let p = 0;
+    let cp = -1;
     function verificarPortada() {
         switch (p) {
             case 0:
