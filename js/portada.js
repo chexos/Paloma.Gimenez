@@ -4,7 +4,7 @@ function portada() {
     let botonesCarrusel = document.getElementsByClassName("btn-carrusel");
     function verificarPortada() {
         switch (p) {
-            
+            case 0:
         }
     }
     function cambiarPortada() {
