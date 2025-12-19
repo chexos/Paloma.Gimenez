@@ -105,9 +105,6 @@ header#header article.menu section#menuMovil {
 header#header article.menu section#menuMovil.transicion {
     transition:0.4s all;
 }
-header#header article.menu section#menuMovil.transicion-cero {
-    transition:0s;
-}
 header#header article.menu section#menuMovil.invisibilidad {
     transform:translateX(100%);
 }
