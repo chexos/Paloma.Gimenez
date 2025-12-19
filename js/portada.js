@@ -10,6 +10,7 @@ function portada() {
         }
     }
     let p = 0;
+    let carrusel = document.getElementById("carrusel");
     function verificarPortada() {
         switch (p) {
             case 0:
