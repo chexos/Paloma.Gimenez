@@ -11,6 +11,7 @@ function portada() {
     }
     let p = 0;
     let carrusel = document.getElementById("carrusel");
+    let circulos = document.getElementById("circulos");
     function verificarPortada() {
         function removerClasesPortada() {
             carrusel.classList.remove(carrusel.classList);
@@ -112,7 +113,7 @@ function portada() {
     }
     function cambiarPortada() {
         function primerCirculo() {
-            
+
         }
     }
 }
