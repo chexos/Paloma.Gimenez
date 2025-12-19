@@ -27,6 +27,9 @@ section#carrusel.quinta-imagen {
 section#carrusel.sexta-imagen {
 	transform:translateX(calc(-600% / 13));
 }
+section#carrusel.septima-imagen {
+	transform:translateX(calc(-700% / 13));
+}
 section#carrusel>picture {
 	width:calc(100% / 13);
 }
