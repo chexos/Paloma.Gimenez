@@ -5,7 +5,7 @@ section#carrusel {
 	flex-flow:row;
 	flex-wrap:wrap;
 	position:relative;
-	right:calc(900% / 9);
+	transform:translateX(1300% / 13);
 }
 section#carrusel>picture {
 	width:calc(100% / 11);
