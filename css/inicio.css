@@ -42,6 +42,9 @@ section#carrusel.decima-imagen {
 section#carrusel.onceava-imagen {
 	transform:translateX(calc(-1100% / 13));
 }
+section#carrusel.doceava-imagen {
+	transform:translateX(calc(-1200% / 13));
+}
 section#carrusel>picture {
 	width:calc(100% / 13);
 }
