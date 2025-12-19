@@ -9,6 +9,9 @@ section#carrusel {
 section#carrusel.primera-imagen {
 	transform:translateX(calc(-100% / 13));
 }
+section#carrusel.segunda-imagen {
+	transform:translateX(calc(-200% / 13));
+}
 section#carrusel>picture {
 	width:calc(100% / 13);
 }
