@@ -5,6 +5,7 @@ function portada() {
     function verificarPortada() {
         switch (p) {
             case 0:
+                cp = 11;
         }
     }
     function cambiarPortada() {
