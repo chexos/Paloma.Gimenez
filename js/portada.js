@@ -3,9 +3,10 @@ function portada() {
     let cp = -1;
     function cambiarCirculo() {
         for (var i = 0; i < botonesCarrusel.length; i++) {
-            if (i == cp) {
+            if (i == cp)
                 botonesCarrusel[i].classList.add("btn-seleccionado");
-            }
+            else
+                botonesCarrusel[i].classList.remove("btn-seleccionado");
         }
     }
     let p = 0;
