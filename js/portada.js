@@ -15,6 +15,7 @@ function portada() {
     function verificarPortada() {
         function removerClasesPortada() {
             carrusel.classList.remove(carrusel.classList);
+            circulos.classList.remove(circulos.classList);
         }
         switch (p) {
             case 0:
