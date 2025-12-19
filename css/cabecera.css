@@ -162,7 +162,6 @@ main#principal {
         flex:0.3;
     }
     header#header article.menu section#menuMovil {
-        transform:translateX(0%);
         justify-content:space-evenly;
 		position:relative;
 		top:-1%;
