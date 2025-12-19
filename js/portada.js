@@ -14,6 +14,7 @@ function portada() {
         switch (p) {
             case 0:
                 cp = 11;
+                cambiarCirculo();
         }
     }
     function cambiarPortada() {
