@@ -30,6 +30,9 @@ section#carrusel.sexta-imagen {
 section#carrusel.septima-imagen {
 	transform:translateX(calc(-700% / 13));
 }
+section#carrusel.octava-imagen {
+	transform:translateX(calc(-800% / 13));
+}
 section#carrusel>picture {
 	width:calc(100% / 13);
 }
