@@ -165,7 +165,7 @@ main#principal {
         transform:translateX(0%);
         justify-content:space-evenly;
 		position:relative;
-		top:0%;
+		top:-1%;
 		right:0%;
 		flex-flow:row;
     }
