@@ -6,6 +6,9 @@ section#carrusel {
 	flex-wrap:wrap;
 	position:relative;
 }
+section#carrusel.primera-imagen-cero {
+	transform:translateX(calc(0% / 13));
+}
 section#carrusel.primera-imagen {
 	transform:translateX(calc(-100% / 13));
 }
