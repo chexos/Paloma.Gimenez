@@ -58,6 +58,7 @@ function portada() {
                 cambiarCirculo();
                 removerClasesPortada();
                 carrusel.classList.add("quinta-imagen");
+                circulos.classList.add("trasladar-500");
                 break;
             case 6:
                 cp = 6;
