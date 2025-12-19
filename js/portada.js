@@ -20,6 +20,7 @@ function portada() {
                 cp = 11;
                 cambiarCirculo();
                 removerClasesPortada();
+                carrusel.classList.add("primera-imagen-cero");
         }
     }
     function cambiarPortada() {
