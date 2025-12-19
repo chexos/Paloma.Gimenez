@@ -82,6 +82,12 @@ function portada() {
                 removerClasesPortada();
                 carrusel.classList.add("decima-imagen");
                 break;
+            case 11:
+                cp = 11;
+                cambiarCirculo();
+                removerClasesPortada();
+                carrusel.classList.add("onceava-imagen");
+                break;
         }
     }
     function cambiarPortada() {
