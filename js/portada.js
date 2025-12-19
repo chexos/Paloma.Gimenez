@@ -21,6 +21,7 @@ function portada() {
                 cambiarCirculo();
                 removerClasesPortada();
                 carrusel.classList.add("primera-imagen-cero");
+                break;
         }
     }
     function cambiarPortada() {
