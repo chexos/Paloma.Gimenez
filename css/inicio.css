@@ -34,7 +34,10 @@ section#carrusel.octava-imagen {
 	transform:translateX(calc(-800% / 13));
 }
 section#carrusel.novena-imagen {
-	transform:translateX(calc(-800% / 13));
+	transform:translateX(calc(-900% / 13));
+}
+section#carrusel.decima-imagen {
+	transform:translateX(calc(-1000% / 13));
 }
 section#carrusel>picture {
 	width:calc(100% / 13);
