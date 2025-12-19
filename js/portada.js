@@ -121,6 +121,7 @@ function portada() {
                 cambiarCirculo();
                 removerClasesPortada();
                 carrusel.classList.add("catorceava-imagen");
+                circulos.classList.add("trasladar-100");
                 break;
             default:
                 break;
