@@ -72,6 +72,7 @@ function portada() {
                 cambiarCirculo();
                 removerClasesPortada();
                 carrusel.classList.add("septima-imagen");
+                circulos.classList.add("trasladar-700");
                 break;
             case 8:
                 cp = 8;
