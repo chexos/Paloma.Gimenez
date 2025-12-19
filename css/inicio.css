@@ -39,6 +39,9 @@ section#carrusel.novena-imagen {
 section#carrusel.decima-imagen {
 	transform:translateX(calc(-1000% / 13));
 }
+section#carrusel.onceava-imagen {
+	transform:translateX(calc(-1100% / 13));
+}
 section#carrusel>picture {
 	width:calc(100% / 13);
 }
