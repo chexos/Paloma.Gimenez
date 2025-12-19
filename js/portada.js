@@ -19,6 +19,7 @@ function portada() {
             case 0:
                 cp = 11;
                 cambiarCirculo();
+                removerClasesPortada();
         }
     }
     function cambiarPortada() {
