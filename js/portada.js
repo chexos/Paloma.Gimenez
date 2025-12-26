@@ -176,13 +176,28 @@ function portada() {
         verificarPortada();
     }
     botonesCarrusel[10].addEventListener("click", onceavoCirculo);
+    function removerClases() {
+        carrusel.className = "";
+        circulos.className = "";
+    }
     function finalTransicion() {
-        if (p == 0) {
-            p = 11;
-        } else if (p == 12) {
+        if (p == 12) {
+            removerClases();
             p = 1;
+            cp = 0;
+            cambiarCirculo();
+            carrusel.classList.add("primera-imagen");
+            circulos.classList.add("trasladar-100");
+        } else if (p == 0) {
+            removerClases();
+            p = 11;
+            cp = 10;
+            cambiarCirculo();
+            carrusel.classList.add("onceava-imagen");
+            circulos.classList.add("trasladar-1100");
         }
     }
+    carrusel.addEventListener("transitionend", finalTransicion);
 }
 document.addEventListener("DOMContentLoaded", function() {
     portada();
