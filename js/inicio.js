@@ -1,3 +1,4 @@
+/*
 let carrusel = document.getElementById("carrusel");
 let imagenCarrusel = document.getElementsByClassName("imagen-carrusel");
 let espacios = document.getElementsByClassName("boton-seleccionado");
@@ -71,7 +72,7 @@ function ajustarAlto() {
     console.log(altoMensaje = mensaje.offsetHeight);
     console.log(altoMensaje);
     mensaje.style.height = "auto";
-    altoDesplazamiento = mensaje.scrollHeight + 1;*/
+    altoDesplazamiento = mensaje.scrollHeight + 1;*//*
 }
 function actualizarFilas() {
     filasTexto = mensaje.rows;
@@ -85,7 +86,7 @@ function ajustarFilas() {/*
         mensaje.rows = 2;
     }/* else {
         mensaje.rows = filas;
-    }*/
+    }*//*
     let span = document.createElement("span");
     span.className = "fila";
     if (mensaje.rows > 2) {
@@ -100,7 +101,7 @@ function ajustarFilas() {/*
                 console.log("añadiendo un span");
                 texto.appendChild(span);
             }
-        }*/
+        }*//*
     } else if (mensaje.rows < filasTexto) {
         console.log("Eliminando filas");
         actualizarFilas();
@@ -133,7 +134,7 @@ function removerDobleEspacioBlanco() {
     var textoDoble = mensaje.value;
     var textoReemplazado = textoDoble.replace(/ {2,}/g, " ");
     mensaje.value = textoReemplazado;
-}*/
+}*//*
 let anchoDesplazamiento = mensaje.scrollWidth;
 let anchoMensaje;
 function actualizarAnchoMensaje() {
@@ -219,7 +220,7 @@ function esperarAjuste() {
     ajuste = setTimeout(function() {
         anchoMensaje = mensaje.offsetWidth;
     }, 100);
-}*/
+}*//*
 let dividirMensaje;
 let navegador = 0;
 function cambiarResolucion() {
