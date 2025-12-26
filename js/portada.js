@@ -130,6 +130,7 @@ function portada() {
     function cambiarPortada() {
         function primerCirculo() {
             cp = 0;
+            verificarPortada();
         }
     }
 }
