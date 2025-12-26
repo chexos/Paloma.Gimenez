@@ -10,8 +10,7 @@ function menu() {
         }
         if (!menuMovil.classList.contains("invisibilidad")) {
             menuMovil.classList.add("invisibilidad");
-        }
-        else {
+        } else {
             menuMovil.classList.remove("invisibilidad");
         }
     }
@@ -34,7 +33,7 @@ function redimension() {
     removerTransicion();
 }
 function agregarEventos() {
-    window.addEventListener("DOMContentLoaded", menu);
-    window.addEventListener("resize", redimension);
+    document.addEventListener("DOMContentLoaded", menu());
+    document.addEventListener("resize", redimension);
 }
-agregarEventos();
+document.addEventListener("DOMContentLoaded", agregarEventos);
