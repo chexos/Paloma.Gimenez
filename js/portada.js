@@ -1,7 +1,7 @@
 function portada() {
-    let botonesCarrusel = document.getElementsByClassName("btn-carrusel");
     let cp = -1;
     function cambiarCirculo() {
+        let botonesCarrusel = document.getElementsByClassName("btn-carrusel");
         for (var i = 0; i < botonesCarrusel.length; i++) {
             if (i == cp)
                 botonesCarrusel[i].classList.add("btn-seleccionado");
