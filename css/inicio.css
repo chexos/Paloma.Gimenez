@@ -5,6 +5,11 @@ section#carrusel {
 	flex-flow:row;
 	flex-wrap:wrap;
 	position:relative;
+	transition:1s all;
+}
+section#carrusel,
+div#circulos {
+	transition:1s all;
 }
 section#carrusel.primera-imagen-cero {
 	transform:translateX(calc(0% / 13));
