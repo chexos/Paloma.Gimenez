@@ -103,25 +103,11 @@ function portada() {
                 circulos.classList.add("trasladar-1100");
                 break;
             case 12:
-                cp = 11;
+                cp = 0;
                 cambiarCirculo();
                 removerClasesPortada();
                 carrusel.classList.add("doceava-imagen");
                 circulos.classList.add("trasladar-1200");
-                break;
-            case 13:
-                cp = 12;
-                cambiarCirculo();
-                removerClasesPortada();
-                carrusel.classList.add("treceava-imagen");
-                circulos.classList.add("trasladar-1300");
-                break;
-            case 14:
-                cp = 13;
-                cambiarCirculo();
-                removerClasesPortada();
-                carrusel.classList.add("catorceava-imagen");
-                circulos.classList.add("trasladar-100");
                 break;
             default:
                 break;
