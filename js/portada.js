@@ -1,7 +1,7 @@
 function portada() {
     let cp = -1;
+    let botonesCarrusel = document.getElementsByClassName("btn-carrusel");
     function cambiarCirculo() {
-        let botonesCarrusel = document.getElementsByClassName("btn-carrusel");
         for (var i = 0; i < botonesCarrusel.length; i++) {
             if (i == cp)
                 botonesCarrusel[i].classList.add("btn-seleccionado");
@@ -12,7 +12,6 @@ function portada() {
     let p = 0;
     let carrusel = document.getElementById("carrusel");
     let circulos = document.getElementById("circulos");
-    let btnCirculos = document.getElementsByClassName("btn-circulos");
     function verificarPortada() {
         function removerClasesPortada() {
             carrusel.classList.remove(carrusel.classList);
@@ -132,12 +131,12 @@ function portada() {
         cp = 0;
         verificarPortada();
     }
-    btnCirculos[0].addEventListener("click", primerCirculo);
+    botonesCarrusel[0].addEventListener("click", primerCirculo);
     function SegundoCirculo() {
         cp = 1;
         verificarPortada();
     }
-    btnCirculos[1].addEventListener("click", SegundoCirculo);
+    botonesCarrusel[1].addEventListener("click", SegundoCirculo);
 }
 document.addEventListener("DOMContentLoaded", function() {
     portada();
