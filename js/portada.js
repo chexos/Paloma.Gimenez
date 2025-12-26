@@ -199,6 +199,5 @@ function portada() {
     }
     carrusel.addEventListener("transitionend", finalTransicion);
 }
-document.addEventListener("DOMContentLoaded", function() {
-    portada();
-});
+
+document.addEventListener("DOMContentLoaded", portada);

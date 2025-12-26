@@ -292,3 +292,10 @@ formulario.addEventListener("loaded", function() {
     cambiarPosicionFila();
     cambiarResolucion();
 });*/
+function formulario() {
+    let mensaje = document.getElementById("mensaje");
+	function asignarAltoMensaje() {
+		mensaje.style.height = mensaje.scrollHeight + "px";
+	}
+	consulta.addEventListener("input", asignarAltoMensaje);
+}
