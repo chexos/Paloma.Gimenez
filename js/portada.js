@@ -137,6 +137,11 @@ function portada() {
         verificarPortada();
     }
     botonesCarrusel[1].addEventListener("click", SegundoCirculo);
+    function tercerCirculo() {
+        p = 3;
+        verificarPortada();
+    }
+    botonesCarrusel[2].addEventListener("click", tercerCirculo);
 }
 document.addEventListener("DOMContentLoaded", function() {
     portada();
