@@ -132,7 +132,7 @@ function portada() {
         cp = 0;
         verificarPortada();
     }
-    circulos[0].addEventListener("click", primerCirculo);
+    btnCirculos[0].addEventListener("click", primerCirculo);
     function SegundoCirculo() {
         cp = 1;
         verificarPortada();
