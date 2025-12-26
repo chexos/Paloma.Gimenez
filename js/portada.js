@@ -132,6 +132,7 @@ function portada() {
             cp = 0;
             verificarPortada();
         }
+        circulos[0].addEventListener("click", primerCirculo);
     }
 }
 document.addEventListener("DOMContentLoaded", function() {
