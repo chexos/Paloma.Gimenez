@@ -182,7 +182,11 @@ function portada() {
     }
     botonesCarrusel[9].addEventListener("click", decimoCirculo);
     function onceavoCirculo() {
-        p = 11;
+        if (p > 0 && p < 6) {
+            p = 0;
+        } else if (p > 5 && p < 11) {
+            p = 11;
+        }
         verificarPortada();
     }
     botonesCarrusel[10].addEventListener("click", onceavoCirculo);
