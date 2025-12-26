@@ -172,6 +172,11 @@ function portada() {
         verificarPortada();
     }
     botonesCarrusel[8].addEventListener("click", novenoCirculo);
+    function decimoCirculo() {
+        p = 10;
+        verificarPortada();
+    }
+    botonesCarrusel[9].addEventListener("click", decimoCirculo);
 }
 document.addEventListener("DOMContentLoaded", function() {
     portada();
