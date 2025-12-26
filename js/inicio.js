@@ -297,5 +297,6 @@ function formulario() {
 	function asignarAltoMensaje() {
 		mensaje.style.height = mensaje.scrollHeight + "px";
 	}
-	consulta.addEventListener("input", asignarAltoMensaje);
+	mensaje.addEventListener("input", asignarAltoMensaje);
 }
+document.addEventListener("DOMContentLoaded", formulario);
