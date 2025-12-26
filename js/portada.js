@@ -12,6 +12,7 @@ function portada() {
     let p = 0;
     let carrusel = document.getElementById("carrusel");
     let circulos = document.getElementById("circulos");
+    let btnCirculos = document.getElementsByClassName("btn-circulos");
     function verificarPortada() {
         function removerClasesPortada() {
             carrusel.classList.remove(carrusel.classList);
