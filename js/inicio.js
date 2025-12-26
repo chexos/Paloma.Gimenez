@@ -295,6 +295,7 @@ formulario.addEventListener("loaded", function() {
 function formulario() {
     let mensaje = document.getElementById("mensaje");
 	function asignarAltoMensaje() {
+        mensaje.style.height = "auto";
 		mensaje.style.height = mensaje.scrollHeight + "px";
 	}
 	mensaje.addEventListener("input", asignarAltoMensaje);
