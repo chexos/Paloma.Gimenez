@@ -128,7 +128,11 @@ function portada() {
         }
     }
     function primerCirculo() {
-        p = 1;
+        if (p > 6 && p < 12) {
+            p = 12;
+        } else if (p >= 0 && p < 7) {
+            p = 1;
+        }
         verificarPortada();
     }
     botonesCarrusel[0].addEventListener("click", primerCirculo);
