@@ -202,6 +202,7 @@ section#formulario section#texto span.fila {
 textarea#mensaje {
 	text-size-adjust:none;
 	overflow-y:hidden;
+	min-height:27.33px;
 	height:auto;
 	resize:none;
 	font-size:16pt;
