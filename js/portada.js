@@ -14,8 +14,8 @@ function portada() {
     let circulos = document.getElementById("circulos");
     function verificarPortada() {
         function removerClasesPortada() {
-            carrusel.classList.remove(carrusel.classList);
-            circulos.classList.remove(circulos.classList);
+            carrusel.className = "transicion-1";
+            circulos.className = "transicion-1";
         }
         switch (p) {
             case 0:
@@ -190,6 +190,13 @@ function portada() {
         verificarPortada();
     }
     botonesCarrusel[10].addEventListener("click", onceavoCirculo);
+    function finalTransicion() {
+        if (p == 0) {
+            p = 11;
+        } else if (p == 12) {
+            p = 1;
+        }
+    }
 }
 document.addEventListener("DOMContentLoaded", function() {
     portada();
