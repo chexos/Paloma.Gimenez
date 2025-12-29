@@ -10,7 +10,7 @@ main#principal {
     flex-wrap:wrap;
     margin:55.6px;
     column-gap:5.25px;
-    justify-content:space-between;
+    justify-content:center;
 }
 main#principal>a {
     display:flex;
