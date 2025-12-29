@@ -291,6 +291,38 @@ formulario.addEventListener("loaded", function() {
     ajustarValor();
     cambiarPosicionFila();
     cambiarResolucion();
+});*//*
+function fijarAltoBase(p) {
+    // Guarda el alto original del texto sin alterar su forma
+    const altoBase = p.offsetHeight;
+    p.style.minHeight = altoBase + "px";
+}
+function fitText(p, min = 10, max = 40) {
+    const contenedor = p.parentElement;
+    if (!contenedor) return;
+    while (min <= max) {
+        const mid = Math.floor((min + max) / 2);
+        p.style.fontSize = mid + "px";
+        p.style.lineHeight = mid * 1.4 + "px";
+        if (
+            p.scrollHeight > contenedor.clientHeight ||
+            p.scrollWidth > contenedor.clientWidth
+        ) {
+            max = mid - 1;
+        } else {
+            min = mid + 1;
+        }
+    }
+    p.style.fontSize = max + "px";
+    p.style.lineHeight = max * 1.4 + "px";
+}
+document.addEventListener("DOMContentLoaded", () => {
+    const p = document.getElementById("enlaceCorreo");
+    fijarAltoBase(p);
+    fitText(p);
+    window.addEventListener("resize", () => {
+        fitText(p);
+    });
 });*/
 function formulario() {
     let mensaje = document.getElementById("mensaje");
