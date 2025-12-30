@@ -330,6 +330,30 @@ function formulario() {
         mensaje.style.height = "auto";
 		mensaje.style.height = mensaje.scrollHeight + "px";
 	}
+    function obtenerLineas(textarea) {
+        const valor = textarea.value;
+        // Medimos DOS líneas reales
+        textarea.value = "A\nA";
+        textarea.style.height = "auto";
+        const alturaDosLineas = textarea.scrollHeight;
+        const alturaUnaLinea = alturaDosLineas / 2;
+        // Medimos el texto real
+        textarea.value = valor;
+        textarea.style.height = "auto";
+        const alturaTotal = textarea.scrollHeight;
+        return Math.round(alturaTotal / alturaUnaLinea);
+    }
+    function autoResize(textarea) {
+        textarea.style.height = "auto";
+        textarea.style.height = textarea.scrollHeight + "px";
+    }
+    function actualizar() {
+        autoResize(mensaje);
+        const totalLineas = obtenerLineas(mensaje);
+        console.log(totalLineas);
+    }
+    mensaje.addEventListener("input", actualizar);
+    window.addEventListener("resize", actualizar);
 	mensaje.addEventListener("input", asignarAltoMensaje);
 }
 document.addEventListener("DOMContentLoaded", formulario);
