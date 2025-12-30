@@ -350,8 +350,39 @@ function formulario() {
     function actualizar() {
         autoResize(mensaje);
         let totalLineas = obtenerLineas(mensaje);
-        console.log(totalLineas);
     }
+    function lineas() {
+        let texto = document.getElementById("texto");
+        let totalLineas = obtenerLineas(mensaje);
+        console.log("entrando");
+        console.log(totalLineas);
+        let fila = document.getElementsByClassName("fila");
+        if (fila.length > totalLineas) {
+            console.log("r");
+            for (var i = 0; i < totalLineas; i++) {
+                if (fila.length == totalLineas)
+                    return;
+                else {
+                    fila[i].remove();
+                    console.log("total de lineas" + totalLineas);
+                    console.log("total de filas" + fila.length);
+                    for (var i = 0; i < totalLineas; i++) {
+                        fila[i].style.top = "calc(100% * " + (i + 1) + " / " + totalLineas + ")";
+                    }
+                }
+            }
+        } else if (fila.length < totalLineas) {
+            console.log("e");
+            let filaNueva = document.createElement("span");
+            filaNueva.classList.add("fila");
+            texto.appendChild(filaNueva);
+        }
+        for (var i = 0; i < totalLineas; i++) {
+            fila[i].style.top = "calc(100% * " + (i + 1) + " / " + totalLineas + ")";
+        }
+    }
+    mensaje.addEventListener("input", lineas);
+    window.addEventListener("resize", lineas);
     mensaje.addEventListener("input", actualizar);
     window.addEventListener("resize", actualizar);
 	mensaje.addEventListener("input", asignarAltoMensaje);
