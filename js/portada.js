@@ -203,7 +203,7 @@ function portada() {
         p++;
         cp++;
         if (p >= imagenCarrusel.length) {
-            
+            p = 0;
         }
     }
 }
