@@ -331,16 +331,16 @@ function formulario() {
 		mensaje.style.height = mensaje.scrollHeight + "px";
 	}
     function obtenerLineas(textarea) {
-        const valor = textarea.value;
+        let valor = textarea.value;
         // Medimos DOS líneas reales
         textarea.value = "A\nA";
         textarea.style.height = "auto";
-        const alturaDosLineas = textarea.scrollHeight;
-        const alturaUnaLinea = alturaDosLineas / 2;
+        let alturaDosLineas = textarea.scrollHeight;
+        let alturaUnaLinea = alturaDosLineas / 2;
         // Medimos el texto real
         textarea.value = valor;
         textarea.style.height = "auto";
-        const alturaTotal = textarea.scrollHeight;
+        let alturaTotal = textarea.scrollHeight;
         return Math.round(alturaTotal / alturaUnaLinea);
     }
     function autoResize(textarea) {
@@ -349,7 +349,7 @@ function formulario() {
     }
     function actualizar() {
         autoResize(mensaje);
-        const totalLineas = obtenerLineas(mensaje);
+        let totalLineas = obtenerLineas(mensaje);
         console.log(totalLineas);
     }
     mensaje.addEventListener("input", actualizar);
