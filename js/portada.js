@@ -198,6 +198,8 @@ function portada() {
         }
     }
     carrusel.addEventListener("transitionend", finalTransicion);
+    function rotacion() {
+        
+    }
 }
-
 document.addEventListener("DOMContentLoaded", portada);
