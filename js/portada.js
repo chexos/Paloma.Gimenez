@@ -210,6 +210,8 @@ function portada() {
         let x2 = 0;
         let x3 = 0;
         let x4 = 0;
+        let posActual;
+        
     }
 }
 document.addEventListener("DOMContentLoaded", portada);
