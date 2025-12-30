@@ -200,6 +200,7 @@ function portada() {
     carrusel.addEventListener("transitionend", finalTransicion);
     function rotacion() {
         p++;
+        cp++;
     }
 }
 document.addEventListener("DOMContentLoaded", portada);
