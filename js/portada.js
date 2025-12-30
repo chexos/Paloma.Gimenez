@@ -215,6 +215,9 @@ function portada() {
         verificarPortada();
         rotarSlider = setTimeout("rotacion()", 3000);
         carrusel.addEventListener("touchstart", touchStart);
+        function touchStart(e) {
+            
+        } 
     }
 }
 document.addEventListener("DOMContentLoaded", portada);
