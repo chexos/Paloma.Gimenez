@@ -186,6 +186,8 @@ section#formulario input,
 section#formulario textarea {
 	background-color:rgb(44,44,44);
 	border:none;
+}
+section#formulario input {
 	border-bottom:solid 1px white;
 }
 section#formulario section#texto {
