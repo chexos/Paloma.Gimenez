@@ -212,6 +212,8 @@ function portada() {
         let x4 = 0;
         let posActual;
         let prevenir = false;
+        verificarPortada();
+        rotarSlider = setTimeout("rotacion()", 3000);
     }
 }
 document.addEventListener("DOMContentLoaded", portada);
