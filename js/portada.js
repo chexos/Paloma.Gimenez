@@ -218,6 +218,9 @@ function portada() {
         function touchStart(e) {
             if (p == 0 || p == 12)
                 return;
+            else {
+                
+            }
         } 
     }
 }
