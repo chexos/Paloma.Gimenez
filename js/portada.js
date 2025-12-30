@@ -209,6 +209,7 @@ function portada() {
         let x = 0;
         let x2 = 0;
         let x3 = 0;
+        let x4 = 0;
     }
 }
 document.addEventListener("DOMContentLoaded", portada);
