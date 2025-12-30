@@ -204,6 +204,7 @@ function portada() {
         cp++;
         if (p >= imagenCarrusel.length) {
             p = 0;
+            cp = 0;
         }
     }
 }
