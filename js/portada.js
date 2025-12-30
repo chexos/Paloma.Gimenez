@@ -198,9 +198,13 @@ function portada() {
         }
     }
     carrusel.addEventListener("transitionend", finalTransicion);
+    let imagenCarrusel = document.getElementsByClassName("imagen-carrusel");
     function rotacion() {
         p++;
         cp++;
+        if (p >= imagenCarrusel.length) {
+            
+        }
     }
 }
 document.addEventListener("DOMContentLoaded", portada);
