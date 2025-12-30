@@ -219,7 +219,7 @@ function portada() {
             if (p == 0 || p == 12)
                 return;
             else {
-                
+                clearTimeout(rotarSlider);
             }
         } 
     }
