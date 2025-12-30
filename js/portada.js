@@ -211,7 +211,7 @@ function portada() {
         let x3 = 0;
         let x4 = 0;
         let posActual;
-        
+        let prevenir = false;
     }
 }
 document.addEventListener("DOMContentLoaded", portada);
