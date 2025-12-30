@@ -207,7 +207,8 @@ function portada() {
             cp = 0;
         }
         let x = 0;
-        let x1 = 0;
+        let x2 = 0;
+        let x3 = 0;
     }
 }
 document.addEventListener("DOMContentLoaded", portada);
