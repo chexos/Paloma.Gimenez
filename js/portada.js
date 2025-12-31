@@ -216,12 +216,16 @@ function portada() {
         rotarSlider = setTimeout("rotacion()", 3000);
         carrusel.addEventListener("touchstart", touchStart);
         function touchStart(e) {
-            if (p == 0 || p == 12)
+            if (p == 0 || p == 12) {
                 return;
+                e.stopImmediatePropagation();
+            }
             else {
                 clearTimeout(rotarSlider);
+                x = e.touches[0].pageX;
+                x4 = 0;
             }
-        } 
+        }
     }
 }
 document.addEventListener("DOMContentLoaded", portada);
