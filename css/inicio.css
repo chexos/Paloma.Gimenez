@@ -3,8 +3,9 @@ section#carrusel {
 	width:1300%;
 	display:flex;
 	flex-flow:row;
-	flex-wrap:wrap;
+	flex-flow:row nowrap;
 	position:relative;
+	touch-action:pan-y;
 }
 section#carrusel.primera-imagen-cero {
 	transform:translateX(calc(0% / 13));
