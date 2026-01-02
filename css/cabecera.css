@@ -124,6 +124,413 @@ main#principal {
     position:relative;
     z-index:1;
 }
+@media screen and (min-width: 380px) {
+    header#header {
+        height:31px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 31px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 15.5px;
+    }
+}
+@media screen and (min-width: 400px) {
+    header#header {
+        height:32px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 32px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 16px;
+    }
+    
+}
+@media screen and (min-width: 420px) {
+    header#header {
+        height:33px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 33px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 16.5px;
+    }
+    
+}
+@media screen and (min-width: 440px) {
+    header#header {
+        height:34px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 34px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 17px;
+    }
+    
+}
+@media screen and (min-width: 460px) {
+    header#header {
+        height:35px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 35px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 17.5px;
+    }
+    
+}
+@media screen and (min-width: 480px) {
+    header#header {
+        height:36px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 36px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 18px;
+    }
+    
+}
+@media screen and (min-width: 500px) {
+    header#header {
+        height:37px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 37px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 18.5px;
+    }
+    
+}
+@media screen and (min-width: 520px) {
+    header#header {
+        height:38px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 38px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 19px;
+    }
+    
+}
+@media screen and (min-width: 540px) {
+    header#header {
+        height:39px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 39px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 19.5px;
+    }
+    
+}
+@media screen and (min-width: 560px) {
+    header#header {
+        height:40px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 40px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 20px;
+    }
+    
+}
+@media screen and (min-width: 580px) {
+    header#header {
+        height:41px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 41px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 20.5px;
+    }
+    
+}
+@media screen and (min-width: 600px) {
+    header#header {
+        height:42px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 42px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 21px;
+    }
+    
+}
+@media screen and (min-width: 620px) {
+    header#header {
+        height:43px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 43px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 21.5px;
+    }
+    
+}
+@media screen and (min-width: 640px) {
+    header#header {
+        height:44px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 44px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 22px;
+    }
+    
+}
+@media screen and (min-width: 660px) {
+    header#header {
+        height:45px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 45px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 22.5px;
+    }
+    
+}
+@media screen and (min-width: 680px) {
+    header#header {
+        height:46px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 46px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 23px;
+    }
+    
+}
+@media screen and (min-width: 700px) {
+    header#header {
+        height:47px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 47px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 23.5px;
+    }
+    
+}
+@media screen and (min-width: 720px) {
+    header#header {
+        height:48px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 48px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 24px;
+    }
+    
+}
+@media screen and (min-width: 740px) {
+    header#header {
+        height:49px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 49px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 24.5px;
+    }
+    
+}
+@media screen and (min-width: 760px) {
+    header#header {
+        height:50px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 50px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 25px;
+    }
+    
+}
+@media screen and (min-width: 780px) {
+    header#header {
+        height:51px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 51px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 25.5px;
+    }
+    
+}
+@media screen and (min-width: 800px) {
+    header#header {
+        height:52px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 52px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 26px;
+    }
+    
+}
+@media screen and (min-width: 820px) {
+    header#header {
+        height:53px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 53px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 26.5px;
+    }
+    
+}
+@media screen and (min-width: 840px) {
+    header#header {
+        height:54px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 54px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 27px;
+    }
+    
+}
+@media screen and (min-width: 860px) {
+    header#header {
+        height:55px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 55px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 27.5px;
+    }
+    
+}
+@media screen and (min-width: 880px) {
+    header#header {
+        height:56px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 56px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 28px;
+    }
+    
+}
+@media screen and (min-width: 900px) {
+    header#header {
+        height:57px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 57px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 28.5px;
+    }
+    
+}
+@media screen and (min-width: 996px) {
+    header#header {
+        height:58px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 58px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 29px;
+    }
+    
+}
+@media screen and (min-width: 1000px) {
+    header#header {
+        height:59px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 59px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 29.5px;
+    }
+    
+}
+@media screen and (min-width: 1050px) {
+    header#header {
+        height:60px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 60px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 30px;
+    }
+    
+}
+@media screen and (min-width: 1100px) {
+    header#header {
+        height:61px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 61px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 30.5px;
+    }
+    
+}
+@media screen and (min-width: 1150px) {
+    header#header {
+        height:62px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 62px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 31px;
+    }
+    
+}
+@media screen and (min-width: 1200px) {
+    header#header {
+        height:63px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 63px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 31.5px;
+    }
+    
+}
+@media screen and (min-width: 1250px) {
+    header#header {
+        height:64px;
+    }
+    header#header article.redes-sociales {
+        margin:0px 0px 0px 64px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 32px;
+    }
+    
+}
 @media screen and (min-width: 1280px) {
     header#header {
         height:66.6px;
@@ -157,6 +564,9 @@ main#principal {
         height:30px;
         width:auto;
     }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 33px;
+    }
 	header#header article.redes-sociales,
 	header#header article.logo {
         flex:0.3;
@@ -187,6 +597,114 @@ main#principal {
 		display:flex;
 	}
 }
+@media screen and (min-width: 1300px) {
+    header#header {
+        height:72px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 36px;
+    }
+    
+}
+@media screen and (min-width: 1350px) {
+    header#header {
+        height:78px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 39px;
+    }
+    
+}
+@media screen and (min-width: 1400px) {
+    header#header {
+        height:84px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 42px;
+    }
+    
+}
+@media screen and (min-width: 1450px) {
+    header#header {
+        height:90px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 45px;
+    }
+    
+}
+@media screen and (min-width: 1500px) {
+    header#header {
+        height:96px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 48px;
+    }
+    
+}
+@media screen and (min-width: 1550px) {
+    header#header {
+        height:102px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 51px;
+    }
+    
+}
+@media screen and (min-width: 1600px) {
+    header#header {
+        height:108px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 54px;
+    }
+    
+}
+@media screen and (min-width: 1650px) {
+    header#header {
+        height:114px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 57px;
+    }
+    
+}
+@media screen and (min-width: 1700px) {
+    header#header {
+        height:120px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 60px;
+    }
+    
+}
+@media screen and (min-width: 1750px) {
+    header#header {
+        height:126px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 63px;
+    }
+    
+}
+@media screen and (min-width: 1800px) {
+    header#header {
+        height:132px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 66px;
+    }
+    
+}
+@media screen and (min-width: 1850px) {
+    header#header {
+        height:138px;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 69px;
+    }
+    
+}
 @media screen and (min-width: 1920px) {
 	header#header {
 		height:149px;
@@ -210,6 +728,9 @@ main#principal {
     header#header article.redes-sociales a picture img {
         height:60px;
         width:auto;
+    }
+    header#header article.redes-sociales a:nth-child(2) {
+        margin: 0px 0px 0px 74.5px;
     }
     header#header article.menu section#menuMovil a {
         font-size:20pt;
