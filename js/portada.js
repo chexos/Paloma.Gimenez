@@ -215,9 +215,9 @@ function verificarPortada() {
             break;
     }
 }
+let rotarSlider;
 function rotacion() {
     let imagenCarrusel = document.getElementsByClassName("imagen-carrusel");
-    let rotarSlider;
     let x = 0;
     let x2 = 0;
     let x3 = 0;
@@ -297,6 +297,15 @@ function reiniciarRotacion() {
     clearTimeout(rotarSlider);
     rotarSlider = setTimeout(rotacion, 3000);
 }
+document.addEventListener("visibilitychange", function() {
+    if (document.hidden) {
+        clearTimeout(rotarSlider);
+    } else {
+        p--;
+        cp--;
+        rotacion();
+    }
+});
 document.addEventListener("DOMContentLoaded", function() {
     portada();
     rotacion();
