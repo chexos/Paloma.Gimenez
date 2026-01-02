@@ -210,6 +210,12 @@ textarea#mensaje {
 	resize:none;
 	font-size:16pt;
 }
+.primera-fila {
+	top:50%;
+}
+.segunda-fila {
+	top:100%;
+}
 p#caja {
 	text-size-adjust:none;
 	font-family:"Hurme Semi Ondulado";
