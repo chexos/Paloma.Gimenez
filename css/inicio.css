@@ -224,108 +224,314 @@ p#caja {
 	position:absolute;
 }
 @media screen and (min-width: 380px) {
-
+	section#carrusel {
+		margin:31px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:52.5px 55.6px;
+	}
 }
 @media screen and (min-width: 400px) {
-    
+	section#carrusel {
+		margin:32px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:55px 55.6px;
+	}
+
 }
 @media screen and (min-width: 420px) {
+	section#carrusel {
+		margin:33px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:57.5px 55.6px;
+	}
     
 }
 @media screen and (min-width: 440px) {
+	section#carrusel {
+		margin:34px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:60px 55.6px;
+	}
     
 }
 @media screen and (min-width: 460px) {
+	section#carrusel {
+		margin:35px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:62.5px 55.6px;
+	}
     
 }
 @media screen and (min-width: 480px) {
+	section#carrusel {
+		margin:36px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:65px 55.6px;
+	}
     
 }
 @media screen and (min-width: 500px) {
+	section#carrusel {
+		margin:37px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:67.5px 55.6px;
+	}
     
 }
 @media screen and (min-width: 520px) {
+	section#carrusel {
+		margin:38px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:70px 55.6px;
+	}
     
 }
 @media screen and (min-width: 540px) {
+	section#carrusel {
+		margin:39px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:72.5px 55.6px;
+	}
     
 }
 @media screen and (min-width: 560px) {
+	section#carrusel {
+		margin:40px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:75px 55.6px;
+	}
     
 }
 @media screen and (min-width: 580px) {
+	section#carrusel {
+		margin:41px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:77.5px 55.6px;
+	}
     
 }
 @media screen and (min-width: 600px) {
+	section#carrusel {
+		margin:42px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:80px 55.6px;
+	}
     
 }
 @media screen and (min-width: 620px) {
+	section#carrusel {
+		margin:43px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:82.5px 55.6px;
+	}
     
 }
 @media screen and (min-width: 640px) {
+	section#carrusel {
+		margin:44px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:85px 55.6px;
+	}
     
 }
 @media screen and (min-width: 660px) {
+	section#carrusel {
+		margin:45px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:87.5px 55.6px;
+	}
     
 }
 @media screen and (min-width: 680px) {
+	section#carrusel {
+		margin:46px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:90px 55.6px;
+	}
     
 }
 @media screen and (min-width: 700px) {
+	section#carrusel {
+		margin:47px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:92.5px 55.6px;
+	}
     
 }
 @media screen and (min-width: 720px) {
+	section#carrusel {
+		margin:48px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:95px 55.6px;
+	}
     
 }
 @media screen and (min-width: 740px) {
+	section#carrusel {
+		margin:49px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:97.5px 55.6px;
+	}
     
 }
 @media screen and (min-width: 760px) {
+	section#carrusel {
+		margin:50px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:100px 55.6px;
+	}
     
 }
 @media screen and (min-width: 780px) {
+	section#carrusel {
+		margin:51px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:102.5px 55.6px;
+	}
     
 }
 @media screen and (min-width: 800px) {
+	section#carrusel {
+		margin:52px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:105px 55.6px;
+	}
     
 }
 @media screen and (min-width: 820px) {
+	section#carrusel {
+		margin:53px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:107.5px 55.6px;
+	}
     
 }
 @media screen and (min-width: 840px) {
+	section#carrusel {
+		margin:54px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:110px 55.6px;
+	}
     
 }
 @media screen and (min-width: 860px) {
+	section#carrusel {
+		margin:55px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:112.5px 55.6px;
+	}
     
 }
 @media screen and (min-width: 880px) {
+	section#carrusel {
+		margin:56px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:115px 55.6px;
+	}
     
 }
 @media screen and (min-width: 900px) {
+	section#carrusel {
+		margin:57px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:117.5px 55.6px;
+	}
     
 }
 @media screen and (min-width: 996px) {
+	section#carrusel {
+		margin:58px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:120px 55.6px;
+	}
     
 }
 @media screen and (min-width: 1000px) {
+	section#carrusel {
+		margin:59px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:122.5px 55.6px;
+	}
     
 }
 @media screen and (min-width: 1050px) {
+	section#carrusel {
+		margin:60px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:125px 55.6px;
+	}
     
 }
 @media screen and (min-width: 1100px) {
+	section#carrusel {
+		margin:61px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:127.5px 55.6px;
+	}
     
 }
 @media screen and (min-width: 1150px) {
+	section#carrusel {
+		margin:62px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:130px 55.6px;
+	}
     
 }
 @media screen and (min-width: 1200px) {
+	section#carrusel {
+		margin:63px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:132.5px 55.6px;
+	}
     
 }
 @media screen and (min-width: 1250px) {
+	section#carrusel {
+		margin:64px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:135px 55.6px;
+	}
     
 }
 @media screen and (min-width:1280px) {
+	section#carrusel {
+		margin:66.6px 0px 0px 0px;
+	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
 	}
@@ -380,39 +586,111 @@ p#caja {
 	}
 }
 @media screen and (min-width: 1300px) {
-    
+	section#carrusel {
+		margin:72px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:142.6px 229.3px;
+	}
+
 }
 @media screen and (min-width: 1350px) {
+	section#carrusel {
+		margin:78px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:142.6px 229.3px;
+	}
     
 }
 @media screen and (min-width: 1400px) {
+	section#carrusel {
+		margin:84px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:142.6px 229.3px;
+	}
     
 }
 @media screen and (min-width: 1450px) {
+	section#carrusel {
+		margin:90px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:142.6px 229.3px;
+	}
     
 }
 @media screen and (min-width: 1500px) {
+	section#carrusel {
+		margin:96px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:142.6px 229.3px;
+	}
     
 }
 @media screen and (min-width: 1550px) {
+	section#carrusel {
+		margin:102px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:142.6px 229.3px;
+	}
     
 }
 @media screen and (min-width: 1600px) {
+	section#carrusel {
+		margin:108px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:142.6px 229.3px;
+	}
     
 }
 @media screen and (min-width: 1650px) {
+	section#carrusel {
+		margin:114px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:142.6px 229.3px;
+	}
     
 }
 @media screen and (min-width: 1700px) {
+	section#carrusel {
+		margin:120px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:142.6px 229.3px;
+	}
     
 }
 @media screen and (min-width: 1750px) {
+	section#carrusel {
+		margin:126px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:142.6px 229.3px;
+	}
     
 }
 @media screen and (min-width: 1800px) {
+	section#carrusel {
+		margin:132px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:142.6px 229.3px;
+	}
     
 }
 @media screen and (min-width: 1850px) {
+	section#carrusel {
+		margin:138px 0px 0px 0px;
+	}
+	section#marca-tu-estilo {
+		padding:142.6px 229.3px;
+	}
     
 }
 @media screen and (min-width:1920px) {
