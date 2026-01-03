@@ -25,6 +25,7 @@ footer>header>article>a {
 }
 footer>header>article>a>picture>img {
     height:35px;
+    width:auto;
 }
 footer>header>article>p {
     margin:0px;
@@ -106,6 +107,312 @@ footer>footer>p {
     font-family:"Hurme Luz";
     font-size:5pt;
 }
+@media screen and (min-width: 380px) {
+    footer>header>article>a>picture>img {
+        height:37px;
+    }
+    footer>header>article>p {
+        font-size:10.3pt;
+    }
+    
+}
+@media screen and (min-width: 400px) {
+    footer>header>article>a>picture>img {
+        height:39px;
+    }
+    footer>header>article>p {
+        font-size:10.6pt;
+    }
+    
+}
+@media screen and (min-width: 420px) {
+    footer>header>article>a>picture>img {
+        height:41px;
+    }
+    footer>header>article>p {
+        font-size:10.9pt;
+    }
+    
+}
+@media screen and (min-width: 440px) {
+    footer>header>article>a>picture>img {
+        height:43px;
+    }
+    footer>header>article>p {
+        font-size:11.2pt;
+    }
+    
+}
+@media screen and (min-width: 460px) {
+    footer>header>article>a>picture>img {
+        height:45px;
+    }
+    footer>header>article>p {
+        font-size:11.5pt;
+    }
+    
+}
+@media screen and (min-width: 480px) {
+    footer>header>article>a>picture>img {
+        height:47px;
+    }
+    footer>header>article>p {
+        font-size:11.8pt;
+    }
+    
+}
+@media screen and (min-width: 500px) {
+    footer>header>article>a>picture>img {
+        height:49px;
+    }
+    footer>header>article>p {
+        font-size:12.1pt;
+    }
+    
+}
+@media screen and (min-width: 520px) {
+    footer>header>article>a>picture>img {
+        height:51px;
+    }
+    footer>header>article>p {
+        font-size:12.4pt;
+    }
+    
+}
+@media screen and (min-width: 540px) {
+    footer>header>article>a>picture>img {
+        height:53px;
+    }
+    footer>header>article>p {
+        font-size:12.7pt;
+    }
+    
+}
+@media screen and (min-width: 560px) {
+    footer>header>article>a>picture>img {
+        height:55px;
+    }
+    footer>header>article>p {
+        font-size:13pt;
+    }
+    
+}
+@media screen and (min-width: 580px) {
+    footer>header>article>a>picture>img {
+        height:57px;
+    }
+    footer>header>article>p {
+        font-size:13.3pt;
+    }
+    
+}
+@media screen and (min-width: 600px) {
+    footer>header>article>a>picture>img {
+        height:59px;
+    }
+    footer>header>article>p {
+        font-size:13.6pt;
+    }
+    
+}
+@media screen and (min-width: 620px) {
+    footer>header>article>a>picture>img {
+        height:61px;
+    }
+    footer>header>article>p {
+        font-size:13.9pt;
+    }
+    
+}
+@media screen and (min-width: 640px) {
+    footer>header>article>a>picture>img {
+        height:63px;
+    }
+    footer>header>article>p {
+        font-size:14.2pt;
+    }
+    
+}
+@media screen and (min-width: 660px) {
+    footer>header>article>a>picture>img {
+        height:65px;
+    }
+    footer>header>article>p {
+        font-size:14.5pt;
+    }
+    
+}
+@media screen and (min-width: 680px) {
+    footer>header>article>a>picture>img {
+        height:67px;
+    }
+    footer>header>article>p {
+        font-size:14.8pt;
+    }
+    
+}
+@media screen and (min-width: 700px) {
+    footer>header>article>a>picture>img {
+        height:69px;
+    }
+    footer>header>article>p {
+        font-size:15.1pt;
+    }
+    
+}
+@media screen and (min-width: 720px) {
+    footer>header>article>a>picture>img {
+        height:71px;
+    }
+    footer>header>article>p {
+        font-size:15.4pt;
+    }
+    
+}
+@media screen and (min-width: 740px) {
+    footer>header>article>a>picture>img {
+        height:73px;
+    }
+    footer>header>article>p {
+        font-size:15.7pt;
+    }
+    
+}
+@media screen and (min-width: 760px) {
+    footer>header>article>a>picture>img {
+        height:75px;
+    }
+    footer>header>article>p {
+        font-size:16pt;
+    }
+    
+}
+@media screen and (min-width: 780px) {
+    footer>header>article>a>picture>img {
+        height:77px;
+    }
+    footer>header>article>p {
+        font-size:16.3pt;
+    }
+    
+}
+@media screen and (min-width: 800px) {
+    footer>header>article>a>picture>img {
+        height:79px;
+    }
+    footer>header>article>p {
+        font-size:16.6pt;
+    }
+    
+}
+@media screen and (min-width: 820px) {
+    footer>header>article>a>picture>img {
+        height:81px;
+    }
+    footer>header>article>p {
+        font-size:16.9pt;
+    }
+    
+}
+@media screen and (min-width: 840px) {
+    footer>header>article>a>picture>img {
+        height:83px;
+    }
+    footer>header>article>p {
+        font-size:17.2pt;
+    }
+    
+}
+@media screen and (min-width: 860px) {
+    footer>header>article>a>picture>img {
+        height:85px;
+    }
+    footer>header>article>p {
+        font-size:17.5pt;
+    }
+    
+}
+@media screen and (min-width: 880px) {
+    footer>header>article>a>picture>img {
+        height:87px;
+    }
+    footer>header>article>p {
+        font-size:17.8pt;
+    }
+    
+}
+@media screen and (min-width: 900px) {
+    footer>header>article>a>picture>img {
+        height:89px;
+    }
+    footer>header>article>p {
+        font-size:18.1pt;
+    }
+    
+}
+@media screen and (min-width: 996px) {
+    footer>header>article>a>picture>img {
+        height:91px;
+    }
+    footer>header>article>p {
+        font-size:18.4pt;
+    }
+    
+}
+@media screen and (min-width: 1000px) {
+    footer>header>article>a>picture>img {
+        height:93px;
+    }
+    footer>header>article>p {
+        font-size:18.7pt;
+    }
+    
+}
+@media screen and (min-width: 1050px) {
+    footer>header>article>a>picture>img {
+        height:95px;
+    }
+    footer>header>article>p {
+        font-size:19pt;
+    }
+    
+}
+@media screen and (min-width: 1100px) {
+    footer>header>article>a>picture>img {
+        height:97px;
+    }
+    footer>header>article>p {
+        font-size:19.3pt;
+    }
+    
+}
+@media screen and (min-width: 1150px) {
+    footer>header>article>a>picture>img {
+        height:99px;
+    }
+    footer>header>article>p {
+        font-size:19.6pt;
+    }
+    
+}
+@media screen and (min-width: 1200px) {
+    footer>header>article>a>picture>img {
+        height:101px;
+    }
+    footer>header>article>p {
+        font-size:19.9pt;
+    }
+    
+}
+@media screen and (min-width: 1250px) {
+    footer>header>article>a>picture>img {
+        height:103px;
+    }
+    footer>header>article>p {
+        font-size:20.2pt;
+    }
+    
+}
 @media screen and (min-width:1280px) {
     footer {
         padding:58.6px 0px 0px 0px;
@@ -115,7 +422,6 @@ footer>footer>p {
     }
     footer>header>article>a>picture>img {
         height:106.6px;
-        width:auto;
     }
     footer>header>article>p {
         font-size:22pt;
@@ -156,6 +462,114 @@ footer>footer>p {
     footer>footer>p {
         font-size:11pt;
     }
+}
+@media screen and (min-width: 1300px) {
+    footer>header>article>a>picture>img {
+        height:110px;
+    }
+    footer>header>article>p {
+        font-size:23pt;
+    }
+    
+}
+@media screen and (min-width: 1350px) {
+    footer>header>article>a>picture>img {
+        height:114px;
+    }
+    footer>header>article>p {
+        font-size:24pt;
+    }
+    
+}
+@media screen and (min-width: 1400px) {
+    footer>header>article>a>picture>img {
+        height:118px;
+    }
+    footer>header>article>p {
+        font-size:25pt;
+    }
+    
+}
+@media screen and (min-width: 1450px) {
+    footer>header>article>a>picture>img {
+        height:122px;
+    }
+    footer>header>article>p {
+        font-size:26pt;
+    }
+    
+}
+@media screen and (min-width: 1500px) {
+    footer>header>article>a>picture>img {
+        height:126px;
+    }
+    footer>header>article>p {
+        font-size:27pt;
+    }
+    
+}
+@media screen and (min-width: 1550px) {
+    footer>header>article>a>picture>img {
+        height:130px;
+    }
+    footer>header>article>p {
+        font-size:28pt;
+    }
+    
+}
+@media screen and (min-width: 1600px) {
+    footer>header>article>a>picture>img {
+        height:134px;
+    }
+    footer>header>article>p {
+        font-size:29pt;
+    }
+    
+}
+@media screen and (min-width: 1650px) {
+    footer>header>article>a>picture>img {
+        height:138px;
+    }
+    footer>header>article>p {
+        font-size:30pt;
+    }
+    
+}
+@media screen and (min-width: 1700px) {
+    footer>header>article>a>picture>img {
+        height:142px;
+    }
+    footer>header>article>p {
+        font-size:31pt;
+    }
+    
+}
+@media screen and (min-width: 1750px) {
+    footer>header>article>a>picture>img {
+        height:146px;
+    }
+    footer>header>article>p {
+        font-size:32pt;
+    }
+    
+}
+@media screen and (min-width: 1800px) {
+    footer>header>article>a>picture>img {
+        height:150px;
+    }
+    footer>header>article>p {
+        font-size:33pt;
+    }
+    
+}
+@media screen and (min-width: 1850px) {
+    footer>header>article>a>picture>img {
+        height:154px;
+    }
+    footer>header>article>p {
+        font-size:34pt;
+    }
+    
 }
 @media screen and (min-width:1920px) {
     footer {
