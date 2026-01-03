@@ -108,6 +108,9 @@ footer>footer>p {
     font-size:5pt;
 }
 @media screen and (min-width: 380px) {
+    footer {
+        padding:33.2px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:37px;
     }
@@ -130,6 +133,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 400px) {
+    footer {
+        padding:33.9px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:39px;
     }
@@ -152,6 +158,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 420px) {
+    footer {
+        padding:34.6px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:41px;
     }
@@ -174,6 +183,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 440px) {
+    footer {
+        padding:35.3px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:43px;
     }
@@ -196,6 +208,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 460px) {
+    footer {
+        padding:36px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:45px;
     }
@@ -218,6 +233,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 480px) {
+    footer {
+        padding:36.7px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:47px;
     }
@@ -240,6 +258,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 500px) {
+    footer {
+        padding:34.4px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:49px;
     }
@@ -262,6 +283,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 520px) {
+    footer {
+        padding:35.1px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:51px;
     }
@@ -284,6 +308,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 540px) {
+    footer {
+        padding:35.8px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:53px;
     }
@@ -306,6 +333,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 560px) {
+    footer {
+        padding:36.5px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:55px;
     }
@@ -328,6 +358,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 580px) {
+    footer {
+        padding:37.2px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:57px;
     }
@@ -350,6 +383,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 600px) {
+    footer {
+        padding:37.9px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:59px;
     }
@@ -372,6 +408,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 620px) {
+    footer {
+        padding:38.6px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:61px;
     }
@@ -394,6 +433,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 640px) {
+    footer {
+        padding:39.3px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:63px;
     }
@@ -416,6 +458,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 660px) {
+    footer {
+        padding:40px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:65px;
     }
@@ -438,6 +483,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 680px) {
+    footer {
+        padding:40.7px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:67px;
     }
@@ -460,6 +508,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 700px) {
+    footer {
+        padding:41.4px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:69px;
     }
@@ -482,6 +533,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 720px) {
+    footer {
+        padding:42.1px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:71px;
     }
@@ -504,6 +558,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 740px) {
+    footer {
+        padding:42.8px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:73px;
     }
@@ -526,6 +583,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 760px) {
+    footer {
+        padding:43.5px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:75px;
     }
@@ -548,6 +608,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 780px) {
+    footer {
+        padding:44.2px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:77px;
     }
@@ -570,6 +633,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 800px) {
+    footer {
+        padding:44.9px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:79px;
     }
@@ -592,6 +658,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 820px) {
+    footer {
+        padding:45.6px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:81px;
     }
@@ -614,6 +683,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 840px) {
+    footer {
+        padding:46.3px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:83px;
     }
@@ -636,6 +708,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 860px) {
+    footer {
+        padding:47px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:85px;
     }
@@ -658,6 +733,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 880px) {
+    footer {
+        padding:47.7px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:87px;
     }
@@ -680,6 +758,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 900px) {
+    footer {
+        padding:48.4px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:89px;
     }
@@ -702,6 +783,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 996px) {
+    footer {
+        padding:49.1px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:91px;
     }
@@ -724,6 +808,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 1000px) {
+    footer {
+        padding:49.8px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:93px;
     }
@@ -746,6 +833,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 1050px) {
+    footer {
+        padding:50.5px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:95px;
     }
@@ -768,6 +858,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 1100px) {
+    footer {
+        padding:51.2px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:97px;
     }
@@ -790,6 +883,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 1150px) {
+    footer {
+        padding:51.9px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:99px;
     }
@@ -812,6 +908,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 1200px) {
+    footer {
+        padding:52.6px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:101px;
     }
@@ -834,6 +933,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 1250px) {
+    footer {
+        padding:53.3px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:103px;
     }
@@ -906,6 +1008,9 @@ footer>footer>p {
     }
 }
 @media screen and (min-width: 1300px) {
+    footer {
+        padding:61px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:110px;
     }
@@ -928,6 +1033,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 1350px) {
+    footer {
+        padding:63.4px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:114px;
     }
@@ -950,6 +1058,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 1400px) {
+    footer {
+        padding:65.8px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:118px;
     }
@@ -972,6 +1083,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 1450px) {
+    footer {
+        padding:68.2px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:122px;
     }
@@ -994,6 +1108,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 1500px) {
+    footer {
+        padding:70.6px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:126px;
     }
@@ -1016,6 +1133,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 1550px) {
+    footer {
+        padding:73px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:130px;
     }
@@ -1038,6 +1158,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 1600px) {
+    footer {
+        padding:75.4px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:134px;
     }
@@ -1060,6 +1183,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 1650px) {
+    footer {
+        padding:77.8px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:138px;
     }
@@ -1082,6 +1208,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 1700px) {
+    footer {
+        padding:80.2px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:142px;
     }
@@ -1104,6 +1233,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 1750px) {
+    footer {
+        padding:82.6px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:146px;
     }
@@ -1126,6 +1258,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 1800px) {
+    footer {
+        padding:85px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:150px;
     }
@@ -1148,6 +1283,9 @@ footer>footer>p {
     
 }
 @media screen and (min-width: 1850px) {
+    footer {
+        padding:87.4px 0px 0px 0px;
+    }
     footer>header>article>a>picture>img {
         height:154px;
     }
