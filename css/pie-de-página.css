@@ -124,6 +124,9 @@ footer>footer>p {
         height:12.3px;
         width:12.3px;
     }
+    footer>footer>p {
+        font-size:5.1pt;
+    }
     
 }
 @media screen and (min-width: 400px) {
@@ -142,6 +145,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:12.6px;
         width:12.6px;
+    }
+    footer>footer>p {
+        font-size:5.2pt;
     }
     
 }
@@ -162,6 +168,9 @@ footer>footer>p {
         height:12.9px;
         width:12.9px;
     }
+    footer>footer>p {
+        font-size:5.3pt;
+    }
     
 }
 @media screen and (min-width: 440px) {
@@ -180,6 +189,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:13.2px;
         width:13.2px;
+    }
+    footer>footer>p {
+        font-size:5.4pt;
     }
     
 }
@@ -200,6 +212,9 @@ footer>footer>p {
         height:13.5px;
         width:13.5px;
     }
+    footer>footer>p {
+        font-size:5.5pt;
+    }
     
 }
 @media screen and (min-width: 480px) {
@@ -218,6 +233,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:13.8px;
         width:13.8px;
+    }
+    footer>footer>p {
+        font-size:5.6pt;
     }
     
 }
@@ -238,6 +256,9 @@ footer>footer>p {
         height:14.1px;
         width:14.1px;
     }
+    footer>footer>p {
+        font-size:5.7pt;
+    }
     
 }
 @media screen and (min-width: 520px) {
@@ -256,6 +277,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:14.4px;
         width:14.4px;
+    }
+    footer>footer>p {
+        font-size:5.8pt;
     }
     
 }
@@ -276,6 +300,9 @@ footer>footer>p {
         height:14.7px;
         width:14.7px;
     }
+    footer>footer>p {
+        font-size:5.9pt;
+    }
     
 }
 @media screen and (min-width: 560px) {
@@ -294,6 +321,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:15px;
         width:15px;
+    }
+    footer>footer>p {
+        font-size:6pt;
     }
     
 }
@@ -314,6 +344,9 @@ footer>footer>p {
         height:15.3px;
         width:15.3px;
     }
+    footer>footer>p {
+        font-size:6.2pt;
+    }
     
 }
 @media screen and (min-width: 600px) {
@@ -332,6 +365,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:15.6px;
         width:15.6px;
+    }
+    footer>footer>p {
+        font-size:6.4pt;
     }
     
 }
@@ -352,6 +388,9 @@ footer>footer>p {
         height:15.9px;
         width:15.9px;
     }
+    footer>footer>p {
+        font-size:6.6pt;
+    }
     
 }
 @media screen and (min-width: 640px) {
@@ -370,6 +409,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:16.2px;
         width:16.2px;
+    }
+    footer>footer>p {
+        font-size:6.8pt;
     }
     
 }
@@ -390,6 +432,9 @@ footer>footer>p {
         height:16.5px;
         width:16.5px;
     }
+    footer>footer>p {
+        font-size:7pt;
+    }
     
 }
 @media screen and (min-width: 680px) {
@@ -408,6 +453,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:16.8px;
         width:16.8px;
+    }
+    footer>footer>p {
+        font-size:7.2pt;
     }
     
 }
@@ -428,6 +476,9 @@ footer>footer>p {
         height:17.1px;
         width:17.1px;
     }
+    footer>footer>p {
+        font-size:7.4pt;
+    }
     
 }
 @media screen and (min-width: 720px) {
@@ -446,6 +497,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:17.4px;
         width:17.4px;
+    }
+    footer>footer>p {
+        font-size:7.6pt;
     }
     
 }
@@ -466,6 +520,9 @@ footer>footer>p {
         height:17.7px;
         width:17.7px;
     }
+    footer>footer>p {
+        font-size:7.8pt;
+    }
     
 }
 @media screen and (min-width: 760px) {
@@ -484,6 +541,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:18px;
         width:18px;
+    }
+    footer>footer>p {
+        font-size:8pt;
     }
     
 }
@@ -504,6 +564,9 @@ footer>footer>p {
         height:18.3px;
         width:18.3px;
     }
+    footer>footer>p {
+        font-size:8.2pt;
+    }
     
 }
 @media screen and (min-width: 800px) {
@@ -522,6 +585,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:18.6px;
         width:18.6px;
+    }
+    footer>footer>p {
+        font-size:8.4pt;
     }
     
 }
@@ -542,6 +608,9 @@ footer>footer>p {
         height:18.9px;
         width:18.9px;
     }
+    footer>footer>p {
+        font-size:8.6pt;
+    }
     
 }
 @media screen and (min-width: 840px) {
@@ -560,6 +629,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:19.2px;
         width:19.2px;
+    }
+    footer>footer>p {
+        font-size:8.8pt;
     }
     
 }
@@ -580,6 +652,9 @@ footer>footer>p {
         height:19.5px;
         width:19.5px;
     }
+    footer>footer>p {
+        font-size:9pt;
+    }
     
 }
 @media screen and (min-width: 880px) {
@@ -598,6 +673,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:19.8px;
         width:19.8px;
+    }
+    footer>footer>p {
+        font-size:9.2pt;
     }
     
 }
@@ -618,6 +696,9 @@ footer>footer>p {
         height:20.1px;
         width:20.1px;
     }
+    footer>footer>p {
+        font-size:9.4pt;
+    }
     
 }
 @media screen and (min-width: 996px) {
@@ -636,6 +717,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:20.4px;
         width:20.4px;
+    }
+    footer>footer>p {
+        font-size:9.6pt;
     }
     
 }
@@ -656,6 +740,9 @@ footer>footer>p {
         height:20.7px;
         width:20.7px;
     }
+    footer>footer>p {
+        font-size:9.8pt;
+    }
     
 }
 @media screen and (min-width: 1050px) {
@@ -674,6 +761,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:21px;
         width:21px;
+    }
+    footer>footer>p {
+        font-size:10pt;
     }
     
 }
@@ -694,6 +784,9 @@ footer>footer>p {
         height:21.3px;
         width:21.3px;
     }
+    footer>footer>p {
+        font-size:10.2pt;
+    }
     
 }
 @media screen and (min-width: 1150px) {
@@ -712,6 +805,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:21.6px;
         width:21.6px;
+    }
+    footer>footer>p {
+        font-size:10.4pt;
     }
     
 }
@@ -732,6 +828,9 @@ footer>footer>p {
         height:21.9px;
         width:21.9px;
     }
+    footer>footer>p {
+        font-size:10.6pt;
+    }
     
 }
 @media screen and (min-width: 1250px) {
@@ -750,6 +849,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:22.2px;
         width:22.2px;
+    }
+    footer>footer>p {
+        font-size:10.8pt;
     }
     
 }
@@ -820,6 +922,9 @@ footer>footer>p {
         height:26.5px;
         width:26.5px;
     }
+    footer>footer>p {
+        font-size:11.4pt;
+    }
     
 }
 @media screen and (min-width: 1350px) {
@@ -838,6 +943,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:28px;
         width:28px;
+    }
+    footer>footer>p {
+        font-size:11.8pt;
     }
     
 }
@@ -858,6 +966,9 @@ footer>footer>p {
         height:29.5px;
         width:29.5px;
     }
+    footer>footer>p {
+        font-size:12.2pt;
+    }
     
 }
 @media screen and (min-width: 1450px) {
@@ -876,6 +987,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:31px;
         width:31px;
+    }
+    footer>footer>p {
+        font-size:12.6pt;
     }
     
 }
@@ -896,6 +1010,9 @@ footer>footer>p {
         height:32.5px;
         width:32.5px;
     }
+    footer>footer>p {
+        font-size:13pt;
+    }
     
 }
 @media screen and (min-width: 1550px) {
@@ -914,6 +1031,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:34px;
         width:34px;
+    }
+    footer>footer>p {
+        font-size:13.4pt;
     }
     
 }
@@ -934,6 +1054,9 @@ footer>footer>p {
         height:35.5px;
         width:35.5px;
     }
+    footer>footer>p {
+        font-size:13.8pt;
+    }
     
 }
 @media screen and (min-width: 1650px) {
@@ -952,6 +1075,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:37px;
         width:37px;
+    }
+    footer>footer>p {
+        font-size:14.2pt;
     }
     
 }
@@ -972,6 +1098,9 @@ footer>footer>p {
         height:38.5px;
         width:38.5px;
     }
+    footer>footer>p {
+        font-size:14.6pt;
+    }
     
 }
 @media screen and (min-width: 1750px) {
@@ -990,6 +1119,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:40px;
         width:40px;
+    }
+    footer>footer>p {
+        font-size:15pt;
     }
     
 }
@@ -1010,6 +1142,9 @@ footer>footer>p {
         height:41.5px;
         width:41.5px;
     }
+    footer>footer>p {
+        font-size:15.4pt;
+    }
     
 }
 @media screen and (min-width: 1850px) {
@@ -1028,6 +1163,9 @@ footer>footer>p {
     footer>main>section article a picture img {
         height:43px;
         width:43px;
+    }
+    footer>footer>p {
+        font-size:15.8pt;
     }
     
 }
