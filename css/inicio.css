@@ -1,5 +1,7 @@
-section#carrusel {
+main#principal {
 	margin:30px 0px 0px 0px;
+}
+section#carrusel {
 	width:1300%;
 	display:flex;
 	flex-flow:row;
@@ -60,11 +62,11 @@ section#carrusel>div {
 	width:calc(100% / 13);
 	position:absolute;
 	top:90%;
-	gap:10px;
+	gap:5px;
 }
 section#carrusel>div>span {
-	height:10px;
-	width:10px;
+	height:6.5px;
+	width:6.5px;
 	border-radius:25px;
 	background-color:rgb(245,222,222);
 }
@@ -224,16 +226,30 @@ p#caja {
 	position:absolute;
 }
 @media screen and (min-width: 380px) {
-	section#carrusel {
+	main#principal {
 		margin:31px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:5.1px;
+	}
+	section#carrusel>div>span {
+		height:6.6px;
+		width:6.6px;
 	}
 	section#marca-tu-estilo {
 		padding:52.5px 55.6px;
 	}
 }
 @media screen and (min-width: 400px) {
-	section#carrusel {
+	main#principal {
 		margin:32px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:5.2px;
+	}
+	section#carrusel>div>span {
+		height:6.7px;
+		width:6.7px;
 	}
 	section#marca-tu-estilo {
 		padding:55px 55.6px;
@@ -241,8 +257,15 @@ p#caja {
 
 }
 @media screen and (min-width: 420px) {
-	section#carrusel {
+	main#principal {
 		margin:33px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:5.3px;
+	}
+	section#carrusel>div>span {
+		height:6.8px;
+		width:6.8px;
 	}
 	section#marca-tu-estilo {
 		padding:57.5px 55.6px;
@@ -250,8 +273,15 @@ p#caja {
     
 }
 @media screen and (min-width: 440px) {
-	section#carrusel {
+	main#principal {
 		margin:34px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:5.4px;
+	}
+	section#carrusel>div>span {
+		height:6.9px;
+		width:6.9px;
 	}
 	section#marca-tu-estilo {
 		padding:60px 55.6px;
@@ -259,8 +289,15 @@ p#caja {
     
 }
 @media screen and (min-width: 460px) {
-	section#carrusel {
+	main#principal {
 		margin:35px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:5.5px;
+	}
+	section#carrusel>div>span {
+		height:7px;
+		width:7px;
 	}
 	section#marca-tu-estilo {
 		padding:62.5px 55.6px;
@@ -268,8 +305,15 @@ p#caja {
     
 }
 @media screen and (min-width: 480px) {
-	section#carrusel {
+	main#principal {
 		margin:36px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:5.6px;
+	}
+	section#carrusel>div>span {
+		height:7.1px;
+		width:7.1px;
 	}
 	section#marca-tu-estilo {
 		padding:65px 55.6px;
@@ -277,8 +321,15 @@ p#caja {
     
 }
 @media screen and (min-width: 500px) {
-	section#carrusel {
+	main#principal {
 		margin:37px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:5.7px;
+	}
+	section#carrusel>div>span {
+		height:7.2px;
+		width:7.2px;
 	}
 	section#marca-tu-estilo {
 		padding:67.5px 55.6px;
@@ -286,8 +337,15 @@ p#caja {
     
 }
 @media screen and (min-width: 520px) {
-	section#carrusel {
+	main#principal {
 		margin:38px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:5.8px;
+	}
+	section#carrusel>div>span {
+		height:7.3px;
+		width:7.3px;
 	}
 	section#marca-tu-estilo {
 		padding:70px 55.6px;
@@ -295,8 +353,15 @@ p#caja {
     
 }
 @media screen and (min-width: 540px) {
-	section#carrusel {
+	main#principal {
 		margin:39px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:5.9px;
+	}
+	section#carrusel>div>span {
+		height:7.4px;
+		width:7.4px;
 	}
 	section#marca-tu-estilo {
 		padding:72.5px 55.6px;
@@ -304,8 +369,15 @@ p#caja {
     
 }
 @media screen and (min-width: 560px) {
-	section#carrusel {
+	main#principal {
 		margin:40px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:6px;
+	}
+	section#carrusel>div>span {
+		height:7.5px;
+		width:7.5px;
 	}
 	section#marca-tu-estilo {
 		padding:75px 55.6px;
@@ -313,8 +385,15 @@ p#caja {
     
 }
 @media screen and (min-width: 580px) {
-	section#carrusel {
+	main#principal {
 		margin:41px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:6.1px;
+	}
+	section#carrusel>div>span {
+		height:7.6px;
+		width:7.6px;
 	}
 	section#marca-tu-estilo {
 		padding:77.5px 55.6px;
@@ -322,8 +401,15 @@ p#caja {
     
 }
 @media screen and (min-width: 600px) {
-	section#carrusel {
+	main#principal {
 		margin:42px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:6.2px;
+	}
+	section#carrusel>div>span {
+		height:7.7px;
+		width:7.7px;
 	}
 	section#marca-tu-estilo {
 		padding:80px 55.6px;
@@ -331,8 +417,15 @@ p#caja {
     
 }
 @media screen and (min-width: 620px) {
-	section#carrusel {
+	main#principal {
 		margin:43px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:6.3px;
+	}
+	section#carrusel>div>span {
+		height:7.8px;
+		width:7.8px;
 	}
 	section#marca-tu-estilo {
 		padding:82.5px 55.6px;
@@ -340,8 +433,15 @@ p#caja {
     
 }
 @media screen and (min-width: 640px) {
-	section#carrusel {
+	main#principal {
 		margin:44px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:6.4px;
+	}
+	section#carrusel>div>span {
+		height:7.9px;
+		width:7.9px;
 	}
 	section#marca-tu-estilo {
 		padding:85px 55.6px;
@@ -349,8 +449,15 @@ p#caja {
     
 }
 @media screen and (min-width: 660px) {
-	section#carrusel {
+	main#principal {
 		margin:45px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:6.5px;
+	}
+	section#carrusel>div>span {
+		height:8px;
+		width:8px;
 	}
 	section#marca-tu-estilo {
 		padding:87.5px 55.6px;
@@ -358,8 +465,15 @@ p#caja {
     
 }
 @media screen and (min-width: 680px) {
-	section#carrusel {
+	main#principal {
 		margin:46px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:6.6px;
+	}
+	section#carrusel>div>span {
+		height:8.1px;
+		width:8.1px;
 	}
 	section#marca-tu-estilo {
 		padding:90px 55.6px;
@@ -367,8 +481,15 @@ p#caja {
     
 }
 @media screen and (min-width: 700px) {
-	section#carrusel {
+	main#principal {
 		margin:47px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:6.7px;
+	}
+	section#carrusel>div>span {
+		height:8.2px;
+		width:8.2px;
 	}
 	section#marca-tu-estilo {
 		padding:92.5px 55.6px;
@@ -376,8 +497,15 @@ p#caja {
     
 }
 @media screen and (min-width: 720px) {
-	section#carrusel {
+	main#principal {
 		margin:48px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:6.8px;
+	}
+	section#carrusel>div>span {
+		height:8.3px;
+		width:8.3px;
 	}
 	section#marca-tu-estilo {
 		padding:95px 55.6px;
@@ -385,8 +513,15 @@ p#caja {
     
 }
 @media screen and (min-width: 740px) {
-	section#carrusel {
+	main#principal {
 		margin:49px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:6.9px;
+	}
+	section#carrusel>div>span {
+		height:8.4px;
+		width:8.4px;
 	}
 	section#marca-tu-estilo {
 		padding:97.5px 55.6px;
@@ -394,8 +529,15 @@ p#caja {
     
 }
 @media screen and (min-width: 760px) {
-	section#carrusel {
+	main#principal {
 		margin:50px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:7px;
+	}
+	section#carrusel>div>span {
+		height:8.5px;
+		width:8.5px;
 	}
 	section#marca-tu-estilo {
 		padding:100px 55.6px;
@@ -403,8 +545,15 @@ p#caja {
     
 }
 @media screen and (min-width: 780px) {
-	section#carrusel {
+	main#principal {
 		margin:51px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:7.1px;
+	}
+	section#carrusel>div>span {
+		height:8.6px;
+		width:8.6px;
 	}
 	section#marca-tu-estilo {
 		padding:102.5px 55.6px;
@@ -412,8 +561,15 @@ p#caja {
     
 }
 @media screen and (min-width: 800px) {
-	section#carrusel {
+	main#principal {
 		margin:52px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:7.2px;
+	}
+	section#carrusel>div>span {
+		height:8.7px;
+		width:8.7px;
 	}
 	section#marca-tu-estilo {
 		padding:105px 55.6px;
@@ -421,8 +577,15 @@ p#caja {
     
 }
 @media screen and (min-width: 820px) {
-	section#carrusel {
+	main#principal {
 		margin:53px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:7.3px;
+	}
+	section#carrusel>div>span {
+		height:8.8px;
+		width:8.8px;
 	}
 	section#marca-tu-estilo {
 		padding:107.5px 55.6px;
@@ -430,8 +593,15 @@ p#caja {
     
 }
 @media screen and (min-width: 840px) {
-	section#carrusel {
+	main#principal {
 		margin:54px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:7.4px;
+	}
+	section#carrusel>div>span {
+		height:8.9px;
+		width:8.9px;
 	}
 	section#marca-tu-estilo {
 		padding:110px 55.6px;
@@ -439,8 +609,15 @@ p#caja {
     
 }
 @media screen and (min-width: 860px) {
-	section#carrusel {
+	main#principal {
 		margin:55px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:7.5px;
+	}
+	section#carrusel>div>span {
+		height:9px;
+		width:9px;
 	}
 	section#marca-tu-estilo {
 		padding:112.5px 55.6px;
@@ -448,8 +625,15 @@ p#caja {
     
 }
 @media screen and (min-width: 880px) {
-	section#carrusel {
+	main#principal {
 		margin:56px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:7.6px;
+	}
+	section#carrusel>div>span {
+		height:9.1px;
+		width:9.1px;
 	}
 	section#marca-tu-estilo {
 		padding:115px 55.6px;
@@ -457,8 +641,15 @@ p#caja {
     
 }
 @media screen and (min-width: 900px) {
-	section#carrusel {
+	main#principal {
 		margin:57px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:7.7px;
+	}
+	section#carrusel>div>span {
+		height:9.2px;
+		width:9.2px;
 	}
 	section#marca-tu-estilo {
 		padding:117.5px 55.6px;
@@ -466,8 +657,15 @@ p#caja {
     
 }
 @media screen and (min-width: 996px) {
-	section#carrusel {
+	main#principal {
 		margin:58px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:7.8px;
+	}
+	section#carrusel>div>span {
+		height:9.3px;
+		width:9.3px;
 	}
 	section#marca-tu-estilo {
 		padding:120px 55.6px;
@@ -475,8 +673,15 @@ p#caja {
     
 }
 @media screen and (min-width: 1000px) {
-	section#carrusel {
+	main#principal {
 		margin:59px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:7.9px;
+	}
+	section#carrusel>div>span {
+		height:9.4px;
+		width:9.4px;
 	}
 	section#marca-tu-estilo {
 		padding:122.5px 55.6px;
@@ -484,8 +689,15 @@ p#caja {
     
 }
 @media screen and (min-width: 1050px) {
-	section#carrusel {
+	main#principal {
 		margin:60px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:8px;
+	}
+	section#carrusel>div>span {
+		height:9.5px;
+		width:9.5px;
 	}
 	section#marca-tu-estilo {
 		padding:125px 55.6px;
@@ -493,8 +705,15 @@ p#caja {
     
 }
 @media screen and (min-width: 1100px) {
-	section#carrusel {
+	main#principal {
 		margin:61px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:8.1px;
+	}
+	section#carrusel>div>span {
+		height:9.6px;
+		width:9.6px;
 	}
 	section#marca-tu-estilo {
 		padding:127.5px 55.6px;
@@ -502,8 +721,15 @@ p#caja {
     
 }
 @media screen and (min-width: 1150px) {
-	section#carrusel {
+	main#principal {
 		margin:62px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:8.2px;
+	}
+	section#carrusel>div>span {
+		height:9.7px;
+		width:9.7px;
 	}
 	section#marca-tu-estilo {
 		padding:130px 55.6px;
@@ -511,8 +737,15 @@ p#caja {
     
 }
 @media screen and (min-width: 1200px) {
-	section#carrusel {
+	main#principal {
 		margin:63px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:8.3px;
+	}
+	section#carrusel>div>span {
+		height:9.8px;
+		width:9.8px;
 	}
 	section#marca-tu-estilo {
 		padding:132.5px 55.6px;
@@ -520,8 +753,15 @@ p#caja {
     
 }
 @media screen and (min-width: 1250px) {
-	section#carrusel {
+	main#principal {
 		margin:64px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:8.4px;
+	}
+	section#carrusel>div>span {
+		height:9.9px;
+		width:9.9px;
 	}
 	section#marca-tu-estilo {
 		padding:135px 55.6px;
@@ -529,8 +769,15 @@ p#caja {
     
 }
 @media screen and (min-width:1280px) {
-	section#carrusel {
+	main#principal {
 		margin:66.6px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:8.5px;
+	}
+	section#carrusel>div>span {
+		height:10px;
+		width:10px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -586,8 +833,15 @@ p#caja {
 	}
 }
 @media screen and (min-width: 1300px) {
-	section#carrusel {
+	main#principal {
 		margin:72px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:8.6px;
+	}
+	section#carrusel>div>span {
+		height:10.1px;
+		width:10.1px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -595,8 +849,15 @@ p#caja {
 
 }
 @media screen and (min-width: 1350px) {
-	section#carrusel {
+	main#principal {
 		margin:78px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:8.7px;
+	}
+	section#carrusel>div>span {
+		height:10.2px;
+		width:10.2px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -604,8 +865,15 @@ p#caja {
     
 }
 @media screen and (min-width: 1400px) {
-	section#carrusel {
+	main#principal {
 		margin:84px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:8.8px;
+	}
+	section#carrusel>div>span {
+		height:10.3px;
+		width:10.3px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -613,8 +881,15 @@ p#caja {
     
 }
 @media screen and (min-width: 1450px) {
-	section#carrusel {
+	main#principal {
 		margin:90px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:8.9px;
+	}
+	section#carrusel>div>span {
+		height:10.4px;
+		width:10.4px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -622,8 +897,15 @@ p#caja {
     
 }
 @media screen and (min-width: 1500px) {
-	section#carrusel {
+	main#principal {
 		margin:96px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:9px;
+	}
+	section#carrusel>div>span {
+		height:10.5px;
+		width:10.5px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -631,8 +913,15 @@ p#caja {
     
 }
 @media screen and (min-width: 1550px) {
-	section#carrusel {
+	main#principal {
 		margin:102px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:9.1px;
+	}
+	section#carrusel>div>span {
+		height:10.6px;
+		width:10.6px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -640,8 +929,15 @@ p#caja {
     
 }
 @media screen and (min-width: 1600px) {
-	section#carrusel {
+	main#principal {
 		margin:108px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:9.2px;
+	}
+	section#carrusel>div>span {
+		height:10.7px;
+		width:10.7px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -649,8 +945,15 @@ p#caja {
     
 }
 @media screen and (min-width: 1650px) {
-	section#carrusel {
+	main#principal {
 		margin:114px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:9.3px;
+	}
+	section#carrusel>div>span {
+		height:10.8px;
+		width:10.8px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -658,8 +961,15 @@ p#caja {
     
 }
 @media screen and (min-width: 1700px) {
-	section#carrusel {
+	main#principal {
 		margin:120px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:9.4px;
+	}
+	section#carrusel>div>span {
+		height:10.9px;
+		width:10.9px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -667,8 +977,15 @@ p#caja {
     
 }
 @media screen and (min-width: 1750px) {
-	section#carrusel {
+	main#principal {
 		margin:126px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:9.5px;
+	}
+	section#carrusel>div>span {
+		height:11px;
+		width:11px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -676,8 +993,15 @@ p#caja {
     
 }
 @media screen and (min-width: 1800px) {
-	section#carrusel {
+	main#principal {
 		margin:132px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:9.6px;
+	}
+	section#carrusel>div>span {
+		height:11.1px;
+		width:11.1px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -685,8 +1009,15 @@ p#caja {
     
 }
 @media screen and (min-width: 1850px) {
-	section#carrusel {
+	main#principal {
 		margin:138px 0px 0px 0px;
+	}
+	section#carrusel>div {
+		gap:9.7px;
+	}
+	section#carrusel>div>span {
+		height:11.2px;
+		width:11.2px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -697,8 +1028,12 @@ p#caja {
 	main#principal {
 		margin:149px 0px 0px 0px;
 	}
-	section#carrusel {
-		margin:0px;
+	section#carrusel>div {
+		gap:9.8px;
+	}
+	section#carrusel>div>span {
+		height:11.3px;
+		width:11.3px;
 	}
 	section#marca-tu-estilo {
 		padding:214px 344px;
