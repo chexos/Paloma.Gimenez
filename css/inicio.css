@@ -1045,12 +1045,12 @@ p#caja {
 		font-size:86pt;
 	}
 	section#marca-tu-estilo>header>h1>span>span#un {
-		font-size:16pt;
-		margin:25px 0 0 25px;
+		font-size:36pt;
+		margin:38px 0 0 25px;
 	}
 	section#marca-tu-estilo>header>h1>span#estilo {
-		font-size:26pt;
-		margin:0 0 0 145px;
+		font-size:50pt;
+		margin:0 0 0 235px;
 	}
 	section#marca-tu-estilo>section {
 		gap:2.9%
