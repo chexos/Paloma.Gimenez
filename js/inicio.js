@@ -354,11 +354,8 @@ function formulario() {
     function lineas() {
         let texto = document.getElementById("texto");
         let totalLineas = obtenerLineas(mensaje);
-        console.log("entrando");
-        console.log(totalLineas);
         let fila = document.getElementsByClassName("fila");
         if (fila.length > totalLineas) {
-            console.log("r");
             for (var i = 0; i < totalLineas; i++) {
                 if (fila.length == totalLineas)
                     return;
@@ -372,7 +369,6 @@ function formulario() {
                 }
             }
         } else if (fila.length < totalLineas) {
-            console.log("e");
             let filaNueva = document.createElement("span");
             filaNueva.classList.add("fila");
             texto.appendChild(filaNueva);

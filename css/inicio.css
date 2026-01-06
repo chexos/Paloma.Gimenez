@@ -66,7 +66,7 @@ section#carrusel>div {
 }
 section#carrusel>div>span {
 	height:6.5px;
-	width:6.5px;
+	width:auto;
 	border-radius:25px;
 	background-color:rgb(245,222,222);
 }
@@ -125,6 +125,12 @@ section#marca-tu-estilo>section>article>p {
 	font-size:6.5pt;
     color:rgb(87,87,86);
 }
+section#marca-tu-estilo>section>article>p>br.movil {
+	display:flex;
+}
+section#marca-tu-estilo>section>article>p>br.movil.escritorio {
+	display:flex;
+}
 section#marca-tu-estilo>section>article>p>br.escritorio {
 	display:none;
 }
@@ -135,7 +141,7 @@ section#marca-tu-estilo>section>article#art-iz {
 }
 section#marca-tu-estilo>section>article#art-iz>p {
 	font-family:"Hurme Semi Ondulado";
-	font-size:8.5pt;
+	font-size:9pt;
 }
 section#marca-tu-estilo>section>article#art-de {
 	text-align:left;
@@ -230,14 +236,25 @@ p#caja {
 		margin:31px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:5.1px;
+		gap:5.27px;
 	}
 	section#carrusel>div>span {
-		height:6.6px;
-		width:6.6px;
+		height:6.861px;
+		width:6.861px;
 	}
 	section#marca-tu-estilo {
 		padding:52.5px 55.6px;
+	}
+	section#marca-tu-estilo>header>h1>span {
+		font-size:17pt;
+	}
+	section#marca-tu-estilo>header>h1>span>span#un {
+		font-size:7.125pt;
+		margin:7.5px 0px 0px 4.9px;
+	}
+	section#marca-tu-estilo>header>h1>span#estilo {
+		font-size:9.8pt;
+		margin:0px 0px 0px 46.5px;
 	}
 }
 @media screen and (min-width: 400px) {
@@ -245,14 +262,25 @@ p#caja {
 		margin:32px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:5.2px;
+		gap:5.5px;
 	}
 	section#carrusel>div>span {
-		height:6.7px;
-		width:6.7px;
+		height:7.2px;
+		width:7.2px;
 	}
 	section#marca-tu-estilo {
 		padding:55px 55.6px;
+	}
+	section#marca-tu-estilo>header>h1>span {
+		font-size:17.9pt;
+	}
+	section#marca-tu-estilo>header>h1>span>span#un {
+		font-size:7.5pt;
+		margin:7.9px 0px 0px 5.2px;
+	}
+	section#marca-tu-estilo>header>h1>span#estilo {
+		font-size:10.4pt;
+		margin:0px 0px 0px 48.9px;
 	}
 
 }
@@ -261,14 +289,25 @@ p#caja {
 		margin:33px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:5.3px;
+		gap:5.83px;
 	}
 	section#carrusel>div>span {
-		height:6.8px;
-		width:6.8px;
+		height:7.583px;
+		width:7.583px;
 	}
 	section#marca-tu-estilo {
 		padding:57.5px 55.6px;
+	}
+	section#marca-tu-estilo>header>h1>span {
+		font-size:18.8125pt;
+	}
+	section#marca-tu-estilo>header>h1>span>span#un {
+		font-size:7.875pt;
+		margin:8.3125px 0px 0px 5.46875px;
+	}
+	section#marca-tu-estilo>header>h1>span#estilo {
+		font-size:10.9375pt;
+		margin:0px 0px 0px 51.40625px;
 	}
     
 }
@@ -277,14 +316,25 @@ p#caja {
 		margin:34px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:5.4px;
+		gap:6.1px;
 	}
 	section#carrusel>div>span {
-		height:6.9px;
-		width:6.9px;
+		height:7.9px;
+		width:7.9px;
 	}
 	section#marca-tu-estilo {
 		padding:60px 55.6px;
+	}
+	section#marca-tu-estilo>header>h1>span {
+		font-size:19.7pt;
+	}
+	section#marca-tu-estilo>header>h1>span>span#un {
+		font-size:8.25pt;
+		margin:8.7px 0px 0px 5.7px;
+	}
+	section#marca-tu-estilo>header>h1>span#estilo {
+		font-size:11.4pt;
+		margin:0px 0px 0px 53.8px;
 	}
     
 }
@@ -293,14 +343,25 @@ p#caja {
 		margin:35px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:5.5px;
+		gap:6.3px;
 	}
 	section#carrusel>div>span {
-		height:7px;
-		width:7px;
+		height:8.3px;
+		width:8.3px;
 	}
 	section#marca-tu-estilo {
 		padding:62.5px 55.6px;
+	}
+	section#marca-tu-estilo>header>h1>span {
+		font-size:20.6pt;
+	}
+	section#marca-tu-estilo>header>h1>span>span#un {
+		font-size:8.625pt;
+		margin:9.1px 0px 0px 5.9px;
+	}
+	section#marca-tu-estilo>header>h1>span#estilo {
+		font-size:11.9pt;
+		margin:0px 0px 0px 56.3px;
 	}
     
 }
@@ -309,14 +370,25 @@ p#caja {
 		margin:36px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:5.6px;
+		gap:6.6px;
 	}
 	section#carrusel>div>span {
-		height:7.1px;
-		width:7.1px;
+		height:8.6px;
+		width:8.6px;
 	}
 	section#marca-tu-estilo {
 		padding:65px 55.6px;
+	}
+	section#marca-tu-estilo>header>h1>span {
+		font-size:21.5pt;
+	}
+	section#marca-tu-estilo>header>h1>span>span#un {
+		font-size:9pt;
+		margin:9.5px 0px 0px 6.25px;
+	}
+	section#marca-tu-estilo>header>h1>span#estilo {
+		font-size:12.5pt;
+		margin:0px 0px 0px 58.75px;
 	}
     
 }
@@ -325,14 +397,25 @@ p#caja {
 		margin:37px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:5.7px;
+		gap:6.9px;
 	}
 	section#carrusel>div>span {
-		height:7.2px;
-		width:7.2px;
+		height:9px;
+		width:9px;
 	}
 	section#marca-tu-estilo {
 		padding:67.5px 55.6px;
+	}
+	section#marca-tu-estilo>header>h1>span {
+		font-size:21.5pt;
+	}
+	section#marca-tu-estilo>header>h1>span>span#un {
+		font-size:9pt;
+		margin:9.5px 0px 0px 6.25px;
+	}
+	section#marca-tu-estilo>header>h1>span#estilo {
+		font-size:12.5pt;
+		margin:0px 0px 0px 58.75px;
 	}
     
 }
@@ -341,11 +424,11 @@ p#caja {
 		margin:38px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:5.8px;
+		gap:7.2px;
 	}
 	section#carrusel>div>span {
-		height:7.3px;
-		width:7.3px;
+		height:9.3px;
+		width:9.3px;
 	}
 	section#marca-tu-estilo {
 		padding:70px 55.6px;
@@ -357,11 +440,11 @@ p#caja {
 		margin:39px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:5.9px;
+		gap:7.5px;
 	}
 	section#carrusel>div>span {
-		height:7.4px;
-		width:7.4px;
+		height:9.75px;
+		width:9.75px;
 	}
 	section#marca-tu-estilo {
 		padding:72.5px 55.6px;
@@ -373,11 +456,11 @@ p#caja {
 		margin:40px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:6px;
+		gap:7.7px;
 	}
 	section#carrusel>div>span {
-		height:7.5px;
-		width:7.5px;
+		height:10.1px;
+		width:10.1px;
 	}
 	section#marca-tu-estilo {
 		padding:75px 55.6px;
@@ -389,11 +472,11 @@ p#caja {
 		margin:41px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:6.1px;
+		gap:8px;
 	}
 	section#carrusel>div>span {
-		height:7.6px;
-		width:7.6px;
+		height:10.4px;
+		width:10.4px;
 	}
 	section#marca-tu-estilo {
 		padding:77.5px 55.6px;
@@ -405,11 +488,11 @@ p#caja {
 		margin:42px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:6.2px;
+		gap:8.3px;
 	}
 	section#carrusel>div>span {
-		height:7.7px;
-		width:7.7px;
+		height:10.8px;
+		width:10.8px;
 	}
 	section#marca-tu-estilo {
 		padding:80px 55.6px;
@@ -421,11 +504,11 @@ p#caja {
 		margin:43px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:6.3px;
+		gap:8.6px;
 	}
 	section#carrusel>div>span {
-		height:7.8px;
-		width:7.8px;
+		height:11.1px;
+		width:11.1px;
 	}
 	section#marca-tu-estilo {
 		padding:82.5px 55.6px;
@@ -437,11 +520,11 @@ p#caja {
 		margin:44px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:6.4px;
+		gap:8.8px;
 	}
 	section#carrusel>div>span {
-		height:7.9px;
-		width:7.9px;
+		height:11.5px;
+		width:11.5px;
 	}
 	section#marca-tu-estilo {
 		padding:85px 55.6px;
@@ -453,11 +536,11 @@ p#caja {
 		margin:45px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:6.5px;
+		gap:9.1px;
 	}
 	section#carrusel>div>span {
-		height:8px;
-		width:8px;
+		height:11.9px;
+		width:11.9px;
 	}
 	section#marca-tu-estilo {
 		padding:87.5px 55.6px;
@@ -469,11 +552,11 @@ p#caja {
 		margin:46px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:6.6px;
+		gap:9.4px;
 	}
 	section#carrusel>div>span {
-		height:8.1px;
-		width:8.1px;
+		height:12.2px;
+		width:12.2px;
 	}
 	section#marca-tu-estilo {
 		padding:90px 55.6px;
@@ -485,11 +568,11 @@ p#caja {
 		margin:47px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:6.7px;
+		gap:9.7px;
 	}
 	section#carrusel>div>span {
-		height:8.2px;
-		width:8.2px;
+		height:12.6px;
+		width:12.6px;
 	}
 	section#marca-tu-estilo {
 		padding:92.5px 55.6px;
@@ -501,11 +584,11 @@ p#caja {
 		margin:48px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:6.8px;
+		gap:10px;
 	}
 	section#carrusel>div>span {
-		height:8.3px;
-		width:8.3px;
+		height:13px;
+		width:13px;
 	}
 	section#marca-tu-estilo {
 		padding:95px 55.6px;
@@ -517,11 +600,11 @@ p#caja {
 		margin:49px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:6.9px;
+		gap:10.2px;
 	}
 	section#carrusel>div>span {
-		height:8.4px;
-		width:8.4px;
+		height:13.3px;
+		width:13.3px;
 	}
 	section#marca-tu-estilo {
 		padding:97.5px 55.6px;
@@ -533,11 +616,11 @@ p#caja {
 		margin:50px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:7px;
+		gap:10.5px;
 	}
 	section#carrusel>div>span {
-		height:8.5px;
-		width:8.5px;
+		height:13.7px;
+		width:13.7px;
 	}
 	section#marca-tu-estilo {
 		padding:100px 55.6px;
@@ -549,11 +632,11 @@ p#caja {
 		margin:51px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:7.1px;
+		gap:10.8px;
 	}
 	section#carrusel>div>span {
-		height:8.6px;
-		width:8.6px;
+		height:14px;
+		width:14px;
 	}
 	section#marca-tu-estilo {
 		padding:102.5px 55.6px;
@@ -565,11 +648,11 @@ p#caja {
 		margin:52px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:7.2px;
+		gap:11.1px;
 	}
 	section#carrusel>div>span {
-		height:8.7px;
-		width:8.7px;
+		height:14.4px;
+		width:14.4px;
 	}
 	section#marca-tu-estilo {
 		padding:105px 55.6px;
@@ -581,11 +664,11 @@ p#caja {
 		margin:53px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:7.3px;
+		gap:11.3px;
 	}
 	section#carrusel>div>span {
-		height:8.8px;
-		width:8.8px;
+		height:14.8px;
+		width:14.8px;
 	}
 	section#marca-tu-estilo {
 		padding:107.5px 55.6px;
@@ -597,11 +680,11 @@ p#caja {
 		margin:54px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:7.4px;
+		gap:11.6px;
 	}
 	section#carrusel>div>span {
-		height:8.9px;
-		width:8.9px;
+		height:15.1px;
+		width:15.1px;
 	}
 	section#marca-tu-estilo {
 		padding:110px 55.6px;
@@ -613,11 +696,11 @@ p#caja {
 		margin:55px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:7.5px;
+		gap:11.9px;
 	}
 	section#carrusel>div>span {
-		height:9px;
-		width:9px;
+		height:15.5px;
+		width:15.5px;
 	}
 	section#marca-tu-estilo {
 		padding:112.5px 55.6px;
@@ -629,11 +712,11 @@ p#caja {
 		margin:56px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:7.6px;
+		gap:12.2px;
 	}
 	section#carrusel>div>span {
-		height:9.1px;
-		width:9.1px;
+		height:15.8px;
+		width:15.8px;
 	}
 	section#marca-tu-estilo {
 		padding:115px 55.6px;
@@ -645,11 +728,11 @@ p#caja {
 		margin:57px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:7.7px;
+		gap:12.5px;
 	}
 	section#carrusel>div>span {
-		height:9.2px;
-		width:9.2px;
+		height:16.25px;
+		width:16.25px;
 	}
 	section#marca-tu-estilo {
 		padding:117.5px 55.6px;
@@ -661,11 +744,11 @@ p#caja {
 		margin:58px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:7.8px;
+		gap:13.8px;
 	}
 	section#carrusel>div>span {
-		height:9.3px;
-		width:9.3px;
+		height:17.9px;
+		width:17.9px;
 	}
 	section#marca-tu-estilo {
 		padding:120px 55.6px;
@@ -677,11 +760,11 @@ p#caja {
 		margin:59px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:7.9px;
+		gap:13.8px;
 	}
 	section#carrusel>div>span {
-		height:9.4px;
-		width:9.4px;
+		height:18px;
+		width:18px;
 	}
 	section#marca-tu-estilo {
 		padding:122.5px 55.6px;
@@ -693,11 +776,11 @@ p#caja {
 		margin:60px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:8px;
+		gap:14.5px;
 	}
 	section#carrusel>div>span {
-		height:9.5px;
-		width:9.5px;
+		height:18.9px;
+		width:18.9px;
 	}
 	section#marca-tu-estilo {
 		padding:125px 55.6px;
@@ -709,11 +792,11 @@ p#caja {
 		margin:61px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:8.1px;
+		gap:15.2px;
 	}
 	section#carrusel>div>span {
-		height:9.6px;
-		width:9.6px;
+		height:19.8px;
+		width:19.8px;
 	}
 	section#marca-tu-estilo {
 		padding:127.5px 55.6px;
@@ -725,11 +808,11 @@ p#caja {
 		margin:62px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:8.2px;
+		gap:15.9px;
 	}
 	section#carrusel>div>span {
-		height:9.7px;
-		width:9.7px;
+		height:20.7px;
+		width:20.7px;
 	}
 	section#marca-tu-estilo {
 		padding:130px 55.6px;
@@ -741,11 +824,11 @@ p#caja {
 		margin:63px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:8.3px;
+		gap:16.6px;
 	}
 	section#carrusel>div>span {
-		height:9.8px;
-		width:9.8px;
+		height:21.6px;
+		width:21.6px;
 	}
 	section#marca-tu-estilo {
 		padding:132.5px 55.6px;
@@ -757,11 +840,11 @@ p#caja {
 		margin:64px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:8.4px;
+		gap:17.3px;
 	}
 	section#carrusel>div>span {
-		height:9.9px;
-		width:9.9px;
+		height:22.5px;
+		width:22.5px;
 	}
 	section#marca-tu-estilo {
 		padding:135px 55.6px;
@@ -773,11 +856,11 @@ p#caja {
 		margin:66.6px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:8.5px;
+		gap:17.7px;
 	}
 	section#carrusel>div>span {
-		height:10px;
-		width:10px;
+		height:23.1px;
+		width:23.1px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -786,15 +869,15 @@ p#caja {
 		margin:0 0 100px 0;
 	}
 	section#marca-tu-estilo>header>h1>span {
-		font-size:86pt;
+		font-size:57.3pt;
 	}
 	section#marca-tu-estilo>header>h1>span>span#un {
-		font-size:16pt;
+		font-size:24pt;
 		margin:25px 0 0 25px;
 	}
 	section#marca-tu-estilo>header>h1>span#estilo {
-		font-size:26pt;
-		margin:0 0 0 96.6px;
+		font-size:33.3pt;
+		margin:0 0 0 156.6px;
 	}
 	section#marca-tu-estilo>section {
 		gap:2.9%
@@ -806,10 +889,10 @@ p#caja {
 		display:flex;
 	}
 	section#marca-tu-estilo>section>article#art-iz>p {
-		font-size:26pt;
+		font-size:24pt;
 	}
 	section#marca-tu-estilo>section>article>p {
-		font-size:18.5pt;
+		font-size:16.6pt;
 	}
 	section#formulario {
 		padding:100px 150.3px;
@@ -837,11 +920,11 @@ p#caja {
 		margin:72px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:8.6px;
+		gap:18px;
 	}
 	section#carrusel>div>span {
-		height:10.1px;
-		width:10.1px;
+		height:23.4px;
+		width:23.4px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -853,11 +936,11 @@ p#caja {
 		margin:78px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:8.7px;
+		gap:18.75px;
 	}
 	section#carrusel>div>span {
-		height:10.2px;
-		width:10.2px;
+		height:24.375px;
+		width:24.375px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -869,11 +952,11 @@ p#caja {
 		margin:84px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:8.8px;
+		gap:19.4px;
 	}
 	section#carrusel>div>span {
-		height:10.3px;
-		width:10.3px;
+		height:25.2px;
+		width:25.2px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -885,11 +968,11 @@ p#caja {
 		margin:90px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:8.9px;
+		gap:20.1px;
 	}
 	section#carrusel>div>span {
-		height:10.4px;
-		width:10.4px;
+		height:26.1px;
+		width:26.1px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -901,11 +984,11 @@ p#caja {
 		margin:96px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:9px;
+		gap:20.8px;
 	}
 	section#carrusel>div>span {
-		height:10.5px;
-		width:10.5px;
+		height:27px;
+		width:27px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -917,11 +1000,11 @@ p#caja {
 		margin:102px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:9.1px;
+		gap:21.5px;
 	}
 	section#carrusel>div>span {
-		height:10.6px;
-		width:10.6px;
+		height:27.9px;
+		width:27.9px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -933,11 +1016,11 @@ p#caja {
 		margin:108px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:9.2px;
+		gap:22.2px;
 	}
 	section#carrusel>div>span {
-		height:10.7px;
-		width:10.7px;
+		height:28.8px;
+		width:28.8px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -949,11 +1032,11 @@ p#caja {
 		margin:114px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:9.3px;
+		gap:22.9px;
 	}
 	section#carrusel>div>span {
-		height:10.8px;
-		width:10.8px;
+		height:29.7px;
+		width:29.7px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -965,11 +1048,11 @@ p#caja {
 		margin:120px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:9.4px;
+		gap:23.6px;
 	}
 	section#carrusel>div>span {
-		height:10.9px;
-		width:10.9px;
+		height:30.6px;
+		width:30.6px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -981,11 +1064,11 @@ p#caja {
 		margin:126px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:9.5px;
+		gap:24.3px;
 	}
 	section#carrusel>div>span {
-		height:11px;
-		width:11px;
+		height:31.5px;
+		width:31.5px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -997,11 +1080,11 @@ p#caja {
 		margin:132px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:9.6px;
+		gap:25px;
 	}
 	section#carrusel>div>span {
-		height:11.1px;
-		width:11.1px;
+		height:32.5px;
+		width:32.5px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
@@ -1013,14 +1096,25 @@ p#caja {
 		margin:138px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:9.7px;
+		gap:25.6px;
 	}
 	section#carrusel>div>span {
-		height:11.2px;
-		width:11.2px;
+		height:33.4px;
+		width:33.4px;
 	}
 	section#marca-tu-estilo {
 		padding:142.6px 229.3px;
+	}
+	section#marca-tu-estilo>header>h1>span {
+		font-size:82.8pt;
+	}
+	section#marca-tu-estilo>header>h1>span>span#un {
+		font-size:34.6875pt;
+		margin:36.6px 0px 0px 24px;
+	}
+	section#marca-tu-estilo>header>h1>span#estilo {
+		font-size:48.1pt;
+		margin:0px 0px 0px 226.4px;
 	}
     
 }
@@ -1029,28 +1123,28 @@ p#caja {
 		margin:149px 0px 0px 0px;
 	}
 	section#carrusel>div {
-		gap:9.8px;
+		gap:26.6px;
 	}
 	section#carrusel>div>span {
-		height:11.3px;
-		width:11.3px;
+		height:34.6px;
+		width:34.6px;
 	}
 	section#marca-tu-estilo {
 		padding:214px 344px;
 	}
 	section#marca-tu-estilo>header {
-		margin:0 0 150px 0;
+		margin:0px 0px 150px 0px;
 	}
 	section#marca-tu-estilo>header>h1>span {
 		font-size:86pt;
 	}
 	section#marca-tu-estilo>header>h1>span>span#un {
 		font-size:36pt;
-		margin:38px 0 0 25px;
+		margin:38px 0px 0px 25px;
 	}
 	section#marca-tu-estilo>header>h1>span#estilo {
 		font-size:50pt;
-		margin:0 0 0 235px;
+		margin:0px 0px 0px 235px;
 	}
 	section#marca-tu-estilo>section {
 		gap:2.9%
