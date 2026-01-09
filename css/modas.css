@@ -2,7 +2,6 @@ main#principal {
     max-width:100%;
     width:100%;
     margin:0px;
-    padding:55.6px;
     justify-content:center;
 }
 main#principal>section>header>h1 {
@@ -11,11 +10,17 @@ main#principal>section>header>h1 {
     text-align:center;
     margin:0px 0px 14.5px 0px;
 }
+main#principal>section>section#moda-descripcion {
+    display:flex;
+    flex-flow:column;
+    flex-wrap:wrap;
+    align-items:center;
+    width:100%;
+}
 main#principal>section>section {
     display:flex;
     flex-flow:row;
     flex-wrap:wrap;
-    margin:0px 14.5px 0px;
 }
 main#principal>section>section>p {
     flex:1;

@@ -23,29 +23,29 @@
             <article class="redes-sociales">
                 <a href="">
                     <picture>
-                        <img src="./iconos/instagram-rosado.png" alt="Logo de Instagram color rosado">
+                        <img id="instagram" class="header-redes" src="./iconos/instagram-blanco.png" alt="Logo de Instagram color rosado">
                     </picture>
                 </a>
                 <a href="">
                     <picture>
-                        <img src="./iconos/linkedin-rosado.png" alt="Logo de LinkedIn color rosado">
+                        <img id="linkedin" class="header-redes" src="./iconos/linkedin-blanco.png" alt="Logo de LinkedIn color rosado">
                     </picture>
                 </a>
             </article>
             <article class="logo">
                 <a href="index.html">
                     <picture>
-                        <img src="./iconos/logo-rosado.png" alt="Logo de Paloma Gimenez color rosado">
+                        <img id="logo" src="./iconos/logo-rosado.png" alt="Logo de Paloma Gimenez color rosado">
                     </picture>
                 </a>
             </article>
             <article class="menu">
                 <a id="menu">
                     <picture>
-                        <img src="./iconos/menu-rosado.png" alt="Logo de Paloma Gimenez color rosado">
+                        <img id="menu-movil" src="./iconos/menu-blanco.png" alt="Logo de Paloma Gimenez color rosado">
                     </picture>
                 </a>
-                <section id="menuMovil" class="transicion invisibilidad">
+                <section id="menuMovil" class="invisibilidad">
                     <a href="producto.html" class="menu-movil">
                         PRODUCTO
                     </a>
@@ -63,8 +63,10 @@
         </header>
         <article id="ampliar">
             <section class="alto-multimedia">
-                <span class="cerrar cerrar-izq"></span>
-                <span class="cerrar cerrar-der"></span>
+                <button id="cerrar">
+                    <span class="cerrar cerrar-izq"></span>
+                    <span class="cerrar cerrar-der"></span>
+                </button>
                 <button id="altoMultimediaIzq" class="alto-multimedia">
                     <span class="pasar pasar-izq pasar-izq-arr"></span>
                     <span class="pasar pasar-izq pasar-izq-aba"></span>
@@ -79,278 +81,294 @@
             </picture>
         </article>
         <main id="principal">
-            <section>
-                <header>
-                    <h1>
-                        Horse Journey
-                    </h1>
-                </header>
+            <section id="margen">
                 <section>
-                    <p class="estilo">
-                        E-commerce
-                    </p>
-                    <p class="estilo">
-                        Septiembre 22, 2023
+                    <header>
+                        <h1 id="titulo-moda">
+                            Horse Journey
+                        </h1>
+                    </header>
+                    <section id="margen-moda">
+                        <p class="estilo">
+                            E-commerce
+                        </p>
+                        <p id="estilo-moda" class="estilo">
+                            Septiembre 22, 2023
+                        </p>
+                    </section>
+                    <p id="descripcion">
+                        Horse Journey es una colección de Otoño
+                        <br class="parrafo-movil">
+                        2024<br class="parrafo-escritorio"> representa y hace referencia al
+                        <br class="parrafo-movil">
+                        vida de forma cíclica,<br class="parrafo-escritorio"> su recorrido y 
+                        <br class="parrafo-movil">
+                        Desde el nacimiento<br class="parrafo-escritorio"> hasta la reencarnación,
+                        <br class="parrafo-movil">
+                        conociendo el proceso de<br class="parrafo-escritorio"> crecimiento y muerte
+                        <br class="parrafo-movil">
+                        como diferentes etapas evolutivas. Como elemento
+                        <br class="parrafo-movil">
+                        clave de referencia para el desarrollo de la
+                        <br class="parrafo-movil">
+                        colección, el caballo emerge por su gran
+                        <br class="parrafo-movil">
+                        simbolismo y presencia durante todo el proceso
+                        <br class="parrafo-movil">
+                        de la vida.
+                        <br>
+                        <br>
+                        Toda la ropa esta diseña y confeccionada por
+                        <br class="parrafo-movil">
+                        Nora Hausmann<br class="parrafo-escritorio"> otoño invierno 2024.
                     </p>
                 </section>
-                <p id="descripcion">
-                    Horse Journey es una colección de Otoño
-                    <br class="parrafo-movil">
-                    2024<br class="parrafo-escritorio"> representa y hace referencia al
-                    <br class="parrafo-movil">
-                    vida de forma cíclica,<br class="parrafo-escritorio"> su recorrido y 
-                    <br class="parrafo-movil">
-                    Desde el nacimiento<br class="parrafo-escritorio"> hasta la reencarnación,
-                    <br class="parrafo-movil">
-                    conociendo el proceso de<br class="parrafo-escritorio"> crecimiento y muerte
-                    <br class="parrafo-movil">
-                    como diferentes etapas evolutivas. Como elemento
-                    <br class="parrafo-movil">
-                    clave de referencia para el desarrollo de la
-                    <br class="parrafo-movil">
-                    colección, el caballo emerge por su gran
-                    <br class="parrafo-movil">
-                    simbolismo y presencia durante todo el proceso
-                    <br class="parrafo-movil">
-                    de la vida.
-                    <br>
-                    <br>
-                    Toda la ropa esta diseña y confeccionada por
-                    <br class="parrafo-movil">
-                    Nora Hausmann<br class="parrafo-escritorio"> otoño invierno 2024.
-                </p>
-            </section>
-            <section>
-                <article class="articulo-sesion-480x670 margen-sesion-480x670">
-                    <picture class="figura-sesion figura-sesion-480x670">
-                        <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-1.png" alt="">
-                    </picture>
-                </article>
-                <article class="articulo-sesion-480x670">
-                    <picture class="figura-sesion figura-sesion-480x670">
-                        <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-2.png" alt="">
-                    </picture>
-                </article>
-                <article class="articulo-sesion-480x670 margen-sesion-480x670">
-                    <picture class="figura-sesion figura-sesion-480x670">
-                        <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-3.png" alt="">
-                    </picture>
-                </article>
-                <article class="articulo-sesion-480x670">
-                    <picture class="figura-sesion figura-sesion-480x670">
-                        <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-4.png" alt="">
-                    </picture>
-                </article>
-                <article class="articulo-sesion-480x670 margen-sesion-480x670">
-                    <picture class="figura-sesion">
-                        <img class="sesion" src="./multimedia/Tamaño-Moda-480x730-Nora-5.png" alt="">
-                    </picture>
-                </article>
-                <article class="articulo-sesion-480x670">
-                    <picture class="figura-sesion figura-sesion-480x670">
-                        <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-6.png" alt="">
-                    </picture>
-                </article>
-                <article class="articulo-sesion-480x670 margen-sesion-480x670">
-                    <picture class="figura-sesion figura-sesion-480x670">
-                        <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-7.png" alt="">
-                    </picture>
-                </article>
-                <article class="articulo-sesion-480x670">
-                    <picture class="figura-sesion figura-sesion-480x670">
-                        <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-8.png" alt="">
-                    </picture>
-                </article>
-                <article class="articulo-sesion-480x670 margen-sesion-480x670">
-                    <picture class="figura-sesion figura-sesion-480x670">
-                        <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-9.png" alt="">
-                    </picture>
-                </article>
-                <article class="articulo-sesion-480x670">
-                    <picture class="figura-sesion">
-                        <img class="sesion" src="./multimedia/Tamaño-Moda-480x730-Nora-10.png" alt="">
-                    </picture>
-                </article>
-                <article class="articulo-sesion-480x670 margen-sesion-480x670">
-                    <picture class="figura-sesion figura-sesion-480x670">
-                        <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-11.png" alt="">
-                    </picture>
-                </article>
-                <article class="articulo-sesion-480x670">
-                    <picture class="figura-sesion figura-sesion-480x670 margen-abajo">
-                        <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-12.png" alt="">
-                    </picture>
-                </article>
-                <article class="articulo-sesion-480x670 margen-sesion-480x670">
-                    <picture class="figura-sesion figura-sesion-480x670">
-                        <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-13.png" alt="">
-                    </picture>
-                </article>
-                <article class="articulo-sesion-480x670">
-                    <picture class="figura-sesion figura-sesion-480x670">
-                        <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-14.png" alt="">
-                    </picture>
-                </article>
-                <article class="articulo-sesion-480x670 margen-sesion-480x670">
-                    <picture class="figura-sesion">
-                        <img class="sesion" src="./multimedia/Tamaño-Moda-480x730-Nora-15.png" alt="">
-                    </picture>
-                </article>
-                <article class="articulo-sesion-480x670">
-                    <picture class="figura-sesion figura-sesion-480x670">
-                        <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-16.png" alt="">
-                    </picture>
-                </article>
-                <article class="articulo-sesion-480x670 margen-sesion-480x670">
-                    <picture class="figura-sesion figura-sesion-480x670">
-                        <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-17.png" alt="">
-                    </picture>
-                </article>
-                <article class="articulo-sesion-480x670">
-                    <picture class="figura-sesion figura-sesion-480x670">
-                        <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-18.png" alt="">
-                    </picture>
-                </article>
-                <article class="articulo-sesion-480x670 margen-sesion-480x670">
-                    <picture class="figura-sesion figura-sesion-480x670">
-                        <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-19.png" alt="">
-                    </picture>
-                </article>
-                <article class="articulo-sesion-480x670">
-                    <picture class="figura-sesion">
-                        <img class="sesion" src="./multimedia/Tamaño-Moda-480x730-Nora-20.png" alt="">
-                    </picture>
-                </article>
-            </section>
-            <section>
-                <header>
-                    <h1>
-                        Creditos
-                    </h1>
-                </header>
-                <p>
-                    Art Direction & Stylist by
-                    <span>
-                        Nora Hausmann / @norahausmann &
-                        <br>
-                        Catalina Romeroh.
-                    </span>
-                </p>
-                <p>
-                    Designer by
-                    <span>
-                        Nora Hausmann / @norahausmann
-                    </span>
-                </p>
-                <p>
-                    Photographer by
-                    <span>
-                        Alba Cámara / @albarobbin
-                    </span>
-                </p>
-                <p>
-                    Retoucher by
-                    <span>
-                        Paloma Gimenez / @paloma.gimenez.g
-                    </span>
-                </p>
-                <p>
-                    Hair and Make Up Artist by
-                    <span>
-                        Emma Hausmann
-                    </span>
-                </p>
-                <p>
-                    Models by
-                    <span>
-                        Laura Gerez / @gerezlaura
-                    </span>
-                </p>
+                <section id="galeria-modas">
+                    <article class="articulo-sesion-480x670 margen-sesion-480x670">
+                        <picture class="figura-sesion figura-sesion-480x670">
+                            <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-1.png" alt="">
+                        </picture>
+                    </article>
+                    <article class="articulo-sesion-480x670">
+                        <picture class="figura-sesion figura-sesion-480x670">
+                            <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-2.png" alt="">
+                        </picture>
+                    </article>
+                    <article class="articulo-sesion-480x670 margen-sesion-480x670">
+                        <picture class="figura-sesion figura-sesion-480x670">
+                            <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-3.png" alt="">
+                        </picture>
+                    </article>
+                    <article class="articulo-sesion-480x670">
+                        <picture class="figura-sesion figura-sesion-480x670">
+                            <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-4.png" alt="">
+                        </picture>
+                    </article>
+                    <article class="articulo-sesion-480x670 margen-sesion-480x670">
+                        <picture class="figura-sesion">
+                            <img class="sesion" src="./multimedia/Tamaño-Moda-480x730-Nora-5.png" alt="">
+                        </picture>
+                    </article>
+                    <article class="articulo-sesion-480x670">
+                        <picture class="figura-sesion figura-sesion-480x670">
+                            <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-6.png" alt="">
+                        </picture>
+                    </article>
+                    <article class="articulo-sesion-480x670 margen-sesion-480x670">
+                        <picture class="figura-sesion figura-sesion-480x670">
+                            <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-7.png" alt="">
+                        </picture>
+                    </article>
+                    <article class="articulo-sesion-480x670">
+                        <picture class="figura-sesion figura-sesion-480x670">
+                            <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-8.png" alt="">
+                        </picture>
+                    </article>
+                    <article class="articulo-sesion-480x670 margen-sesion-480x670">
+                        <picture class="figura-sesion figura-sesion-480x670">
+                            <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-9.png" alt="">
+                        </picture>
+                    </article>
+                    <article class="articulo-sesion-480x670">
+                        <picture class="figura-sesion">
+                            <img class="sesion" src="./multimedia/Tamaño-Moda-480x730-Nora-10.png" alt="">
+                        </picture>
+                    </article>
+                    <article class="articulo-sesion-480x670 margen-sesion-480x670">
+                        <picture class="figura-sesion figura-sesion-480x670">
+                            <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-11.png" alt="">
+                        </picture>
+                    </article>
+                    <article class="articulo-sesion-480x670">
+                        <picture class="figura-sesion figura-sesion-480x670 margen-abajo">
+                            <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-12.png" alt="">
+                        </picture>
+                    </article>
+                    <article class="articulo-sesion-480x670 margen-sesion-480x670">
+                        <picture class="figura-sesion figura-sesion-480x670">
+                            <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-13.png" alt="">
+                        </picture>
+                    </article>
+                    <article class="articulo-sesion-480x670">
+                        <picture class="figura-sesion figura-sesion-480x670">
+                            <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-14.png" alt="">
+                        </picture>
+                    </article>
+                    <article class="articulo-sesion-480x670 margen-sesion-480x670">
+                        <picture class="figura-sesion">
+                            <img class="sesion" src="./multimedia/Tamaño-Moda-480x730-Nora-15.png" alt="">
+                        </picture>
+                    </article>
+                    <article class="articulo-sesion-480x670">
+                        <picture class="figura-sesion figura-sesion-480x670">
+                            <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-16.png" alt="">
+                        </picture>
+                    </article>
+                    <article class="articulo-sesion-480x670 margen-sesion-480x670">
+                        <picture class="figura-sesion figura-sesion-480x670">
+                            <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-17.png" alt="">
+                        </picture>
+                    </article>
+                    <article class="articulo-sesion-480x670">
+                        <picture class="figura-sesion figura-sesion-480x670">
+                            <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-18.png" alt="">
+                        </picture>
+                    </article>
+                    <article class="articulo-sesion-480x670 margen-sesion-480x670">
+                        <picture class="figura-sesion figura-sesion-480x670">
+                            <img class="sesion sesion-480x670" src="./multimedia/Tamaño-Moda-480x730-Nora-19.png" alt="">
+                        </picture>
+                    </article>
+                    <article class="articulo-sesion-480x670">
+                        <picture class="figura-sesion">
+                            <img class="sesion" src="./multimedia/Tamaño-Moda-480x730-Nora-20.png" alt="">
+                        </picture>
+                    </article>
+                </section>
+                <section>
+                    <header>
+                        <h1 id="creditos">
+                            Creditos
+                        </h1>
+                    </header>
+                    <p class="informacion-creditos">
+                        Art Direction & Stylist by
+                        <span>
+                            Nora Hausmann / @norahausmann &
+                            <br>
+                            Catalina Romeroh.
+                        </span>
+                    </p>
+                    <p class="informacion-creditos">
+                        Designer by
+                        <span>
+                            Nora Hausmann / @norahausmann
+                        </span>
+                    </p>
+                    <p class="informacion-creditos">
+                        Photographer by
+                        <span>
+                            Alba Cámara / @albarobbin
+                        </span>
+                    </p>
+                    <p class="informacion-creditos">
+                        Retoucher by
+                        <span>
+                            Paloma Gimenez / @paloma.gimenez.g
+                        </span>
+                    </p>
+                    <p class="informacion-creditos">
+                        Hair and Make Up Artist by
+                        <span>
+                            Emma Hausmann
+                        </span>
+                    </p>
+                    <p class="informacion-creditos">
+                        Models by
+                        <span>
+                            Laura Gerez / @gerezlaura
+                        </span>
+                    </p>
+                </section>
             </section>
         </main>
-        <footer>
-            <header>
+        <footer id="footer">
+            <header class="padding-footer">
                 <article>
                     <a href="">
                         <picture>
-                            <img src="./iconos/logo-rosado.png" alt="Logo de Paloma Gimenez color rosado">
+                            <img id="logo-pie-pagina"
+                                    src="./iconos/logo-rosado.png"
+                                    alt="Logo de Paloma Gimenez color rosado">
                         </picture>
                     </a>
                 </article>
                 <article>
-                    <p>
+                    <p id="paloma">
                         Paloma Giménez GL
                     </p>
                 </article>
             </header>
-            <main>
+            <main class="padding-footer">
                 <section>
-                    <a href="">
+                    <a class="enlaces-pie-pagina margen-pie-pagina" href="">
                         PORTAFOLIO
                     </a>
-                    <a href="">
+                    <a class="enlaces-pie-pagina" href="">
                         BLOG
                     </a>
                 </section>
                 <section>
-                    <a href="">
+                    <a class="enlaces-pie-pagina margen-pie-pagina" href="">
                         CONTACTO
                     </a>
-                    <article>
-                        <a href="">
+                    <article id="enlace-whatsapp">
+                        <a id="enlaceWhatsapp" class="redireccionamiento-pie-pagina" href="">
                             <picture>
-                                <img src="./iconos/whatsapp-blanco.png" alt="Icono de WhatsApp color gris">
+                                <img class="iconos-redireccionamiento"
+                                        src="./iconos/whatsapp-blanco.png"
+                                        alt="Icono de WhatsApp color gris">
                             </picture>
                             (+34) 605 351 033
                         </a>
                     </article>
                     <article>
-                        <a href="">
+                        <a id="enlaceCorreo" class="redireccionamiento-pie-pagina" href="">
                             <picture>
-                                <img src="./iconos/correo-blanco.png" alt="Icono de correo color gris">
+                                <img class="iconos-redireccionamiento"
+                                        src="./iconos/correo-blanco.png"
+                                        alt="Icono de correo color gris">
                             </picture>
                             paloma.gimenez.gl@gmail.com
                         </a>
                     </article>
                 </section>
                 <section>
-                    <a href="">
+                    <a class="enlaces-pie-pagina margen-pie-pagina" href="">
                         ENCUENTRAME EN
                     </a>
                     <section>
                         <article>
                             <a href="">
                                 <picture>
-                                    <img src="./iconos/instagram-blanco.png" alt="Icono de Instagram color gris">
+                                    <img class="iconos-redireccionamiento"
+                                            src="./iconos/instagram-blanco.png"
+                                            alt="Icono de Instagram color gris">
                                 </picture>
                             </a>
                         </article>
                         <article>
                             <a href="">
                                 <picture>
-                                    <img src="./iconos/linkedin-blanco.png" alt="Icono de LinkedIn color gris">
+                                    <img class="iconos-redireccionamiento"
+                                            src="./iconos/linkedin-blanco.png"
+                                            alt="Icono de LinkedIn color gris">
                                 </picture>
                             </a>
                         </article>
                         <article>
                             <a href="">
                                 <picture>
-                                    <img src="./iconos/bereal-blanco.png" alt="Icono de BeReal color gris">
+                                    <img class="iconos-redireccionamiento"
+                                            src="./iconos/bereal-blanco.png"
+                                            alt="Icono de BeReal color gris">
                                 </picture>
                             </a>
                         </article>
                         <article>
                             <a href="">
                                 <picture>
-                                    <img src="./iconos/issuu-blanco.png" alt="Iocono de Issuu color gris">
+                                    <img class="iconos-redireccionamiento"
+                                            src="./iconos/issuu-blanco.png"
+                                            alt="Iocono de Issuu color gris">
                                 </picture>
                             </a>
                         </article>
                     </section>
                 </section>
             </main>
-            <footer>
-                <p>
+            <footer id="pie-de-pagina">
+                <p id="paloma-gimenez">
                     Paloma Gimenez © 2024
                 </p>
             </footer>

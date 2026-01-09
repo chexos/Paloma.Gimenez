@@ -8,40 +8,41 @@ main#principal {
     display:flex;
     flex-flow:row;
     flex-wrap:wrap;
-    margin:55.6px;
-    column-gap:5.25px;
     justify-content:space-between;
 }
-main#principal>a {
+main#principal>section {
+    display:flex;
+    flex-flow:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+main#principal a {
     display:flex;
     flex-flow:column;
     flex-wrap:wrap;/*
     margin:0px 0px 17px 0px;*/
     text-decoration:none;
     color:black;
-    width:48%;
+    width:48.6%;
 }
-main#principal>a.margen-móvil {
-    margin:0px 0px 17px 0px;
-}
-main#principal>a:last-child {
+main#principal>section>a:last-child {
     margin:0px;
 }
-main#principal>a>picture {
+main#principal>section>a>picture {
     width:100%;
 }
-main#principal>a>picture>img {
+main#principal>section>a>picture>img {
     width:100%;
 }
-main#principal>a>section {
+main#principal>section>a>section {
     margin:0px;
 }
-main#principal>a>section>section {
+main#principal>section>a>section>section {
     display:flex;
     flex-flow:row;
     flex-wrap:wrap;
 }
-main#principal>a>section>section>p {
+main#principal>section>a>section>section>p {
     flex:1;
     margin:0px;
     font-size:4.5pt;
@@ -49,21 +50,21 @@ main#principal>a>section>section>p {
     display:flex;
     align-self:center;
 }
-main#principal>a>section>section>p:last-child {
+main#principal>section>a>section>section>p:last-child {
     display:flex;
     justify-content:flex-end;
 }
-main#principal>a>section>header>h1 {
+main#principal>section>a>section>header>h1 {
     margin:0px;
     font-family:"Hurme Geométrico";
     font-size:10.5pt;
 }
-main#principal>a>section>p {
+main#principal>section>a>section>p {
     margin:0px;
     font-size:3.5pt;
     font-family:"Hurme Luz";
 }
-main#principal>a>section>p>br.parrafo-escritorio {
+main#principal>section>a>section>p>br.parrafo-escritorio {
     display:none;
 }
 @media screen and (min-width: 1920px) {
@@ -71,27 +72,24 @@ main#principal>a>section>p>br.parrafo-escritorio {
         color:rgb(245, 222, 222);
     }
     main#principal {
-        margin:493px 214px 344px 214px;
-        column-gap:26px;
         justify-content:initial;
     }
-    main#principal>a {
+    main#principal>section>a {
         width:32%;
-        margin:0px;
     }
-    main#principal>a>p {
+    main#principal>section>a>p {
         font-size:14pt;
     }
-    main#principal>a>section>p {
+    main#principal>section>a>section>p {
         max-height:calc(100% / 2);
         font-size:18pt;
     }
-    main#principal>a>header>h1 {
+    main#principal>section>a>header>h1 {
         font-size:36pt;
     }
-    main#principal>a>section,
-    main#principal>a>header>h1,
-    main#principal>a>p {
+    main#principal>section>a>section,
+    main#principal>section>a>header>h1,
+    main#principal>section>a>p {
         margin:0px 26px;
     }
 }

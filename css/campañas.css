@@ -24,8 +24,8 @@ picture.ampliar.visible {
 }
 main#principal {
     background-color:rgb(44,44,44);
-    margin:0px!important;
-    padding:85.6px 14.25% 55.6px;
+    /*margin:0px!important;
+    padding:85.6px 14.25% 55.6px;*/
 }
 main#principal>article#video {
     width:100%;

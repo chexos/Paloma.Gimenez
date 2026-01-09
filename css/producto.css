@@ -2,7 +2,7 @@ header#header article.menu section#menuMovil a:first-child {
     color:rgb(242,177,162);
 }
 article#ampliar {
-    height:calc(100% - 30px);
+    /*height:calc(100% - 30px);*/
     display:flex;
     position:fixed;
     top:30px;
@@ -12,6 +12,9 @@ article#ampliar {
     width:100%;
     opacity:0;
     z-index:0;
+    justify-content:center;
+    align-items:center;
+    bottom:0px;
 }
 article#ampliar.opacidad {
     z-index:2;
@@ -27,11 +30,11 @@ article#ampliar>section {
     width:100%;
     z-index:3;
 }
-article#ampliar>section>section#altoMultimediaIzq {
+article#ampliar section#altoMultimediaIzq {
     transform:rotate(-90deg);
     margin:0px 0px 0px -30px;
 }
-article#ampliar>section>button {
+article#ampliar button {
     display:flex;
     border:0px;
     background:none;
@@ -44,65 +47,81 @@ article#ampliar>section>button {
     top:50%;
     z-index:6;
 }
-article#ampliar>section>button#altoMultimediaIzq {
+article#ampliar button#altoMultimediaIzq {
     transform:rotate(-90deg);
-    left:-15%;
 }
-article#ampliar>section>button#altoMultimediaDer {
+article#ampliar button#altoMultimediaDer {
     transform:rotate(90deg);
-    right:-15%;
 }
-article#ampliar>section span {
+article#ampliar  span {
     position:absolute;
     height:20px;
     width:20px;
     border-top:2px solid rgb(223,222,222);
     z-index:3;
-    top:-10%;
+    top:0%;
 }
-article#ampliar>section>span.cerrar-izq {
+article#ampliar button#cerrar {
+    top:3%;
+    right:-2%;
+}
+article#ampliar button>span.cerrar-izq {
     transform:rotate(45deg);
-    left:calc(100% - 6px);
+    left:-2px;
 }
-article#ampliar>section>span.cerrar-der {
+article#ampliar button>span.cerrar-der {
     transform:rotate(-45deg);
-    left:calc(100% + 6px);
 }
-article#ampliar>section>button>span.pasar {
+article#ampliar button>span.pasar {
     top:5px;
     display:flex;
     position:absolute;
     padding:5px 10px;
 }
-article#ampliar>section>button>span.pasar-izq-arr,
-article#ampliar>section>button>span.pasar-der-arr {
+.overlay {
+    position:absolute;
+    pointer-events:none;
+    inset:0;
+}/*
+#altoMultimediaIzq {
+    left:2%;
+}
+#altoMultimediaDer {
+    right:2%;
+}*/
+article#ampliar button>span.pasar-izq-arr,
+article#ampliar button>span.pasar-der-arr {
     transform:rotate(45deg);
 }
-article#ampliar>section>button>span.pasar-izq-aba,
-article#ampliar>section>button>span.pasar-der-aba {
+article#ampliar button>span.pasar-izq-aba,
+article#ampliar button>span.pasar-der-aba {
     transform:rotate(-45deg);
 }
 article#ampliar>picture.ampliar {
-    height:max-content;
+    max-height:100%;
     max-width:100%;
+    height:100%;
     width:100%;
+    justify-content:center;
+    position:relative;
 }
 article#ampliar>picture.ampliar>img {
+    height:auto;
+    width:auto;
+    max-height:100%;
     max-width:100%;
-    width:100%;
+    object-fit:contain;
 }
-main#principal {
+main#principal>section {
     display:flex;
     flex-flow:row;
     flex-wrap:wrap;
     justify-content:space-between;
-    margin:55.6px 14.25%;
 }
-main#principal>article {
-    width:48.96%;
-    margin:0px 0px 5.21px 0px;
+main#principal>section>article {
+    width:48.9%;
 }
-main#principal>article>picture {
+main#principal>section>article>picture {
     display:flex;
     flex-flow:row;
     flex-wrap:wrap;
@@ -111,17 +130,17 @@ main#principal>article>picture {
     justify-content:center;
     text-align:center;
 }
-main#principal>article>picture>img {
+main#principal>section>article>picture>img {
     width:100%;
 }
-main#principal>article>picture>p {
+main#principal>section>article>picture>p {
     display:none;
     font-size:3pt;
     color:white;
     padding:5px 0;
     font-family:"Hurme Luz";
 }
-main#principal>article>picture.resaltar>p {
+main#principal>section>article>picture.resaltar>p {
     display:flex;
     justify-content:center;
     position:absolute;
@@ -129,19 +148,13 @@ main#principal>article>picture.resaltar>p {
     background-color:rgb(60, 60, 60);
 }
 @media screen and (min-width: 590px) {
-    main#principal>article>picture:hover>p {
+    main#principal>section>article>picture:hover>p {
         display:flex;
         justify-content:center;
         position:absolute;
     }
 }
 @media screen and (min-width: 1920px) {
-    main#principal {
-        margin:493px 344px 344px 344px;
-    }
-    main#principal>article {
-        margin:0px 0px 26px 0px;
-    }
     article#ampliar {
         height:calc(100% - 149px);
         top:149px;
