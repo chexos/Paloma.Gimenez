@@ -223,9 +223,39 @@ function ajustar() {
         let cerrar = document.getElementById("cerrar");
         let btnIzq = document.getElementById("altoMultimediaIzq");
         let btnDer = document.getElementById("altoMultimediaDer");
-        cerrar.style.right = rect.left - 100 + "px";
-        btnIzq.style.left = rect.left - 100 + "px";
-        btnDer.style.right = rect.left - 100 + "px";
+        if (ancho < 1920) {
+            //cerrar.style.right = rect.left - 100 + "px";
+            btnIzq.style.left = rect.left - 100 + "px";
+            btnDer.style.right = rect.left - 100 + "px";
+        } else if (ancho >= 1920) {
+            //cerrar.style.right = rect.left - 100 + "px";
+            btnIzq.style.left = rect.left - 200 + "px";
+            btnDer.style.right = rect.left - 200 + "px";
+        }
+    }
+    let cerrar = document.getElementById("cerrar");
+    if (cerrar != undefined) {
+        if (ancho < 1280) {
+            cerrar.style.transform = "scale(1.5)";
+        } else if (ancho >= 1280) {
+
+        }
+    }
+    let cerrarIzquierda = document.getElementById("cerrar-izq");
+    let cerrarDerecha = document.getElementById("cerrar-der");
+    if (cerrarIzquierda != undefined) {
+        if (ancho < 1280) {
+            cerrarIzquierda.style.left = 2 * ancho / 360 + "px";
+            cerrarDerecha.style.right = 6 * ancho / 360 + "px";
+        } else if (ancho >= 1280) {
+
+        }
+    }
+    let pasar = document.getElementsByClassName("pasar");
+    if (pasar != undefined) {
+        for (var i = 0; i < pasar.length; i++) {
+
+        }
     }
     let seccionParrafo = document.getElementsByClassName("seccion-parrafo");
     if (seccionParrafo != undefined) {

@@ -192,7 +192,7 @@ function intercambiarMultimedia(a) {
                 }
             }
         }
-    } else if (locacion == "horse-journey") {
+    } else if (locacion == "viaje-a-caballo") {
         for (let i = 0; i < camino.length; i++) {
             if (camino[i] == nombreMultimedia) {
                 if (a == 1) {

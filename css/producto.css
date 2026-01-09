@@ -162,12 +162,12 @@ main#principal>section>article>picture.resaltar>p {
     }
     article#ampliar>section {
         max-width:calc(100% - 200px);
-    }
+    }/*
     article#ampliar>picture.ampliar {
         margin:0px auto;
         height:auto;
         width:auto;
-    }
+    }*/
     article#ampliar>section>button {
         padding:25px 45px;
     }
@@ -192,8 +192,8 @@ main#principal>section>article>picture.resaltar>p {
     }
     article#ampliar>section>button#altoMultimediaDer {
         right:5%;
-    }
+    }/*
     article#ampliar>section>button>span.pasar {
         top:15px;
-    }
+    }*/
 }
