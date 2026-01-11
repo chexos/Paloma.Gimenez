@@ -184,14 +184,12 @@ section#formulario form article button {
 	font-size:7pt;
 	color:rgb(87,87,86);
 }
-section#formulario label {
-	color:rgb(87,87,86);
-}
 section#formulario label,
 section#formulario input,
 section#formulario textarea {
 	font-family:"Hurme Semi Ondulado";
 	font-size:8pt;
+	color:rgb(87,87,86);
 }
 section#formulario input,
 section#formulario textarea {
