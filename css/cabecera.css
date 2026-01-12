@@ -100,6 +100,7 @@ header#header article.menu section#menuMovil {
     flex-wrap:wrap;
     align-items:center;
     justify-content:center;
+    margin-top:1px;
 }
 header#header article.menu section#menuMovil.transicion {
     transition:0.4s all;
