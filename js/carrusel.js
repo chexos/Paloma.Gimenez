@@ -99,7 +99,7 @@ camino[17] = "Taman%CC%83o-Moda-480x730-Nora-18.png";
 camino[18] = "Taman%CC%83o-Moda-480x730-Nora-19.png";
 camino[19] = "Taman%CC%83o-Moda-480x730-Nora-20.png";
 camino[20] = "Taman%CC%83o-Moda-480x730-Nora-21.png";
-let locacion;
+var locacion;
 function conseguirLocacion() { 
     locacion = location.pathname.slice(16, location.pathname.length - 5);
 }

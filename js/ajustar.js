@@ -31,8 +31,14 @@ function ajustar() {
         logo.style.marginLeft = 68.6 * ancho / 1920 + "px";
     }
     let menuMovil = document.getElementById("menu-movil");
+    console.log(locacion);
+    if (ancho >= 1280 && (locacion == "campa%C3%B1as" || locacion == "obras-de-arte")) {
+        console.log(locacion);
+        menuMovil.style.backgroundColor = "white";
+    }
+    let menumovil = document.getElementById("menu-movil");
     if (ancho < 1280)
-        menuMovil.style.height = 20 * ancho / 360 + "px";
+        menumovil.style.height = 20 * ancho / 360 + "px";
     let enlacesMenuMovil = document.getElementsByClassName("menu-movil");
     for (var i = 0; i < enlacesMenuMovil.length; i++) {
         if (ancho < 1280) {

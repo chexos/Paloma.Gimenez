@@ -14,7 +14,7 @@ header#header article.menu a picture img {
     content:url("../iconos/menu-blanco.png");
 }
 header#header article.menu section#menuMovil {
-    background-color:white;
+    background-color:rgb(44,44,44);
 }
 header#header article.menu section#menuMovil a {
     color:rgb(245,222,222);
