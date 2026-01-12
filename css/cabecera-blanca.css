@@ -13,3 +13,15 @@ header#header article.logo a picture img {
 header#header article.menu a picture img {
     content:url("../iconos/menu-blanco.png");
 }
+header#header article.menu section#menuMovil {
+    background-color:white;
+}
+header#header article.menu section#menuMovil a {
+    color:rgb(245,222,222);
+}
+header#header article.menu section#menuMovil a:first-child {
+    color:rgb(245,222,222)!important;
+}
+header#header article.menu section#menuMovil a:nth-child(2) {
+    color:rgb(242,177,162);
+}

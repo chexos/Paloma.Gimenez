@@ -1,15 +1,3 @@
-header#header article.menu section#menuMovil {
-    background-color:rgb(44,44,44);
-}
-header#header article.menu section#menuMovil a:first-child {
-    color:white;
-}
-header#header article.menu section#menuMovil a:nth-child(2) {
-    color:rgb(242,177,162);
-}
-header#header article.logo a picture img {
-    content:url(../iconos/logo-blanco.png);
-}
 picture.ampliar {
     display:none;
 }
@@ -27,13 +15,21 @@ main#principal {
     /*margin:0px!important;
     padding:85.6px 14.25% 55.6px;*/
 }
-main#principal>article#video {
+main#principal>section#margen>article#video {
     width:100%;
 }
-main#principal>article>video {/*
+main#principal>section#margen>article>video {/*
     height:100%;
     width:100%;*/
     display:flex;
+}
+main#principal>section#margen>article.articulo-completo {
+    width:100%;
+}
+@media screen and (min-width:1280px) {
+    main#principal>section>article {
+        width:32%;
+    }
 }
 @media screen and (min-width:1920px) {
     header#header article.menu section#menuMovil {
