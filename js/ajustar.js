@@ -38,7 +38,7 @@ function ajustar() {
     }
     let menumovil = document.getElementById("menu-movil");
     if (ancho < 1280)
-        menumovil.style.height = 20 * ancho / 360 + "px";
+        menumovil.style.height =  60 * ancho / 1920 + "px";
     let enlacesMenuMovil = document.getElementsByClassName("menu-movil");
     for (var i = 0; i < enlacesMenuMovil.length; i++) {
         if (ancho < 1280) {
