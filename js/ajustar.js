@@ -6,8 +6,30 @@ function ajustar() {
     for (var i = 0; i < headerRedes.length; i++) {
         headerRedes[i].style.height = 60 * ancho / 1920 + "px";
     }
+    let margenRedes = document.getElementById("margen-redes");
+    let margenRedesClass = document.getElementsByClassName("margen-redes");
+    let margenRed = document.getElementById("margen-red");
+    let margenRedClass = document.getElementsByClassName("margen-red");
+    if (ancho < 1280) {
+        margenRedes.style.marginRight = 0 + "px";
+        margenRedes.style.marginLeft = 30 * ancho / 360 + "px";
+        for (var i = 0; i < margenRedesClass.length; i++) {
+            margenRedesClass[i].style.marginRight = 0 + "px";
+            margenRedesClass[i].style.marginLeft = 15 * ancho / 360 + "px";
+        }
+    } else if (ancho >= 1280) {
+        margenRed.style.marginRight = 68.6 * ancho / 1920 + "px";
+        margenRed.style.marginLeft = 0 + "px";
+        for (var i = 0; i < margenRedClass.length; i++) {
+            margenRedClass[i].style.marginRight = 34.3 * ancho / 1920 + "px";
+            margenRedClass[i].style.marginLeft = 0 + "px";
+        }
+    }
     let logo = document.getElementById("logo");
     logo.style.height = 120 * ancho / 1920 + "px";
+    if (ancho >= 1280) {
+        logo.style.marginLeft = 68.6 * ancho / 1920 + "px";
+    }
     let menuMovil = document.getElementById("menu-movil");
     if (ancho < 1280)
         menuMovil.style.height = 20 * ancho / 360 + "px";
@@ -190,17 +212,7 @@ function ajustar() {
             margenProducto.style.margin = 344 * ancho / 1920 + "px";
             margenProducto.style.gap = 26 * ancho / 1920 + "px";
         }
-    }/*
-    let margenProductos = document.getElementsByClassName("margen-productos");
-    if (margenProductos != undefined) {
-        for (var i = 0; i < margenProductos.length; i++) {
-            if (ancho < 1280) {
-                margenProductos[i].style.gap = 5.21 * ancho / 360 + "px";
-            } else if (ancho >= 1280) {
-                margenProductos[i].style.gap = 26 * ancho / 1920 + "px";
-            }
-        }
-    }*/
+    }
     let margen = document.getElementById("margen");
     if (margen != undefined) {
         if (ancho < 1280) {
