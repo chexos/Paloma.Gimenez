@@ -30,7 +30,7 @@ function ajustar() {
     if (ancho >= 1280) {
         logo.style.marginLeft = 68.6 * ancho / 1920 + "px";
     }
-    let menuMovil = document.getElementById("menu-movil");
+    let menuMovil = document.getElementById("menuMovil");
     console.log(locacion);
     if (ancho >= 1280 && (locacion == "campa%C3%B1as" || locacion == "obras-de-arte")) {
         console.log(locacion);
