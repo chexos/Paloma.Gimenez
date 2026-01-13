@@ -136,8 +136,9 @@ main#principal>section>article>picture>img {
 main#principal>section>article>picture>p {
     display:none;
     font-size:3pt;
-    color:white;
+    color:rgb(223,222,222);
     padding:5px 0;
+    width:100%;
     font-family:"Hurme Luz";
 }
 main#principal>section>article>picture.resaltar>p {
@@ -145,13 +146,15 @@ main#principal>section>article>picture.resaltar>p {
     justify-content:center;
     position:absolute;
     width:100%;
-    background-color:rgb(60, 60, 60);
+    background-color:rgb(60, 60, 60, 0.85);
 }
 @media screen and (min-width: 590px) {
     main#principal>section>article>picture:hover>p {
         display:flex;
         justify-content:center;
         position:absolute;
+        color:rgb(223,222,222);
+        background-color:rgb(60, 60, 60, 0.85);
     }
 }
 @media screen and (min-width: 1920px) {

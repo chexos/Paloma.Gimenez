@@ -31,10 +31,11 @@ function ajustar() {
         logo.style.marginLeft = 68.6 * ancho / 1920 + "px";
     }
     let menuMovil = document.getElementById("menuMovil");
-    console.log(locacion);
-    if (ancho >= 1280 && (locacion == "campa%C3%B1as" || locacion == "obras-de-arte")) {
-        console.log(locacion);
-        menuMovil.style.backgroundColor = "white";
+    if (locacion != undefined) {
+        if (ancho >= 1280 && (locacion == "campa%C3%B1as" || locacion == "obras-de-arte")) {
+            console.log(locacion);
+            menuMovil.style.backgroundColor = "white";
+        }
     }
     let menumovil = document.getElementById("menu-movil");
     if (ancho < 1280)
@@ -217,6 +218,14 @@ function ajustar() {
         } else if (ancho >= 1280) {
             margenProducto.style.margin = 344 * ancho / 1920 + "px";
             margenProducto.style.gap = 26 * ancho / 1920 + "px";
+        }
+    }
+    let resaltado = document.getElementsByClassName("resaltado");
+    if (resaltado != undefined) {
+        for (var i = 0; i < resaltado.length; i++) {
+            resaltado[i].style.fontSize = 3 * ancho / 360 + "pt";
+            resaltado[i].style.paddingTop = 5 * ancho / 360 + "px";
+            resaltado[i].style.paddingBottom = 5 * ancho / 360 + "px";
         }
     }
     let margen = document.getElementById("margen");

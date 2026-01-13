@@ -4,7 +4,9 @@ let cambiarMultimedia = "https://chexos.github.io/Paloma.Gimenez/multimedia/";
 let nombreMultimedia;
 let sesion = document.getElementsByClassName("sesion");
 let figuraSesion = document.getElementsByClassName("figura-sesion");
-let estiloAmpliar = window.getComputedStyle(ampliar);
+let estiloAmpliar;
+if (ampliar != undefined)
+    estiloAmpliar = window.getComputedStyle(ampliar);
 let altoMultimedia = document.getElementsByClassName("alto-multimedia");
 let altoMultimediaIzq = document.getElementById("altoMultimediaIzq");
 let altoMultimediaDer = document.getElementById("altoMultimediaDer");
@@ -213,12 +215,15 @@ function intercambiarMultimedia(a) {
         }
     }
 }
-altoMultimediaIzq.addEventListener("click", () => intercambiarMultimedia(1));
-altoMultimediaDer.addEventListener("click", () => intercambiarMultimedia(2));
+if (altoMultimediaIzq != undefined && altoMultimediaDer != undefined) {
+    altoMultimediaIzq.addEventListener("click", () => intercambiarMultimedia(1));
+    altoMultimediaDer.addEventListener("click", () => intercambiarMultimedia(2));
+}
 function asignarAltoMultimedia() {
     altoMultimedia[0].style.height = multimediaAmpliado.offsetHeight + "px";
 }
-altoMultimedia[0].addEventListener("onload", asignarAltoMultimedia());
+if (altoMultimedia[0] != undefined)
+    altoMultimedia[0].addEventListener("onload", asignarAltoMultimedia());
 function eliminarResaltado(a) {
     figuraSesion[a].classList.remove("resaltar");
 }
@@ -248,6 +253,8 @@ for (let i = 0; i < figuraSesion.length; i++) {
         ampliarMultimedia(i);
     });
 }
-ampliar.addEventListener("click", () => {
-    ampliarMultimedia(-1);
-});
+if (ampliar != undefined) {
+    ampliar.addEventListener("click", () => {
+        ampliarMultimedia(-1);
+    });
+}
