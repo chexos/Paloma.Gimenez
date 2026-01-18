@@ -16,9 +16,9 @@ header#header article.menu a picture img {
 header#header article.menu section#menuMovil {
     background-color:rgb(44,44,44);
 }
-header#header article.menu section#menuMovil a {
-}
 header#header article.menu section#menuMovil a:first-child {
+    color:white!important;
 }
 header#header article.menu section#menuMovil a:nth-child(2) {
+    color:rgb(242,177,162);
 }
