@@ -75,7 +75,6 @@ header#header article.menu {
     display:flex;
     justify-content:flex-end;
     position:relative;
-    padding:0px 30px 0px 0px;
 }
 header#header article.menu a {
     display:flex;
