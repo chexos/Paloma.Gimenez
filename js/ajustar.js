@@ -38,6 +38,9 @@ function ajustar() {
         if (locacion == "campa%C3%B1as" || locacion == "obras-de-arte") {
             if (ancho < 1280) {
                 menuMovil.style.backgroundColor = "rgb(44,44,44)";
+            }
+            else if (ancho >= 1280) {
+                menuMovil.style.backgroundColor = "white";
                 for (var i = 0; i < menumovil.length; i++) {
                     if (locacion == "campa%C3%B1as") {
                         if (i == 1)
@@ -51,9 +54,6 @@ function ajustar() {
                             menumovil[i].style.color =rgb(87,87,86);
                     }
                 }
-            }
-            else if (ancho >= 1280) {
-                menuMovil.style.backgroundColor = "white";
             }
         }
     }
