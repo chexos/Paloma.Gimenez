@@ -33,7 +33,7 @@ function ajustar() {
     let menu = document.getElementById("menu");
     menu.style.marginRight = 30 * ancho / 360 + "px";
     let menuMovil = document.getElementById("menuMovil");
-    let menumovil = document.getElementById("menu-movil");
+    let enlacesMenuMovil = document.getElementsByClassName("menu-movil");
     if (locacion != undefined) {
         if (locacion == "campa%C3%B1as" || locacion == "obras-de-arte") {
             if (ancho < 1280) {
@@ -42,26 +42,26 @@ function ajustar() {
             else if (ancho >= 1280) {
                 menuMovil.style.backgroundColor = "white";
                 console.log(menumovil);
-                for (var i = 0; i < menumovil.length; i++) {
+                for (var i = 0; i < enlacesMenuMovil.length; i++) {
                     console.log(i);
                     if (locacion == "campa%C3%B1as") {
                         if (i == 1)
-                            menumovil[i].style.color = "rgb(44,44,44)";
+                            enlacesMenuMovil[i].style.color = "rgb(44,44,44)";
                         else
-                            menumovil[i].style.color = "rgb(87,87,86)";
+                            enlacesMenuMovil[i].style.color = "rgb(87,87,86)";
                     } else if (locacion == "obras-de-arte") {
                         if (i == 3)
-                            menumovil[i].style.color = "rgb(44,44,44)";
+                            enlacesMenuMovil[i].style.color = "rgb(44,44,44)";
                         else
-                            menumovil[i].style.color = "rgb(87,87,86)";
+                            enlacesMenuMovil[i].style.color = "rgb(87,87,86)";
                     }
                 }
             }
         }
     }
+    let menumovil = document.getElementById("menu-movil");
     if (ancho < 1280)
         menumovil.style.height =  60 * ancho / 1920 + "px";
-    let enlacesMenuMovil = document.getElementsByClassName("menu-movil");
     for (var i = 0; i < enlacesMenuMovil.length; i++) {
         if (ancho < 1280) {
             enlacesMenuMovil[i].style.fontSize = 7 * ancho / 360 + "pt";
