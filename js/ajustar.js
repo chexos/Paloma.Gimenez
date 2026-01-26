@@ -47,12 +47,12 @@ function ajustar() {
                         if (i == 1)
                             enlacesMenuMovil[i].style.color = "rgb(44,44,44)";
                         else
-                            enlacesMenuMovil[i].style.color = "rgb(87,87,86)";
+                            enlacesMenuMovil[i].style.color = "rgb(87,87,86)!important";
                     } else if (locacion == "obras-de-arte") {
                         if (i == 3)
                             enlacesMenuMovil[i].style.color = "rgb(44,44,44)";
                         else
-                            enlacesMenuMovil[i].style.color = "rgb(87,87,86)";
+                            enlacesMenuMovil[i].style.color = "rgb(87,87,86)!important";
                     }
                 }
             }
