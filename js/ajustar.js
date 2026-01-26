@@ -56,7 +56,7 @@ function ajustar() {
                         if (i == 3)
                             enlacesMenuMovil[i].style.color = "rgb(44,44,44)";
                         else
-                            enlacesMenuMovil[i].style.color = "rgb(87,87,86)!important";
+                            enlacesMenuMovil[i].style.color = "rgb(87,87,86)";
                     }
                 }
             }
