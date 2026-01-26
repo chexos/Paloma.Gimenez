@@ -237,13 +237,13 @@ function ajustar() {
             margen.style.marginBottom = 55.6 * ancho / 360 + "px";
             margen.style.marginLeft = 51.326 * ancho / 360 + "px";
             margen.style.marginRight = 51.326 * ancho / 360 + "px";
-            margen.style.gap = 5.21 * ancho / 360 + "px";
+            //margen.style.gap = 5.21 * ancho / 360 + "px";
         } else if (ancho >= 1280) {
             margen.style.marginTop = 344 * ancho / 1920 + "px";
             margen.style.marginBottom = 344 * ancho / 1920 + "px";
             margen.style.marginLeft = 214 * ancho / 1920 + "px";
             margen.style.marginRight = 214 * ancho / 1920 + "px";
-            margen.style.gap = 26 * ancho / 1920 + "px";
+            //margen.style.gap = 26 * ancho / 1920 + "px";
         }
     }
     let multimediaAmpliado = document.getElementById("multimediaAmpliado");
@@ -370,18 +370,23 @@ function ajustar() {
     if (tituloModa != undefined) {
         if (ancho < 1280) {
             tituloModa.style.fontSize = 10 * ancho / 360 + "pt";
+            tituloModa.style.marginBottom = 14.5 * ancho / 360 + "px";
+
         } else if (ancho >= 1280) {
             tituloModa.style.fontSize = 48 * ancho / 1920 + "pt";
+            tituloModa.style.marginBottom = 85 * ancho / 1920 + "px";
         }
     }
     let margenModa = document.getElementById("margen-moda");
     if (margenModa != undefined) {
         if (ancho < 1280) {
-            margenModa.style.paddingRight = 14.5 * ancho / 360 + "px";
-            margenModa.style.paddingLeft = 14.5 * ancho / 360 + "px";
+            margenModa.style.paddingRight = 4 * ancho / 360 + "px";
+            margenModa.style.paddingLeft = 4 * ancho / 360 + "px";
+            margenModa.style.paddingBottom = 7 * ancho / 360 + "px";
         } else if (ancho >= 1280) {
             margenModa.style.paddingRight = 0 + "px";
             margenModa.style.paddingLeft = 0 + "px";
+            margenModa.style.paddingBottom = 18 * ancho / 1920 + "px";
         }
     }
     let estilos = document.getElementsByClassName("estilo");
@@ -416,8 +421,12 @@ function ajustar() {
     if (creditos != undefined) {
         if (ancho < 1280) {
             creditos.style.fontSize = 12 * ancho / 360 + "pt";
+            creditos.style.marginTop = 14.5 * ancho / 360 + "px";
+            creditos.style.marginBottom = 14.5 * ancho / 360 + "px";
         } else if (ancho >= 1280) {
             creditos.style.fontSize = 56 * ancho / 1920 + "pt";
+            creditos.style.marginTop = 85 * ancho / 1920 + "px";
+            creditos.style.marginBottom = 85 * ancho / 1920 + "px";
         }
     }
     let informacionCreditos = document.getElementsByClassName("informacion-creditos");

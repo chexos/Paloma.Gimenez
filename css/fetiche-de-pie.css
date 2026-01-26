@@ -72,9 +72,15 @@ main#principal>section>section:nth-child(3)>p {
     font-family:"Hurme Semi Ondulado";
     font-size:5.5pt;
 }
-main#principal>section>section:nth-child(3)>p:last-of-type {
-    margin:0px 0px 55.6px 0px;
+main#principal>section>section:nth-child(3)>p#disposicion.informacion-creditos {
+    display:flex;
+    flex-flow:row;
+    flex-wrap:wrap;
+    justify-content:center;
 }
+/*main#principal>section>section:nth-child(3)>p:last-of-type {
+    margin:0px 0px 55.6px 0px;
+}*/
 main#principal>section>section:nth-child(3)>p>span {
     font-family:"Hurme Geométrico";
 }
