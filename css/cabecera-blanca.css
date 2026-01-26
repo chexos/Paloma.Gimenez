@@ -22,3 +22,8 @@ header#header article.menu section#menuMovil a:first-child {
 header#header article.menu section#menuMovil a:nth-child(2) {
     color:rgb(242,177,162);
 }
+@media screen and (min-width: 1280px) {
+    header#header article.menu section#menuMovil a:first-child {
+        color:rgb(245,222,222)!important;
+    }
+}

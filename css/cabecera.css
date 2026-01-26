@@ -86,6 +86,7 @@ header#header article.menu a picture {
 header#header article.menu a picture img {
     height:20px;
     width:auto;
+    cursor:pointer;
 }
 header#header article.menu section#menuMovil {
     width:100%;

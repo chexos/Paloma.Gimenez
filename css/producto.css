@@ -133,6 +133,9 @@ main#principal>section>article>picture {
 main#principal>section>article>picture>img {
     width:100%;
 }
+main#principal>section>article>picture>img.sesion {
+    cursor:pointer;
+}
 main#principal>section>article>picture>p {
     display:none;
     font-size:3pt;

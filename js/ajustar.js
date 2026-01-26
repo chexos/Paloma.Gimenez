@@ -34,9 +34,13 @@ function ajustar() {
     menu.style.marginRight = 30 * ancho / 360 + "px";
     let menuMovil = document.getElementById("menuMovil");
     if (locacion != undefined) {
-        if (ancho >= 1280 && (locacion == "campa%C3%B1as" || locacion == "obras-de-arte")) {
-            console.log(locacion);
-            menuMovil.style.backgroundColor = "white";
+        if (locacion == "campa%C3%B1as" || locacion == "obras-de-arte") {
+            if (ancho < 1280) {
+                menuMovil.style.backgroundColor = "rgb(44,44,44)";
+            }
+            else if (ancho >= 1280) {
+                menuMovil.style.backgroundColor = "white";
+            }
         }
     }
     let menumovil = document.getElementById("menu-movil");
