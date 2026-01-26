@@ -259,13 +259,15 @@ function ajustar() {
             margen.style.marginBottom = 55.6 * ancho / 360 + "px";
             margen.style.marginLeft = 51.326 * ancho / 360 + "px";
             margen.style.marginRight = 51.326 * ancho / 360 + "px";
-            //margen.style.gap = 5.21 * ancho / 360 + "px";
+            if (locacion == "campa%C3%B1as")
+                margen.style.gap = 5.21 * ancho / 360 + "px";
         } else if (ancho >= 1280) {
             margen.style.marginTop = 344 * ancho / 1920 + "px";
             margen.style.marginBottom = 344 * ancho / 1920 + "px";
             margen.style.marginLeft = 214 * ancho / 1920 + "px";
             margen.style.marginRight = 214 * ancho / 1920 + "px";
-            //margen.style.gap = 26 * ancho / 1920 + "px";
+            if (locacion == "campa%C3%B1as")
+                margen.style.gap = 26 * ancho / 1920 + "px";
         }
     }
     let multimediaAmpliado = document.getElementById("multimediaAmpliado");
