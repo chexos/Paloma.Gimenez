@@ -266,6 +266,7 @@ function ajustar() {
             margen.style.marginBottom = 344 * ancho / 1920 + "px";
             margen.style.marginLeft = 214 * ancho / 1920 + "px";
             margen.style.marginRight = 214 * ancho / 1920 + "px";
+            console.log(locacion);
             if (locacion == "campa%C3%B1as")
                 margen.style.gap = 26 * ancho / 1920 + "px";
         }
