@@ -46,14 +46,14 @@ function ajustar() {
                     console.log(i);
                     if (locacion == "campa%C3%B1as") {
                         if (i == 1)
-                            menumovil[i].style.color =rgb(44,44,44);
+                            menumovil[i].style.color = "rgb(44,44,44)";
                         else
-                            menumovil[i].style.color =rgb(87,87,86);
+                            menumovil[i].style.color = "rgb(87,87,86)";
                     } else if (locacion == "obras-de-arte") {
                         if (i == 3)
-                            menumovil[i].style.color =rgb(44,44,44);
+                            menumovil[i].style.color = "rgb(44,44,44)";
                         else
-                            menumovil[i].style.color =rgb(87,87,86);
+                            menumovil[i].style.color = "rgb(87,87,86)";
                     }
                 }
             }
