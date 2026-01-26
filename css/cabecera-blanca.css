@@ -26,4 +26,7 @@ header#header article.menu section#menuMovil a:nth-child(2) {
     header#header article.menu section#menuMovil a:first-child {
         color:rgb(245,222,222)!important;
     }
+    header#header article.menu section#menuMovil a:first-child.menu-activo {
+        color:rgb(87,87,86)!important;
+    }
 }

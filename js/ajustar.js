@@ -44,11 +44,15 @@ function ajustar() {
                 for (var i = 0; i < enlacesMenuMovil.length; i++) {
                     console.log(i);
                     if (locacion == "campa%C3%B1as") {
-                        if (i == 1)
+                        if (i == 0)
+                            enlacesMenuMovil[i].classList.add("menu-activo");
+                        else if (i == 1)
                             enlacesMenuMovil[i].style.color = "rgb(44,44,44)";
                         else
-                            enlacesMenuMovil[i].style.color = "rgb(87,87,86)!important";
+                            enlacesMenuMovil[i].style.color = "rgb(87,87,86)";
                     } else if (locacion == "obras-de-arte") {
+                        if (i == 0)
+                            enlacesMenuMovil[i].classList.add("menu-activo");
                         if (i == 3)
                             enlacesMenuMovil[i].style.color = "rgb(44,44,44)";
                         else
