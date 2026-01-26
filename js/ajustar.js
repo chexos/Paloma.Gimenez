@@ -33,17 +33,30 @@ function ajustar() {
     let menu = document.getElementById("menu");
     menu.style.marginRight = 30 * ancho / 360 + "px";
     let menuMovil = document.getElementById("menuMovil");
+    let menumovil = document.getElementById("menu-movil");
     if (locacion != undefined) {
         if (locacion == "campa%C3%B1as" || locacion == "obras-de-arte") {
             if (ancho < 1280) {
                 menuMovil.style.backgroundColor = "rgb(44,44,44)";
+                for (var i = 0; i < menumovil.length; i++) {
+                    if (locacion == "campa%C3%B1as") {
+                        if (i == 1)
+                            menumovil[i].style.color =rgb(44,44,44);
+                        else
+                            menumovil[i].style.color =rgb(87,87,86);
+                    } else if (locacion == "obras-de-arte") {
+                        if (i == 3)
+                            menumovil[i].style.color =rgb(44,44,44);
+                        else
+                            menumovil[i].style.color =rgb(87,87,86);
+                    }
+                }
             }
             else if (ancho >= 1280) {
                 menuMovil.style.backgroundColor = "white";
             }
         }
     }
-    let menumovil = document.getElementById("menu-movil");
     if (ancho < 1280)
         menumovil.style.height =  60 * ancho / 1920 + "px";
     let enlacesMenuMovil = document.getElementsByClassName("menu-movil");
