@@ -41,7 +41,9 @@ function ajustar() {
             }
             else if (ancho >= 1280) {
                 menuMovil.style.backgroundColor = "white";
+                console.log(menumovil);
                 for (var i = 0; i < menumovil.length; i++) {
+                    console.log(i);
                     if (locacion == "campa%C3%B1as") {
                         if (i == 1)
                             menumovil[i].style.color =rgb(44,44,44);
