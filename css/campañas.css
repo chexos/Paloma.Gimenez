@@ -24,11 +24,14 @@ main#principal>section#margen>article>video {/*
     display:flex;
 }
 main#principal>section#margen>article.articulo-completo {
-    width:66%;
+    width:100%;
 }
 @media screen and (min-width:1280px) {
     main#principal>section>article {
         width:32%;
+    }
+    main#principal>section#margen>article.articulo-completo {
+        width:66%;
     }
 }
 @media screen and (min-width:1920px) {
