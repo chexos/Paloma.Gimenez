@@ -14,7 +14,6 @@ main#principal>section {
     display:flex;
     flex-flow:row;
     flex-wrap:wrap;
-    justify-content:space-between;
 }
 main#principal a {
     display:flex;
@@ -69,7 +68,7 @@ main#principal>section>a>section>p>br.parrafo-escritorio {
 }
 @media screen and (min-width: 1280px) {
     main#principal a {
-        width:30%;
+        width:32%;
     }
 }
 @media screen and (min-width: 1920px) {

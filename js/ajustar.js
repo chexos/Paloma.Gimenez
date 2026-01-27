@@ -378,11 +378,11 @@ function ajustar() {
     let margenMovil = document.getElementsByClassName("margen-movil");
     let margenEscritorio = document.getElementsByClassName("margen-escritorio")
     if (margenMovil != undefined) {
-        if (ancho < 1920) {
+        if (ancho < 1280) {
             for (var i = 0; i < margenMovil.length; i++) {
                 margenMovil[i].style.marginBottom = 11.75 * ancho / 360 + "px";
             }
-        } else if (ancho >= 1920) {
+        } else if (ancho >= 1280) {
             for (var i = 0; i < margenMovil.length; i++) {
                 margenMovil[i].style.marginBottom = 0 + "px";
             }
